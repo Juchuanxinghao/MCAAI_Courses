@@ -75,12 +75,29 @@ An ndarray is a multi-dimensional array object that stores elements of the same 
 ```python
 import numpy as np
 
+# 创建1维数组
 a = np.array([1, 2, 3])
+# 创建2维数组（2行2列）
 b = np.array([[1, 2], [3, 4]])
 
-print(a.ndim)   # 1 维
-print(b.ndim)   # 2 维
-print(b.shape)  # (2, 2)
+# 输出数组的维度
+print("a的维度：", a.ndim)   # 输出：1（1维数组）
+print("b的维度：", b.ndim)   # 输出：2（2维数组）
+# 输出数组的形状（行数, 列数）
+print("b的形状：", b.shape)  # 输出：(2, 2)（2行2列）
+
+# 额外补充：查看数组的其他属性（可选）
+print("a的形状：", a.shape)  # 输出：(3,)（1维数组，3个元素）
+print("a的数据类型：", a.dtype)  # 输出：int64（默认整数类型）
+print("b的元素个数：", b.size)  # 输出：4（2×2=4个元素）
+
+# 输出结果：控制台
+a的维度： 1
+b的维度： 2
+b的形状： (2, 2)
+a的形状： (3,)
+a的数据类型： int64
+b的元素个数： 4
 ```
 
 ---
@@ -106,6 +123,44 @@ np.zeros((2,3))      # 全 0
 np.ones((2,3))       # 全 1
 np.arange(0, 10, 2)  # [0,2,4,6,8]
 np.linspace(0, 1, 5) # 等距 5 个数
+
+#生成一个三维数组：import numpy as np
+
+# 1. 生成 2个"3行4列"的全1三维数组（默认float64，带.）
+arr_3d_ones = np.ones((2, 3, 4))
+print("全1三维数组：")
+print(arr_3d_ones)
+print("数组形状：", arr_3d_ones.shape)  # 输出 (2, 3, 4) → (块数, 行数, 列数)
+print("数组维度：", arr_3d_ones.ndim)   # 输出 3 → 确认是三维
+
+# 2. 生成 3个"2行2列"的全0三维数组（指定int类型，不带.）
+arr_3d_zeros = np.zeros((3, 2, 2), dtype=int)
+print("\n全0三维数组（int类型）：")
+print(arr_3d_zeros)
+print("数组形状：", arr_3d_zeros.shape)  # 输出 (3, 2, 2)
+
+#结果：全1三维数组：
+[[[1. 1. 1. 1.]
+  [1. 1. 1. 1.]
+  [1. 1. 1. 1.]]
+
+ [[1. 1. 1. 1.]
+  [1. 1. 1. 1.]
+  [1. 1. 1. 1.]]]
+数组形状： (2, 3, 4)
+数组维度： 3
+
+全0三维数组（int类型）：
+[[[0 0]
+  [0 0]]
+
+ [[0 0]
+  [0 0]]
+
+ [[0 0]
+  [0 0]]]
+数组形状： (3, 2, 2)
+
 ```
 
 **考试常问：**
