@@ -1824,20 +1824,43 @@ accuracy_score(y_test, y_pred)
 ## 9️⃣ 完整最小示例（理解流程即可）
 
 ```python
+# 1. 导入机器学习所需的核心工具库
+# train_test_split：用于将数据集拆分为训练集（供模型学习）和测试集（供模型评估）
 from sklearn.model_selection import train_test_split
+# LogisticRegression：逻辑回归模型（专门用于二分类任务的经典算法）
 from sklearn.linear_model import LogisticRegression
+# accuracy_score：准确率评估指标（衡量模型预测结果与真实结果的匹配程度）
 from sklearn.metrics import accuracy_score
 
-X = [[1],[2],[3],[4]]
-y = [0,0,1,1]
+# 2. 准备数据集：特征（X）和标签（y）
+# X：特征数据（输入变量），二维列表格式（每行是一个样本，每列是一个特征）
+# 此处模拟场景：X为「学习时长（小时）」，4个样本分别对应1、2、3、4小时
+X = [[1], [2], [3], [4]]
+# y：标签数据（输出变量），一维列表格式（每个样本对应的分类结果）
+# 此处模拟场景：y为「是否通过考试」，0=未通过，1=通过（学习时长<3小时未通过，≥3小时通过）
+y = [0, 0, 1, 1]
 
+# 3. 拆分训练集和测试集（机器学习标准预处理步骤）
+# 函数返回顺序固定：X_train(训练集特征) → X_test(测试集特征) → y_train(训练集标签) → y_test(测试集标签)
+# 默认参数：test_size=0.25（测试集占比25%，训练集占比75%）、random_state=None（每次拆分结果随机）
+# 作用：避免模型"死记硬背"训练数据（过拟合），用未见过的测试集评估泛化能力
 X_train, X_test, y_train, y_test = train_test_split(X, y)
 
+# 4. 初始化逻辑回归模型（创建一个"空模型"，尚未学习数据规律）
 model = LogisticRegression()
+
+# 5. 训练模型（核心步骤：让模型从训练集中学习特征与标签的映射关系）
+# fit()方法：接收训练集特征（X_train）和训练集标签（y_train），通过算法拟合数据规律
 model.fit(X_train, y_train)
 
+# 6. 模型预测（用训练好的模型对测试集做预测）
+# predict()方法：接收测试集特征（X_test），输出模型预测的标签（y_pred）
 y_pred = model.predict(X_test)
-print(accuracy_score(y_test, y_pred))
+
+# 7. 模型评估（计算准确率，判断模型预测效果）
+# accuracy_score()：对比预测标签（y_pred）与真实标签（y_test），返回匹配比例（0~1，越接近1效果越好）
+# 打印结果：输出模型在测试集上的准确率
+print("模型在测试集上的准确率：", accuracy_score(y_test, y_pred))
 ```
 
 ---
