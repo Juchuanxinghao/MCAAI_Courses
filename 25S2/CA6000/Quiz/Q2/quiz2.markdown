@@ -275,18 +275,107 @@ np.mean(a)
 np.std(a)
 np.min(a)
 np.max(a)
+
+#实战演练
+import numpy as np
+
+# 1维数组（模拟单组数据）
+a1d = np.array([1, 2, 3, 4, 5, 6])
+
+# 2维数组（模拟：3个样本，每个样本4个特征；行=样本，列=特征）
+a2d = np.array([
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12]
+])
+
+# 含NaN的数组（模拟缺失数据）
+a_nan = np.array([1, 2, np.nan, 4, 5])
+```
+```python
+#1.基础用法
+# 1维数组示例
+print("1维数组求和：", np.sum(a1d))       # 输出：21（1+2+...+6）
+print("1维数组均值：", np.mean(a1d))      # 输出：3.5（21/6）
+print("1维数组标准差：", np.std(a1d))     # 输出：1.7078（全局标准差，ddof=0）
+print("1维数组最小值：", np.min(a1d))     # 输出：1
+print("1维数组最大值：", np.max(a1d))     # 输出：6
+
+# 2维数组示例（全局统计，忽略维度）
+print("2维数组全局求和：", np.sum(a2d))   # 输出：78（所有元素总和）
+print("2维数组全局均值：", np.mean(a2d))  # 输出：6.5（78/12）
+```
+```python
+# 2.1 axis=0
+# 按列求和（每列的总和：3个样本在该特征上的总和）
+col_sum = np.sum(a2d, axis=0)
+print("按列求和：", col_sum)  # 输出：[15 18 21 24]（1+5+9=15，2+6+10=18，...）
+
+# 按列求均值（每列的均值：该特征的平均水平）
+col_mean = np.mean(a2d, axis=0)
+print("按列均值：", col_mean)  # 输出：[5. 6. 7. 8.]（15/3=5，18/3=6，...）
+
+# 按列求最大/最小值（该特征的极值）
+col_min = np.min(a2d, axis=0)
+col_max = np.max(a2d, axis=0)
+print("按列最小值：", col_min)  # 输出：[1 2 3 4]
+print("按列最大值：", col_max)  # 输出：[9 10 11 12]
+
+#2.2 axis=1
+# 按行求和（每个样本的特征总和）
+row_sum = np.sum(a2d, axis=1)
+print("按行求和：", row_sum)  # 输出：[10 26 42]（1+2+3+4=10，5+6+7+8=26，...）
+
+# 按行求标准差（单个样本的特征离散程度）
+row_std = np.std(a2d, axis=1)
+print("按行标准差：", row_std)  # 输出：[1.118 1.118 1.118]（每个样本的4个特征离散度相同)
+
+#2.3保持维度：
+# 不保留维度（默认）
+row_sum_default = np.sum(a2d, axis=1)
+print("默认维度：", row_sum_default.shape)  # 输出：(3,)（1维数组）
+
+# 保留维度
+row_sum_keep = np.sum(a2d, axis=1, keepdims=True)
+print("保留维度：", row_sum_keep.shape)    # 输出：(3,1)（2维数组，与原数组行数一致）
+print("保留维度结果：\n", row_sum_keep)
+# 输出：
+# [[10]
+#  [26]
+#  [42]]
+```
+```python
+# 3缺失值处理（nan系列函数）
+print("含NaN的均值（普通函数）：", np.mean(a_nan))    # 输出：nan
+print("含NaN的均值（忽略NaN）：", np.nanmean(a_nan))  # 输出：3.0（(1+2+4+5)/4）
+
+print("含NaN的总和（忽略NaN）：", np.nansum(a_nan))   # 输出：12.0
+print("含NaN的最小值（忽略NaN）：", np.nanmin(a_nan)) # 输出：1.0
 ```
 
+```python
+#4 标准差的自由度（ddof 参数）
+#ddof=0（默认）：总体标准差（除以 n，适合全量数据）；
+#ddof=1：样本标准差（除以 n-1，适合抽样数据，更贴近真实总体离散度）
+
+# 总体标准差（默认 ddof=0）
+pop_std = np.std(a1d)
+# 样本标准差（ddof=1）
+sample_std = np.std(a1d, ddof=1)
+
+print("总体标准差：", pop_std)    # 输出：1.7078（√[(Σ(x-μ)²)/6]）
+print("样本标准差：", sample_std) # 输出：1.8708（√[(Σ(x-μ)²)/5]）
+```
 ---
 
 ## 📝 三、选择题（MCQ 练习）
 
 ### **Q1. Which of the following best describes a NumPy ndarray?**
 
-A. A list that can store elements of different types
-B. A multi-dimensional array storing elements of the same type
-C. A dictionary-like data structure
-D. A file-based data structure
+    A. A list that can store elements of different types
+    B. A multi-dimensional array storing elements of the same type
+    C. A dictionary-like data structure
+    D. A file-based data structure
 
 <details>
 <summary>答案 & 解析</summary>
@@ -304,10 +393,10 @@ D. A file-based data structure
 
 ### **Q2. Why is NumPy generally faster than Python lists?**
 
-A. It uses Python loops
-B. It stores data in non-contiguous memory
-C. It uses vectorized operations implemented in C
-D. It allows mixed data types
+    A. It uses Python loops
+    B. It stores data in non-contiguous memory
+    C. It uses vectorized operations implemented in C
+    D. It allows mixed data types
 
 <details>
 <summary>答案 & 解析</summary>
@@ -328,10 +417,10 @@ B = np.array([10,20,30])
 A + B
 ```
 
-A. (3,)
-B. (3,1)
-C. (1,3)
-D. (3,3)
+    A. (3,)
+    B. (3,1)
+    C. (1,3)
+    D. (3,3)
 
 <details>
 <summary>答案 & 解析</summary>
@@ -346,10 +435,10 @@ D. (3,3)
 
 ### **Q4. Which function creates evenly spaced numbers between two values?**
 
-A. `arange()`
-B. `zeros()`
-C. `linspace()`
-D. `reshape()`
+    A. `arange()`
+    B. `zeros()`
+    C. `linspace()`
+    D. `reshape()`
 
 <details>
 <summary>答案 & 解析</summary>
@@ -362,10 +451,10 @@ D. `reshape()`
 
 ### **Q5. What does `axis=0` mean in NumPy operations?**
 
-A. Operate across rows
-B. Operate across columns
-C. Operate element-wise
-D. Flatten the array
+    A. Operate across rows
+    B. Operate across columns
+    C. Operate element-wise
+    D. Flatten the array
 
 <details>
 <summary>答案 & 解析</summary>
