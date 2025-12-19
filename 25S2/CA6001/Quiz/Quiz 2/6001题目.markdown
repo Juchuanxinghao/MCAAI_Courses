@@ -1,0 +1,222 @@
+
+# NLP、CV 与 深度学习期末复习题库 (完整版)
+
+## 第一部分：自然语言处理 (NLP)
+
+**1. What does tokenization in NLP primarily involve?**
+**(NLP 中的分词主要包括什么？)**
+
+* A. Removing stopwords form a text (从文本中移除停用词)
+* **B. Breaking text into smaller units like words or letters (将文本拆分为单词、字母等更小的单元) [正确答案]**
+* C. Converting non root words to the root words (将非词根词转换为词根词)
+* D. Identifying named entities (识别命名实体)
+
+> **解析：** 分词是 NLP 预处理的第一步，核心是将连续文本切分成独立的语义单元（Token）。移除停用词和词干提取是后续步骤。
+
+**2. What is sentiment analysis in NLP?**
+**(NLP 中的情感分析是什么？)**
+
+* A. Text representation that ignores grammar (忽略语法的文本表示)
+* B. Method of compressing text files (压缩文本文件的方法)
+* **C. Summarising the mood of a text file (总结文本文件的情绪/心情) [正确答案]**
+* D. Representing words as numerical vectors (将单词表示为数值向量)
+
+> **解析：** 情感分析旨在识别文本中的主观情绪（如积极、消极），常用于舆情分析。
+
+**3. Which of the following is NOT a typical preprocessing step in NLP?**
+**(以下哪项不是 NLP 中典型的预处理步骤？)**
+
+* A. Tokenization (分词)
+* B. Part of Speech Tagging (词性标注)
+* **C. Machine Translation (机器翻译) [正确答案]**
+* D. Stemming (词干提取)
+
+> **解析：** 机器翻译是 NLP 的**应用任务**，而不是预处理步骤。其他选项均为数据清洗和准备的常规操作。
+
+**4. Which of the following is not an application area of NLP?**
+**(以下哪项不是 NLP 的应用领域？)**
+
+* A. Chatbots and Conversational AI (聊天机器人与对话 AI)
+* **B. Computer Simulations (计算机仿真) [正确答案]**
+* C. Multi-modal Models (多模态模型)
+* **D. Gradient Descent (梯度下降) [正确答案]**
+
+> **解析：** 梯度下降是优化算法，计算机仿真是工程模拟，均不属于 NLP 应用。聊天机器人和多模态模型则是典型应用。
+
+**5. Why is transformer models preferred for NLP tasks?**
+**(为什么 Transformer 模型在 NLP 任务中更受青睐？)**
+
+* A. They can process very short texts (它们能处理极短文本)
+* **B. They use self-attention to process sequences in parallel (它们使用自注意力机制并行处理序列) [正确答案]**
+* C. They work only with English words (它们仅适用于英语单词)
+* **D. They capture long range dependencies (它们能捕捉长距离的依赖关系) [正确答案]**
+
+> **解析：** Transformer 的核心优势在于利用自注意力机制实现了并行计算（速度快）和长距离依赖捕捉（理解力强）。
+
+**6. What does word embedding aim to do?**
+**(词嵌入的目标是什么？)**
+
+* A. Compress text files (压缩文本文件)
+* **B. Represent words as vectors (将单词表示为向量) [正确答案]**
+* C. Create dictionaries (创建词典)
+* D. Remove stop words (移除停用词)
+
+> **解析：** 词嵌入（如 Word2Vec）将离散的单词转换为连续的数学向量，以便计算机理解语义关系。
+
+---
+
+## 第二部分：计算机视觉 (CV)
+
+**7. Which dataset was instrumental in enabling the shift towards large-scale, high-quality labeled data for training CNNs?**
+**(哪个数据集对于推动大规模、高质量标注数据用于训练 CNN 发挥了关键作用？)**
+
+* A. MNIST
+* B. COCO
+* C. CIFAR
+* **D. ImageNet [正确答案]**
+
+> **解析：** ImageNet 的出现直接推动了 2012 年深度学习在 CV 领域的爆发。
+
+**8. What does kernels do in CV?**
+**(卷积核在计算机视觉中是做什么的？)**
+
+* **A. Find patterns in an image (寻找图像中的模式) [正确答案]**
+* B. Identify image noise (识别图像噪声)
+* C. Add dimensions to data (增加数据维度)
+* D. Find missing pixels (寻找缺失像素)
+
+> **解析：** 卷积核（Filter）在图像上滑动，用于提取边缘、纹理等特征模式。
+
+**9. What is a convolution?**
+**(什么是卷积？)**
+
+* A. Converting 3D to 2D (将 3D 转换为 2D)
+* **B. Math function to produce transformations (产生变换的数学函数) [正确答案]**
+* C. Compression of image data (图像数据压缩)
+* D. Calculating average brightness (计算平均亮度)
+
+> **解析：** 卷积本质上是一种数学运算，在 CV 中用于通过卷积核与像素点积来变换图像（特征提取）。
+
+**10. What is the primary function of Convolutional Neural Networks in computer vision?**
+**(卷积神经网络在计算机视觉中的主要功能是什么？)**
+
+* A. To manually select features (手动选择特征)
+* B. To increase resolution (增加分辨率)
+* C. To convert images to text (将图像转换为文本)
+* **D. To automatically learn and extract features from images (自动从图像中学习并提取特征) [正确答案]**
+
+> **解析：** CNN 取代了传统 CV 中人工设计特征的步骤，能够自动学习特征。
+
+**11. What is the role of pooling layers in a CNN?**
+**(CNN 中池化层的作用是什么？)**
+
+* A. To increase resolution (增加分辨率)
+* B. To perform convolution (执行卷积)
+* C. To normalize feature maps (归一化特征图)
+* **D. To downsample feature maps and reduce computational load (对特征图下采样并减少计算负载) / reduce the number of pixels (减少像素数量) [正确答案]**
+
+> **解析：** 池化层通过保留主要特征（如最大值）来缩小图像尺寸，减少参数量。
+
+**12. Which computer vision technique involves finding the location of objects within an image?**
+**(哪种计算机视觉技术涉及寻找图像中物体的位置？)**
+
+* A. Feature extraction (特征提取)
+* **B. Object detection (目标检测) [正确答案]**
+* C. Image classification (图像分类)
+* D. Image segmentation (图像分割)
+
+> **解析：** 目标检测不仅识别物体，还通过边界框（Bounding Box）定位其位置。
+
+**13. What does transfer learning in CV mean?**
+**(计算机视觉中的迁移学习是什么意思？)**
+
+* A. Transfer images between models (在模型间传输图像)
+* B. Learning many CV tasks together (同时学习多个 CV 任务)
+* **C. Using a pretrained model for a new task (将预训练模型用于新任务) [正确答案]**
+* D. Converting data formats (转换数据格式)
+
+> **解析：** 迁移学习利用在大数据集上训练好的权重来解决数据较少的新问题。
+
+**14. What are multimodal models in computer vision?**
+**(计算机视觉中的多模态模型是什么？)**
+
+* **A. Models that combine multiple types of data like text, images, and videos (结合多种数据类型如文本、图像和视频的模型) [正确答案]**
+* B. Models that focus solely on audio (仅关注音频的模型)
+* C. Models that only analyze images (仅分析图像的模型)
+* D. Models that only analyze text (仅分析文本的模型)
+
+> **解析：** 多模态模型能够处理和理解多种媒体形式的交互。
+
+---
+
+## 第三部分：深度学习与生成式 AI (DL & GenAI)
+
+**15. What is the main advantage of deep learning over traditional computer vision approaches?**
+**(深度学习相比传统 CV 方法的主要优势是什么？)**
+
+* A. Do not need large datasets (不需要大数据集)
+* B. Are less accurate (准确率较低)
+* **C. Deep learning models automatically learn features from data (深度学习模型自动从数据中学习特征) [正确答案]**
+* D. Require manual feature extraction (需要手动特征提取)
+
+> **解析：** 端到端的自动特征学习是深度学习最大的突破。
+
+**16. What is a key feature of Vision Language Models (VLMs)?**
+**(视觉语言模型的一个关键特征是什么？)**
+
+* **A. They can understand and generate both images and text (它们可以理解并生成图像和文本) [正确答案]**
+* B. They only generate images (仅生成图像)
+* C. They are limited to text processing (仅限于文本处理)
+* D. They only analyze audio (仅分析音频)
+
+> **解析：** VLM 打通了视觉和语言的界限。
+
+**17. What is the primary difference between discriminative and generative AI?**
+**(判别式 AI 和生成式 AI 的主要区别是什么？)**
+
+* A. Speed vs Accuracy (速度 vs 准确率)
+* B. Neural networks vs Traditional algorithms (神经网络 vs 传统算法)
+* C. Labeled vs Unlabeled data (有标签 vs 无标签数据)
+* **D. Discriminative models learn decision boundaries, while generative models learn data distributions (判别式模型学习决策边界，而生成式模型学习数据分布) [正确答案]**
+
+> **解析：** 判别式用于分类（画线区分），生成式用于创造（学习分布以生成新样本）。
+
+**18. What is the goal of Generative AI?**
+**(生成式 AI 的目标是什么？)**
+
+* A. To classify data (分类数据)
+* **B. To generate new data that is similar to the training data (生成与训练数据相似的新数据) [正确答案]**
+* C. To compress datasets (压缩数据集)
+* D. To detect fraud (检测欺诈)
+
+> **解析：** GenAI 的核心是“生成”新的内容。
+
+**19. During GAN training, what is the role of the discriminator?**
+**(在 GAN 训练中，判别器的作用是什么？)**
+
+* A. To maximize accuracy (最大化准确率)
+* B. To create data (创造数据)
+* **C. To classify real and fake data (对真实和伪造数据进行分类) [正确答案]**
+* D. To extract features (提取特征)
+
+> **解析：** 判别器负责“打假”，判断输入是真图还是生成器生成的假图。
+
+**20. Which one of these are ethical concerns in GenAI?**
+**(以下哪项是生成式 AI 的伦理隐患？)**
+
+* A. Limited Memory Capacity (有限的内存容量)
+* **B. Creating Deepfakes (制造深度伪造) [正确答案]**
+* C. Slow processing times (处理速度慢)
+* **D. Large energy consumption (巨大的能源消耗) [正确答案]**
+
+> **解析：** 技术限制（A, C）不是伦理问题。Deepfakes 涉及造假和欺诈，高能耗涉及环境伦理。
+
+**21. In which area can transformers be used?**
+**(Transformer 模型可以应用于哪些领域？)**
+
+* A. Predicting fraudulent transactions (预测欺诈交易)
+* **B. Computer Vision (计算机视觉) [正确答案]**
+* **C. Text Generation (文本生成) [正确答案]**
+* D. Gradient Descent (梯度下降)
+
+> **解析：** Transformer 起源于 NLP（文本生成），目前已广泛应用于 CV（Vision Transformer）。梯度下降是算法而非应用领域。

@@ -1,0 +1,115 @@
+
+问题 1
+Which of the following is the correct way to add matplotlib library to your application?
+A.import matplotlib as plt
+B.import matplotlib.pyplot as plt
+C.import matplotlib.plt
+D.from matplotlib import pyplot as plt
+
+
+问题 2 
+How do you save a Pandas Dataframe to a CSV file?
+
+选项 A df.write_csv("file.csv")
+选项 B df.save_csv("file.csv")
+选项 C df.export_csv("file.csv")
+选项 D df.to_csv("file.csv")
+
+
+问题 3
+What is the output of the following statement?
+```python
+   arr = np.array([1,2,3,4,5,6])
+
+   new_arr = arr.reshape(2,3)
+
+   print(new_arr)
+```
+Answer:
+
+
+问题 4
+Which of the following application can use RNN for prediction?
+
+选项 A Image recognition
+选项 B Time Series prediction
+选项 C Text summarization
+选项 D Object detection
+
+问题 5
+Which of the following data structure is used during the ML training?
+
+选项 A ndarray
+选项 B tensor
+选项 C dataframe
+选项 D list
+
+问题 6
+
+The (输入答案)method in PyTorch defines how the data flows through the model.
+
+问题 7
+Which of the following functions can be  used to optimize the parameters in TensorFlow?
+
+选项 A Mean Square Error
+选项 B SGD
+选项 C Adam
+选项 D Mean Absolute Error
+
+问题 8
+What is the main purpose of Keras
+
+选项 A To replace TensorFlow as a backend engine
+选项 B To simplify the building and training of model for TensorFlow
+选项 C To create low-level ML algorithms
+选项 D All of the above
+
+问题 9
+What is the purpose of an activation function in neural networks?
+
+选项 A To optimize model performance
+选项 B To reduce model complexity
+选项 C To add non-linearity to the model
+选项 D To increase training speed
+
+问题 10
+Which of the following is most suitable to be used with CNN?
+选项 A Speech recognition
+选项 B Financial Forecasting
+选项 C  Image recognition
+选项 D Natural Language Processing
+
+问题 11
+How many trainable parameters are there in a Dense network?
+Input = 10 nodes
+Output = 5 nodes with activation function?
+
+选项 A 10
+选项 B 15
+选项 C 50
+选项 D 55
+
+
+
+问题 12
+What is the purpose of the __init__ method in a Python class?
+选项 A To access the attributes of an instance
+选项 B To create a new instance of a class
+选项 C To initialize the method for a new instance
+选项 D To define a new method
+
+问题 13
+A (输入答案) in Python is a blueprint for creating objects
+
+问题 14
+what does the dunder method __str__ perform?
+
+
+问题 15
+What does super() refer to in the following code?
+```python
+class Square(Rectangle):
+	def _init_(self,length):
+		super()._init_(length,length)
+```
+
