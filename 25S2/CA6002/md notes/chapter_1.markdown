@@ -199,7 +199,7 @@ Also, Munzner’s mark types:
 
 ### B) Scatter plot
 
-* Uses **2D position** of dots to represent two numeric variables; dot patterns reveal correlation/patterns.
+* Uses **2D position** of dots to** *represent two numeric variables***; dot patterns reveal correlation/patterns.
 * Can reveal  **clusters** ,  **gaps** ,  **outliers** .
 
 ### C) Bubble plot
@@ -383,11 +383,3 @@ C. Always quantitative
 D. Always ratio
 
 ✅ **Answer: B**
-
----
-
-## If you want, I can generate a **Chapter 1 MCQ mock quiz (30–50 questions)** in the exact style of your test:
-
-* single-choice + multi-choice mix
-* answers + bilingual explanations
-* mapped to 1.1–1.8 sections

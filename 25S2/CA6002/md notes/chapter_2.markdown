@@ -29,15 +29,55 @@
 
 ---
 
-### 2.1.4 Pearson correlation coefficient (important formula)
+### 2.1.4 Pearson correlation coefficient (important formula) **皮尔逊相关系数**
 
 - **EN:** Pearson correlation coefficient **ρxy** ranges from **-1 to +1**. :contentReference[oaicite:5]{index=5}
-- **EN (Formula):**\[
-  \rho_{X,Y}=\frac{\mathrm{cov}(X,Y)}{\sigma_X\sigma_Y}
-  \]
+- **EN (Formula):**
+  ρx,y=cov(X,Y) /  (σx·σy)
+
   where **cov** is covariance and **σX, σY** are standard deviations. :contentReference[oaicite:6]{index=6}
 - **EN:** Rule-of-thumb in slide: **Strong correlation** often considered **>|0.7|**. :contentReference[oaicite:7]{index=7}
 - **中:** 皮尔逊相关系数范围[-1,1]：正相关/负相关；绝对值越大线性关系越强。公式一定要记住：协方差 / 标准差乘积。
+- ρ 的取值范围：-1 到 +1 是什么意思？
+
+  * **ρ = +1** ：完全正线性相关
+
+    **EN:** as X increases, Y increases perfectly in a straight line
+
+    **中:** X 越大，Y 也按固定比例越大（点全在一条上升直线）
+  * **ρ = -1** ：完全负线性相关
+
+    **EN:** as X increases, Y decreases perfectly in a straight line
+
+    **中:** X 越大，Y 按固定比例越小（点全在一条下降直线）
+  * **ρ = 0** ：没有“线性相关”
+
+    **EN:** no linear relationship (could still be nonlinear)
+
+    **中:** 不代表“完全没关系”，只是 **没有直线型关系** ，可能存在曲线关系
+  * 
+  * # 公式：ρx,y=cov(X,Y) /  (σx·σy)是什么意思？
+  * ### cov(X,Y)（协方差）
+
+
+    * **EN:** measures whether X and Y move together (same direction or opposite)
+    * **中:** 衡量 X 和 Y 是否“同涨同跌”还是“一个涨一个跌”
+
+    协方差的符号：
+
+    * **cov > 0** ：倾向同向变化 → 正相关
+    * **cov < 0** ：倾向反向变化 → 负相关
+    * **cov ≈ 0** ：没有明显同向/反向趋势
+
+    ### σX、σY（标准差）
+
+    * **EN:** how spread out X and Y are
+    * **中:** X、Y 自己的波动幅度（离散程度）
+
+    ### 为什么要除以 σXσY？
+
+    * **EN:** to normalize the value so correlation is always between -1 and +1
+    * **中:** 这是“归一化”，把协方差变成**无单位、可比较**的指标，结果稳定落在 [-1,1]
 
 ---
 
@@ -67,14 +107,14 @@
 
 ---
 
-### 2.1.8 Confirmatory analysis (hypothesis testing) essentials
+### 2.1.8 Confirmatory analysis**验证性分析** (hypothesis testing假设检验) essentials
 
 - **EN:** **One-tailed test** has more statistical power than two-tailed at the same significance level (if direction is correctly predicted). :contentReference[oaicite:15]{index=15}
 - **EN:** Example hypotheses:
   - **H0:** μReading = μWriting (no difference)
   - **Ha:** μReading ≠ μWriting (two-tailed) OR μReading > μWriting (one-tailed, “larger”) :contentReference[oaicite:16]{index=16}
 - **EN:** Common threshold: reject H0 when **p < 0.05** (less than 5% chance due to randomness). :contentReference[oaicite:17]{index=17}
-- **中:** 验证性分析=假设检验；单尾/双尾要看你是否“提前预测方向”；p值<0.05通常认为显著，拒绝原假设。
+- **中:** 验证性分析=假设检验；单尾/双尾要看你是否“提前预测方向”；p值<0.05通常认为显著，拒绝原假设。只有在看数据之前就有充分理由认为方向一定是“>”或“<”，才用单尾。否则就应该用双尾。
 
 ---
 
@@ -213,12 +253,32 @@
 
 ## A. Correlation Analysis (2.1) — 8 Questions
 
-**Q1.** Which statement best describes EDA?A. A one-time process done after modelingB. An iterative process of asking questions, visualizing, and refining questionsC. A process that avoids data transformationsD. A process only for time series**Answer: B**
+**Q1.** Which statement best describes EDA?
 
-- **EN:** EDA is iterative: ask → visualize → evaluate → ask new questions. :contentReference[oaicite:53]{index=53}
+A. A one-time process done after modeling
+
+B. An iterative process of asking questions, visualizing, and refining questions
+
+C. A process that avoids data transformations
+
+D. A process only for time series
+
+**Answer: B**
+
+- **EN:** EDA is iterative: ask → visualize → evaluate → ask new questions.
 - **中:** EDA 是不断循环的探索流程，不是一锤子买卖。
 
-**Q2.** Pearson correlation coefficient ρ ranges from:A. 0 to 1B. -∞ to +∞C. -1 to +1D. -0.5 to +0.5**Answer: C** :contentReference[oaicite:54]{index=54}
+**Q2.** Pearson correlation coefficient ρ ranges from:
+
+A. 0 to 1
+
+B. -∞ to +∞
+
+C. -1 to +1
+
+D. -0.5 to +0.5
+
+**Answer: C**
 
 - **中:** [-1,1] 必背。
 
@@ -227,9 +287,19 @@ A. cov(X,Y) / (σX + σY)
 B. cov(X,Y) / (σX σY)
 C. (σX σY) / cov(X,Y)
 D. cov(X,Y) / (σX² + σY²)
-**Answer: B** :contentReference[oaicite:55]{index=55}
+**Answer: B**
 
-**Q4.** “Correlation implies causation.” This statement is:A. TrueB. FalseC. True only for |ρ|>0.7D. True if p<0.05**Answer: B** :contentReference[oaicite:56]{index=56}
+**Q4.** “Correlation implies causation.” This statement is
+
+A. True
+
+B. False
+
+C. True only for |ρ|>0.7
+
+D. True if p<0.05
+
+**Answer: B**
 
 - **中:** 相关≠因果，常考陷阱。
 
@@ -238,28 +308,28 @@ A. Pie chart
 B. Scatterplot matrix / pairplot
 C. Word cloud
 D. Gantt chart
-**Answer: B** :contentReference[oaicite:57]{index=57}
+**Answer: B**
 
 **Q6.** In Seaborn `pairplot()`, adding regression lines is done by:
 A. `kind='reg'`
 B. `style='reg'`
 C. `line='reg'`
 D. `reg=True`
-**Answer: A** :contentReference[oaicite:58]{index=58}
+**Answer: A**
 
 **Q7.** Which p-value rule is mentioned for rejecting H0?
 A. p < 0.10
 B. p < 0.01 only
 C. p < 0.05
 D. p > 0.05
-**Answer: C** :contentReference[oaicite:59]{index=59}
+**Answer: C**
 
 **Q8.** One-tailed tests are often more likely to be significant than two-tailed tests because they:
 A. Always use larger sample sizes
 B. Have more statistical power at the same significance level
 C. Ignore the null hypothesis
 D. Always increase variance
-**Answer: B** :contentReference[oaicite:60]{index=60}
+**Answer: B**
 
 ---
 
@@ -270,56 +340,74 @@ A. It makes the plot 3D
 B. It improves visual comparison and readability
 C. It removes outliers
 D. It converts data to continuous
-**Answer: B** :contentReference[oaicite:61]{index=61}
+**Answer: B**
 
 **Q10.** In Seaborn scatterplot, `hue=` should be assigned to:
 A. A continuous numeric variable only
 B. A categorical variable
 C. The x-axis variable
 D. The y-axis variable
-**Answer: B** :contentReference[oaicite:62]{index=62}
+**Answer: B**
 
-**Q11.** The alpha parameter in scatter plots helps mainly with:
+# **Q11.** The alpha parameter in scatter plots helps mainly with:
+
 A. Increasing correlation strength
-B. Occlusion from overlapping points
+
+# B. Occlusion from overlapping points
+
 C. Changing axis units
 D. Adding regression coefficients
-**Answer: B** :contentReference[oaicite:63]{index=63}
+**Answer: B**
 
-**Q12.** A PCP represents each data point as:
+# Q12.A PCP represents each data point as:
+
 A. A single dot
 B. A bar
-C. A line connecting values across multiple axes
-D. A pie slice
-**Answer: C** :contentReference[oaicite:64]{index=64}
 
-**Q13.** In an interactive PCP (Plotly Express), “brushing” means:
+# C. A line connecting values across multiple axes
+
+D. A pie slice
+**Answer: C**
+
+# Q13.In an interactive PCP (Plotly Express), “brushing” means:
+
 A. Smoothing the curve with moving average
-B. Selecting a subset by dragging on an axis
+
+# B. Selecting a subset by dragging on an axis
+
 C. Rotating the plot in 3D
 D. Sorting categories by frequency
-**Answer: B** :contentReference[oaicite:65]{index=65}
+**Answer: B**
 
-**Q14.** In a confusion matrix, off-diagonal values indicate:
+# Q14.In a confusion matrix, off-diagonal values indicate:
+
 A. Correct classifications
-B. Misclassifications
+
+# B. Misclassifications
+
 C. The AUC score
 D. Feature importance
-**Answer: B** :contentReference[oaicite:66]{index=66}
+**Answer: B**
 
-**Q15.** ROC curve plots:
+# **Q15.** ROC curve plots:
+
 A. Precision vs Recall
-B. TPR vs FPR across thresholds
+
+# B. TPR vs FPR across thresholds
+
 C. Loss vs Epochs only
 D. Mean vs Variance
-**Answer: B** :contentReference[oaicite:67]{index=67}
+**Answer: B**
 
-**Q16.** Precision–Recall curves are especially useful when:
+# **Q16.** Precision–Recall curves are especially useful when:
+
 A. Dataset is perfectly balanced
-B. Dataset is imbalanced (e.g., fraud detection)
+
+# B. Dataset is imbalanced (e.g., fraud detection)
+
 C. Only one class exists
 D. Only time series data is used
-**Answer: B** :contentReference[oaicite:68]{index=68}
+**Answer: B**
 
 ---
 
@@ -330,68 +418,89 @@ A. A random set of points with no order
 B. A sequence of data points in successive time order
 C. A categorical dataset only
 D. A scatter plot output
-**Answer: B** :contentReference[oaicite:69]{index=69}
+**Answer: B**
 
-**Q18.** A common single-parameter time series dataset typically contains:
+
+# **Q18.** A common single-parameter time series dataset typically contains:
+
 A. Two timestamp columns
-B. Timestamp + measured value
+
+# B. Timestamp + measured value
+
 C. Only measured values
 D. Only categories
-**Answer: B** :contentReference[oaicite:70]{index=70}
+**Answer: B**
 
-**Q19.** Additive decomposition is preferred when:
+# **Q19.** Additive decomposition is preferred when:
+
 A. Seasonal magnitude depends on the series level
-B. Seasonal magnitude does not depend on the series level
+
+## B. Seasonal magnitude does not depend on the series level
+
 C. There is no trend
 D. There is no residual
-**Answer: B** :contentReference[oaicite:71]{index=71}
+**Answer: B**
 
-**Q20.** Multiplicative decomposition is preferred when:
-A. Seasonal magnitude varies with the series level
+
+# **Q20.** Multiplicative decomposition is preferred when:
+
+## A. Seasonal magnitude varies with the series level
+
 B. Seasonal magnitude is constant
 C. Trend is always zero
 D. Cycles are strictly periodic
-**Answer: A** :contentReference[oaicite:72]{index=72}
+**Answer: A**
 
-**Q21.** Month-wise box plots are used mainly to:
-A. Visualize within-season variations (seasonality)
+# **Q21.** Month-wise box plots are used mainly to:
+
+## A. Visualize within-season variations (seasonality)
+
 B. Compute ROC AUC
 C. Show class imbalance
 D. Replace scatter plots
-**Answer: A** :contentReference[oaicite:73]{index=73}
+**Answer: A**
 
-**Q22.** Trend can be observed by:
+# **Q22.** Trend can be observed by:
+
 A. Randomizing the time index
-B. Year-wise box plots and tracing median changes
+
+## B. Year-wise box plots and tracing median changes
+
 C. Pie charts
 D. Confusion matrices
-**Answer: B** :contentReference[oaicite:74]{index=74}
+**Answer: B**
 
-**Q23.** The method described for isolating trend before decomposition is:
+# **Q23.** The method described for isolating trend before decomposition is:
+
 A. Brushing
-B. Moving average / local averaging
+
+## B. Moving average / local averaging
+
 C. Countplot sorting
 D. Pairplot hue
-**Answer: B** :contentReference[oaicite:75]{index=75}
+**Answer: B**
 
-**Q24.** `seasonal_decompose()` is used to:
+# **Q24.** `seasonal_decompose()` is used to:
+
 A. Compute Pearson correlation
-B. Decompose time series into components using additive/multiplicative model
+
+#  B. Decompose time series into components using additive/multiplicative model
+
 C. Plot confusion matrix
 D. Generate PCP brushing
-**Answer: B** :contentReference[oaicite:76]{index=76}
+**Answer: B**
 
 ---
 
 ## Quick English Keywords (High-frequency)
 
-- **EDA** (Exploratory Data Analysis): iterative exploration :contentReference[oaicite:77]{index=77}
-- **Correlation / Pearson ρ**: linear relationship strength, -1..+1 :contentReference[oaicite:78]{index=78}
-- **Causation**: not guaranteed by correlation :contentReference[oaicite:79]{index=79}
-- **Confusion Matrix**: diagonal correct, off-diagonal errors :contentReference[oaicite:80]{index=80}
-- **ROC / AUC**: TPR vs FPR, AUC 0.5 random, 1 perfect :contentReference[oaicite:81]{index=81}
-- **Precision–Recall**: best for imbalanced datasets :contentReference[oaicite:82]{index=82}
-- **Learning curve**: underfitting vs overfitting patterns :contentReference[oaicite:83]{index=83}
-- **Time series decomposition**: additive vs multiplicative :contentReference[oaicite:84]{index=84}
+- **EDA** (Exploratory Data Analysis): iterative exploration
+- **Correlation / Pearson ρ**: linear relationship strength, -1..+1
+- **Causation**: not guaranteed by correlation
+- **Confusion Matrix**: diagonal correct, off-diagonal errors
+- **ROC / AUC**: TPR vs FPR, AUC 0.5 random, 1 perfect
+- **Precision–Recall**: best for imbalanced datasets
+- **Learning curve**: underfitting vs overfitting patterns
+- **Time series decomposition**: additive vs multiplicative 
 
 ---
