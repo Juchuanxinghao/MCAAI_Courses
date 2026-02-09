@@ -266,7 +266,7 @@ D. Continuity
 
 **Answer: C**
 
-- **EN:** Enclosure groups elements within the same bounded region. 
+- **EN:** Enclosure groups elements within the same bounded region.
 - **中:** 同一块“框/区域”里 → 自动成组（包围原则）。
 
 ---
@@ -311,7 +311,7 @@ D. Information Changes
 
 **Answer: A**
 
-- **EN:** Poor figure–ground separation reduces clarity; contrast and boundaries matter. 
+- **EN:** Poor figure–ground separation reduces clarity; contrast and boundaries matter.
 - **中:** 前景数据和背景没分开（对比度不够/背景太抢戏）。
 
 ---
@@ -326,7 +326,7 @@ D. Works equally well for everyone
 
 **Answer: B**
 
-- **EN:** Colour attracts attention strongly. 
+- **EN:** Colour attracts attention strongly.
 - **中:** 颜色很显眼，会强行吸引注意力。
 
 ---
@@ -341,7 +341,7 @@ D. Changing line width only
 
 **Answer: C**
 
-- **EN:** Hue is appropriate for nominal categories. 
+- **EN:** Hue is appropriate for nominal categories.
 - **中:** 类别数据 → 用不同色相区分。
 
 ---
@@ -356,7 +356,7 @@ D. 3D effects
 
 **Answer: B**
 
-- **EN:** Sequential palettes convey ordered magnitude effectively. 
+- **EN:** Sequential palettes convey ordered magnitude effectively.
 - **中:** 有大小顺序 → 用由浅到深表达强弱。
 
 ---
@@ -371,7 +371,7 @@ D. Both are subtractive
 
 **Answer: B**
 
-- **EN:** RGB additive for light; CMYK subtractive for ink. 
+- **EN:** RGB additive for light; CMYK subtractive for ink.
 - **中:** 屏幕发光用 RGB；印刷用 CMYK。
 
 ---
@@ -386,7 +386,7 @@ D. Continuity
 
 **Answer: B**
 
-- **EN:** Too many colours increase cognitive load; capacity is limited. 
+- **EN:** Too many colours increase cognitive load; capacity is limited.
 - **中:** 颜色太多 → 认知负荷爆炸 → 容量限制。
 
 ---
@@ -401,7 +401,7 @@ D. Works only with text
 
 **Answer: B**
 
-- **EN:** Preattentive features can be detected quickly in parallel. 
+- **EN:** Preattentive features can be detected quickly in parallel.
 - **中:** 前注意加工=秒懂并行，不用逐个看。
 
 ---
@@ -416,7 +416,7 @@ D. Symmetry grouping
 
 **Answer: B**
 
-- **EN:** Conjunction (red AND vertical) usually needs focused attention. 
+- **EN:** Conjunction (red AND vertical) usually needs focused attention.
 - **中:** 组合条件（红+竖）→ 要注意力 → 更慢。
 
 ---

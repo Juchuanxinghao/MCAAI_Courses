@@ -148,12 +148,12 @@
 **Interactive features**
 
 - **EN:** Axes can be **swapped by dragging**. :contentReference[oaicite:25]{index=25}
-- **EN:** **Brushing**: click-hold and slide on an axis to select/highlight a subset. :contentReference[oaicite:26]{index=26}
+- **EN:** **Brushing**: click-hold and slide on an axis to select/highlight a subset. 
 - **中:** 交互是考点：拖动换轴；刷选(brushing)能高亮某范围样本。
 
 **Interpreting patterns (MCQ-style)**
 
-- **EN:** Understanding simple patterns helps interpret complex PCP; examples include strong/weak negative correlation, strong positive correlation, separated clusters, circular patterns, and outliers. :contentReference[oaicite:27]{index=27}
+- **EN:** Understanding simple patterns helps interpret complex PCP; examples include strong/weak negative correlation, strong positive correlation, separated clusters, circular patterns, and outliers. 
 - **中:** 线条“交叉程度/倾斜方向/是否成束”等可提示相关性、分群、离群点等。
 
 ---
@@ -216,8 +216,8 @@
 ### 2.3.4 Additive vs Multiplicative decomposition (must memorize)
 
 - **EN (Equations):**
-  - Additive: \(x_t = S_t + T_t + R_t\) :contentReference[oaicite:43]{index=43}
-  - Multiplicative: \(x_t = S_t \, T_t \, R_t\) :contentReference[oaicite:44]{index=44}
+  - Additive: \(x_t = S_t + T_t + R_t\) 
+  - Multiplicative: \(x_t = S_t \, T_t \, R_t\)
 - **EN (When to use):**
   - Additive: seasonality magnitude **does not depend** on the series level. :contentReference[oaicite:45]{index=45}
   - Multiplicative: seasonality magnitude **varies with** the series level. :contentReference[oaicite:46]{index=46}
@@ -420,7 +420,6 @@ C. A categorical dataset only
 D. A scatter plot output
 **Answer: B**
 
-
 # **Q18.** A common single-parameter time series dataset typically contains:
 
 A. Two timestamp columns
@@ -440,7 +439,6 @@ A. Seasonal magnitude depends on the series level
 C. There is no trend
 D. There is no residual
 **Answer: B**
-
 
 # **Q20.** Multiplicative decomposition is preferred when:
 
@@ -484,7 +482,7 @@ D. Pairplot hue
 
 A. Compute Pearson correlation
 
-#  B. Decompose time series into components using additive/multiplicative model
+# B. Decompose time series into components using additive/multiplicative model
 
 C. Plot confusion matrix
 D. Generate PCP brushing
@@ -501,6 +499,6 @@ D. Generate PCP brushing
 - **ROC / AUC**: TPR vs FPR, AUC 0.5 random, 1 perfect
 - **Precision–Recall**: best for imbalanced datasets
 - **Learning curve**: underfitting vs overfitting patterns
-- **Time series decomposition**: additive vs multiplicative 
+- **Time series decomposition**: additive vs multiplicative
 
 ---

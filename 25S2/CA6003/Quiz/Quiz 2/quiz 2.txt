@@ -1,1 +1,9 @@
-to be done
+Details of the Quiz
+
+There will be around 25-30 questions in the quiz. Total point is 45. Marks for questions may be different.
+The questions will be MCQs, Fill-in-the-Blanks, Multiple Answers, Matching questions etc., that is, objective (auto-graded).
+Negative marking for wrong answers for multiple answer multichoice questions.
+If there is any confusion regarding the correct answer(s), choose option(s) that seem most appropriate.
+The quiz will use Respondus Lockdown Browser.
+Remember to "Save and Submit" the quiz, once done. You will see timer and the relevant warnings.
+Let the Lab In-Charge and/or the Instructor/TA know if you face any technical problem whatsoever!
