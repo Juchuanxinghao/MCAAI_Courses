@@ -63,14 +63,19 @@ Chapter 3 has two major threads:
 
 ### 2.2 算法步骤（必背）
 
+**中文讲解（按课件步骤原序）**
+SMOTE（Synthetic Minority Over-sampling Technique）的做法：
+
 1. 选一个少数类样本 (x_i)
-2. 在少数类中找其 (k) 个近邻
+2. 在少数类内部找它的 (k) 个最近邻
 3. 随机选一个邻居 (x_j)
-4. 生成新点：
-   [
-   x_{\text{new}}=x_i+r(x_j-x_i),\quad r\in(0,1)
-   ]
-   即在线段 (x_i \rightarrow x_j) 上随机插值。
+4. 生成新样本：在Xi和Xj的连线上，取一个中间点当新样本
+
+   X*new* = X*i*+ r*(X*j* - X*i*),      r取值范围是(0,1)
+
+   **·x**j−**x**i：从 xi指向 **x**j 的 方向向量
+   ·乘上 r∈(0,1)：走一段比例（比如走 30%、70%）
+   ·加回 xi：从 xix_i**x**i 出发走过去
 
 ### 2.3 为什么优于随机过采样
 
@@ -172,7 +177,7 @@ Lower overall accuracy can be acceptable (and preferable) if minority recall imp
 ### 6.2 PCA 的代价
 
 * 压缩是有损的（lossy）
-* 组件是原特征线性混合，语义可解释性下降
+* 组件是原特征线性混合，语义可解释性下降  less interpretable
 * 可能丢失“低方差但高判别力”特征
 * 小数据/低维数据时收益不一定大于开销。
 
@@ -368,17 +373,18 @@ D. StandardScaler
 ## B) 填空题 Fill in the blanks
 
 **Q4.** SMOTE synthetic point formula:
-[
-x_{\text{new}}=x_i+___(x_j-x_i)
-]
-where random (___\in(0,1)).
-**Answer:** (r,\ r)
+
+x_new=x_i+ ____ ___(x_j-x_i)
+where random  ____  ∈(___0,1)).
+**Answer:** r    ,   r___
 
 **Q5.** PCA components are linear combinations of original features and are often less ______.
 **Answer:** interpretable
 
 **Q6.** In EDA, analysis typically progresses from ______ to ______ to ______.
 **Answer:** univariate, bivariate, multivariate
+
+univariate ,bivariate,multivariate
 
 ---
 
@@ -406,11 +412,11 @@ D. It can help gradient-based convergence
 
 Match each method with its best description:
 
-1. PCA
-2. SVD
-3. t-SNE
-4. Autoencoder
-5. SMOTE
+1. PCA   :linear max-variance projection
+2. SVD :matrix factorization base; latent factors
+3. t-SNE :nonlinear neighbor-preserving visualization
+4. Autoencoder :neural bottleneck representation + reconstruction
+5. SMOTE: minority oversampling by interpolation
 
 a. minority oversampling by interpolation
 b. matrix factorization base; latent factors

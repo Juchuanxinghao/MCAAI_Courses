@@ -46,12 +46,12 @@ Most ML algorithms need numeric inputs. Categorical variables must be encoded. T
 
 课件给出的主要方法：
 
-* Label/Ordinal Encoding
-* One-Hot Encoding
-* Count/Frequency Encoding
-* Binary Encoding
-* Target Encoding
-* Hash Encoding
+* Label / Ordinal Encoding（用于 ordinal）
+* One-Hot Encoding（用于 nominal）
+* Count / Frequency Encoding（用于 nominal）
+* Binary Encoding（用于 nominal）
+* Target Encoding（用于 nominal，尤其高基数）
+* Hash Encoding（用于 nominal，尤其超高基数/NLP）
 
 ---
 
@@ -192,9 +192,7 @@ Most ML algorithms need numeric inputs. Categorical variables must be encoded. T
 ### 定义 | Definition
 
 对类别 (i) 编码为该类别对应目标变量均值：
-[
-Enc(i)=\mathbb{E}[\text{Target} \mid \text{Category}=i]
-]
+Enc(i) = Mean(Target | Category = i).
 
 **中文**
 
@@ -228,16 +226,15 @@ Enc(i)=\mathbb{E}[\text{Target} \mid \text{Category}=i]
 
 ### 公式 | Formula
 
-# [
+# SmoothedMean_i=
 
-\text{SmoothedMean}_i
+\{n_i  * u_i + m*u_global}/{n_i + m}
 
-\frac{n_i \mu_i + m\mu_{global}}{n_i + m}
-]
+
 
 * (n_i): 类别样本数
-* (\mu_i): 类别目标均值
-* (\mu_{global}): 全局目标均值
+* (u_i): 类别目标均值
+* (u_global): 全局目标均值
 * (m): prior / smoothing strength
 
 ### 直觉 | Intuition
@@ -291,9 +288,7 @@ Scaling aligns feature magnitudes so that no single large-scale feature dominate
 
 ### 2.2.1 StandardScaler（标准化）
 
-[
-x'=\frac{x-\mu}{\sigma}
-]
+(x`=(x-m)/(sigma))
 
 * 均值0、方差1，**无固定上下界**
 * 假设更接近高斯分布
@@ -303,9 +298,7 @@ x'=\frac{x-\mu}{\sigma}
 
 ### 2.2.2 MinMaxScaler（归一化）
 
-[
-x'=\frac{x-\min(x)}{\max(x)-\min(x)}
-]
+(x`=(x-min)/(max-min))
 
 * 映射到固定区间（通常 [0,1]）
 * 对输入范围有要求的模型常用（部分神经网络）
@@ -315,9 +308,7 @@ x'=\frac{x-\min(x)}{\max(x)-\min(x)}
 
 ### 2.2.3 RobustScaler（稳健缩放）
 
-[
-x'=\frac{x-\text{median}}{\text{IQR}}
-]
+(x=(x-median)/IQR),   where IQR=Q3-Q1
 
 * 中位数+IQR，抗离群值
 * 适合“脏数据/重尾数据/明显异常值”
@@ -326,9 +317,7 @@ x'=\frac{x-\text{median}}{\text{IQR}}
 
 ### 2.2.4 MaxAbsScaler
 
-[
-x'=\frac{x}{\max(|x|)}
-]
+x`=x/max(|x|)
 
 * 最大绝对值缩放到1
 * **保留0（zero-preserving）** ，适合稀疏数据（文本特征）
@@ -342,6 +331,11 @@ x'=\frac{x}{\max(|x|)}
 * 有固定边界需求：[0,1]：**MinMaxScaler**
 * 异常值多：**RobustScaler**
 * 稀疏矩阵/NLP：**MaxAbsScaler**
+
+* StandardScaler：线性模型/SVM/PCA 默认选择但对 outlier 敏感
+* MinMax：NN/图像，但 outlier 会“挤压”
+* Robust：极端 outlier 多、但不想删
+* MaxAbs：稀疏文本，保 0
 
 ---
 
@@ -494,9 +488,9 @@ D. It is only for ordinal variables
 ## B) Fill in the Blanks（填空）
 
 **Q4.** Target encoding for category (i):
-[
-Enc(i)=\text{Mean}(____ \mid Category=i)
-]
+
+Enc(i)=Mean(____ | Category=i)
+
 **Answer:** Target
 
 **Q5.** RobustScaler uses ______ and ______ to reduce outlier influence.

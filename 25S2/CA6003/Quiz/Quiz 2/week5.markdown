@@ -216,7 +216,7 @@ AI 训练需要巨量、低延迟、可扩展存储；但越快越大，泄露�
 ### 11.4 安全支柱
 
 * RBAC 访问控制
-* 加密（at rest / in transit）
+* 加密**（at rest / in transit）**
 * 数据隔离（训练/测试/生产分离）
 * 审计日志 + 持续监控
 * 安全保留与删除（删除后可能需模型重训）。
@@ -413,11 +413,11 @@ D. Model updates in federated setups can leak information
 
 Match artifact to purpose:
 
-1. Datasheet
-2. Feature documentation
-3. Data contract
-4. Model card
-5. Audit logs
+1. Datasheet  b. explains dataset origin, allowed/prohibited uses, retention
+2. Feature documentation   d. defines feature formula, window, proxy risk, constraints
+3. Data contract    c. defines schema, null rules, freshness, drift monitors
+4. Model card  e. documents intended use, limitations, subgroup metrics, monitoring plan
+5. Audit logs  a. records who accessed what and when
 
 a. records who accessed what and when
 b. explains dataset origin, allowed/prohibited uses, retention

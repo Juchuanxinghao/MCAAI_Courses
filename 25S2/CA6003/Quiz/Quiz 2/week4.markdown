@@ -306,7 +306,7 @@ Target leakage occurs when features contain direct/indirect target information, 
 
 ## 11.5 Ecological Fallacy（生态谬误）
 
-### 核心
+### 核心ecological fallacy
 
 把群体层关系错误外推到个体层。
 Group-level trend ≠ Individual-level truth。
@@ -410,17 +410,20 @@ D. Ask “What am I averaging over?”
 
 Match paradox to core failure:
 
-1. Simpson’s paradox
-2. Berkson’s paradox
-3. Accuracy paradox
-4. False prediction paradox
-5. Ecological fallacy
+1. Simpson’s paradox   -cc. Trend reverses after controlling stratification variable
+2. Berkson’s paradox    d. Conditioning on selected subgroup induces spurious correlation
+3. Accuracy paradox   a. High overall accuracy hides minority failure
+4. False prediction paradox   e. Predicted positives are mostly wrong despite seemingly okay aggregate metrics
+5. Ecological fallacy   b. Group-level inference incorrectly applied to individuals
 
 a. High overall accuracy hides minority failure
 b. Group-level inference incorrectly applied to individuals
 c. Trend reverses after controlling stratification variable
 d. Conditioning on selected subgroup induces spurious correlation
 e. Predicted positives are mostly wrong despite seemingly okay aggregate metrics
+
+
+
 
 **Answer:** 1-c, 2-d, 3-a, 4-e, 5-b
 
