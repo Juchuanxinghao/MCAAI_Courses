@@ -1,0 +1,170 @@
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project Formulation, Schedule development and to proceed to next steps
+Consult 3: CA6121 AI in Project Management
+Presented by Dr Ravish Maqsood
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder.. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Topic and ApproachAI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group topic submission•Stay in touch with your group mates. •Get to know each other. •Explore the topics in depth for the group assignment do you wish to work on. •Come up with proposed topic for your group. •Submit your group topic one day before the next consultation class. 
+ CA6121 NTU Group Assignment Topic selection Mar2026 – Fill out form
+https://forms.cloud.microsoft/r/B8zBtFa6Nb
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Planning ConceptProject Planning & Scheduling
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+PlanningA plan is used to: •Align expectations of all parties involved •Minimize workflow time of a project•Minimize or avoid conflict•Manage changes effectively•Resource allocation•Many more… 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Planning helps to answer: •What?•Identify and describe the subprojects, work packages and tasks; The result is the work breakdown structure.•Until when?•Describe the timeline; The result is the time schedule and milestone plan.•Who/how many?•Show which forces are to be used with which qualification, which personnel and material resources are needed. This is documented in the resource and cost plan. The project organization describes the type of cooperation.•Conditions?•Specify the technical and spatial requirements, list the known restrictions. This is noted directly in the project plan.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Planning challenge to balance following three aspects
+•Quality•Cost•Time
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning and SchedulingProject Planning & Scheduling
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Key Processes1.Define Activities2.Sequence Activities3.Estimate Activity Duration4.Develop Schedule 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Gantt ChartProject Planning & Scheduling
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Gantt Chart
+A Gantt chart, commonly used in project management tool to show activities (tasks or events) displayed against time. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Gantt ChartGantt chart allows to see:•Various activities•Start and finish of each activity•Duration of each activity•Activities overlap with other activities•Critical path activities and Float •The start and end date of the whole project
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Topic and ApproachAI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management:•Criteria to select a project for group assignment: •Can have either or all phases of project covered in the lecture •Initiation, •planning, •executing, •monitoring & control, •close-out. 
+•Must draw a workflow of the current situation and proposed improvement. •Improve process for a project by implementing AI tool of your choice. (Example: collating of notes of meeting, preparation of EVM, sorting the team profiles, etc.).
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Your Group Project Progress?AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project Approach
+Team Formed
+Topic FinalizedProblem StatementFinalizedScope FinalizedWorkflow developedAI Tools usage identified
+Project Organization ChartSchedule Developed
+AI Tools list, eval, finalizedData UnderstandingData Collection/ SortingModel DevelopmentFinal Test and ResultsReady to deploy
+Report
+Demo & Present
+Start Finish
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Steps & Planning-Gantt Chart
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Steps & Planning-Gantt Chart
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Steps & Planning-Gantt Chart
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Steps & Planning-Gantt Chart
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning and Schedule
+https://www.ganttproject.biz/download
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning and Schedule
+https://www.ganttproject.biz/download
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Your Group Project Progress?AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Your Group Project Progress? 1.Teamwork is important.  2.Appoint a group lead who will act as project manager to coordinate this group assignment activities. 3.Group assignment topic is reviewed and agreed by all team members?4.Problem Statement development status? 5.Have you finalized the scope? 6.Where are you on the workflow development for the overall project? 
+Recap from Tutorial 02
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Topic understanding and to set a path to work on. •Understand your group project topic. (Use tutorial 01 class exercise as reference). 
+•What type of project and which industry workflow your project belongs to? (Suggestion: IT, Construction, Building, Manufacturing, Aerospace, etc.?)
+•Explain current problem in this workflow where your group is trying to solve by implementing AI tools in Project Management Process? (Example: Notes of meeting compilation, review, analysis, draft email to be sent to the attendees).•What is your proposal to solve the identified problem statement? (Example: AI tool implementation to collate meeting transcript and compile into notes of meeting, perform review, analysis, and prepare draft email to be sent to the attendees)•Draw a workflow or block diagram or write down the steps you will take to solve.•Once topic is finalized, ask again: is your team confident to work on this project topic or wish to revise or fine-tune? 
+Recap from Tutorial 02
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ResourcesProject Resource Management
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Type of Resources
+Human ResourceAcquireTrain DeployManageDemobilize
+EquipmentMaterial SuppliesFacilities
+TEAM RESOURCES
+PHYSICAL RESOURCES
+Project Execution
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project Resources•List down the resources on your project. •Prepare physical resources list.•Prepare team (human) resources list. •Any challenges foreseen in your project? 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project OrganizationProject Resource Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project Organization
+Functional OperationalTechnicalSystem AdministratorQuality AssuranceTraining
+Project Manager
+Receiving
+Delivery
+Hardware EngineerMaintenance
+Enhancements
+Interfaces
+Testing 
+UX / UI Design
+Procedures
+Quality Audits
+Improvements
+Training Lab
+Trainer
+Sample: Update as per your project requirements
+Client Project ManagerHR / AdminFinance
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Roles & ResponsibilitiesProject Resource Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Roles and ResponsibilitiesRoles and Responsibilities are defined for all people on the project: •Role•Experience and competencies•Skills and training
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What to do before next consultation?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group topic submission
+•Be prepared to discuss the progress of your group project before the next consultation class.•Be familiar with Project Cost Management terminologies.  
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What to do before next tutorial class?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Tutorial Classes•Ensure you have watched the relevant lecture(s).•Familiarize yourself with •Planning and Scheduling activities in a project•Gantt Chart •Critical Path Method (CPM)•Gantt Project Software or •any other software of your choice used for planning and scheduling. 
+•Please bring your laptop to participate in class exercises/ activities.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Photo by: Ravish M
+End of class
+Batam, Indonesia

@@ -1,0 +1,462 @@
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Introduction and OverviewLecture 1: CA6121 AI in Project Management
+Presented by Dr Ravish Maqsood
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder.. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+OBJECTIVES
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Introduction of basic concepts in project management with coverage of evolving trends and application such as sustainability, artificial intelligence. 
+•The learning helps to apply the Artificial Intelligence (AI) concepts in executing projects which includes design, procurement, and execution phases. 
+•This equips the participants to enhance their skill set, improve employability, and career growth. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Why should I take this course? Role of AI in project management is growing•Automated task management•Predictive analytics•Enhanced collaboration•Resource allocation•Risk management•Better decision making•Many more… 
+Improving skills Employability
+Future trendsImproving EfficiencyImproving Productivity
+Staying aheadLearning
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+OBJECTIVES
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Key concepts covered:•project integration•scope management•project planning •project budget & cost management•procurement•project risks management•AI tools & applications
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+1.Familiarize and understand, project life cycle, importance and relevance of project management concepts.2.Understand and apply evolving technological advancement applications with Artificial Intelligence (AI) concepts in project management.3.Communicate and better engagement with internal and external stakeholders.4.Plan and schedule activities and resources for a project.5.Apply tools and knowledge to improve project efficiency and productivity.
+Course Learning Outcomes (ILOs)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Learning and Teaching ApproachApproach How does this approach support you in achieving the learning outcomes? Online Recorded Lectures Pre-recorded online lectures on the topics are provided for students to go through at their own convenience prior coming to the tutorial classes.In class tutorials using flip class methodology wherever possible Tutorials shall be held face to face and will have in-class discussions with hands-on exercises. This helps the students to understand the concepts mentioned in the lectures. Flip classroom approach and discussions helps better engagement and faster learning of the concepts. Online ConsultationGroup project consultations and Q&A session (each group is assigned a time slot)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Assessment StructureNo.Component Weightage Team / IndividualRemarks
+CA1Continuous Assessment (CA1): Class Attendance and Exercises 20%IndividualStudents are required to attend all the classes in person to secure your attendance and participation marks. CA2Continuous Assessment (CA2): Final Quiz (Entire syllabus)30%IndividualStudents are required to attend final quiz in-person.
+CA3Continuous Assessment (CA3):Group Project Report30%TeamGroup project is a teamwork and all are required to participate.
+CA4Continuous Assessment (CA4):Final Presentation 20%TeamGroup project presentation is a teamwork and all are required to participate. Every student is expected to present at least some portion of the group work. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Reading and References1.A guide to the Project Management body of Knowledge “PMBOK guide eight edition”, by Project Management Institute (PMI), Nov 2025 (expected).2.AguidetotheProjectManagementbodyofKnowledge“PMBOKguidesixthedition”,byProjectManagementInstitute(PMI),Sep2017.3.AguidetotheProjectManagementbodyofKnowledge“PMBOKguideseventhedition”,byProjectManagementInstitute(PMI),August2021.4.ProjectManagementforPractice,aguideandtoolboxforsuccessfulprojects,byDaudAlam;UweGuhl,Springer,2022;secondedition 5.AgileProductandProjectManagement:AStep-by-StepGuidetoBuildingtheRightProductsRight,byMariyaBreyter,Apress,20226.IntroductiontoProjectManagement:ASourceBookforTraditionalPMBasics,byDaviesA.Igberaese,Routledge,2023
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+A guide to the Project Management body of Knowledge “PMBOK guide sixth edition” by Project Management Institute (PMI), Sep 2017 
+Reading and References
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Reading and References
+A guide to the Project Management body of Knowledge “PMBOK guide seventh edition” by Project Management Institute (PMI), August 2021 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Reading and ReferencesA guide to the Project Management body of Knowledge “PMBOK guide eighth edition” by Project Management Institute (PMI), Nov 2025 
+New
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Reading and ReferencesProject Management for Practice, a guide and toolbox for successful projectsby Daud Alam ; Uwe Guhl, Springer,2022; second edition 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Reading and ReferencesAgile Product and Project Management: A Step-by-Step Guide to Building the Right Products Rightby Mariya Breyter, Apress,2022 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Reading and ReferencesIntroduction to Project Management: A Source Book for Traditional PM Basics by Davies A. Igberaese, Routledge, 2023
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Why am I here? •Facilitate learning process•Help you to understand the concepts of Project Management•In turn you will be able to have good understanding•Help in planning for your career path•Learning concepts of project management may help you in day-to-day life while planning your activities. •Learn more by sharing my experience with you.
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Management: Introduction Understanding project management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What is a Project? PMBOK 6th Edition A project is a temporary endeavorundertaken to create a unique product, service, or result.Source PMBOK 6th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What is a Project? PMBOK 6th Edition Projects are: •Unique•Temporary endeavour•Drive change•Enable business value creation
+Source PMBOK 6th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Why there is a need for a project?•Market Demand•Customer Request•Technological Advances•Environmental Considerations•Legal Requirements•Social Needs
+Projectsmustbealignedwiththestrategicplanoftheorganization.
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What is a Project Management?•Project Management is the application of knowledge, skills, tools and techniques to meet project requirements.•It is accomplished using processes: 1.Initiating2.Planning3.Executing 4.Monitoring and Controlling 5.Closing
+Source PMBOK 6th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementPMBOK 6th Edition to  7th Edition 
+Source PMBOK 7th Edition
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementGuide to PM Body of Knowledge 10 Knowledge Areas:PMBOK 6th Edition
+•Systems for Value Delivery •Project Management Principles:1.Stewardship 2.Team 3.Stakeholders 4.Value 5.Systems Thinking 6.Leadership 7.Tailoring 8.Quality 9.Complexity 10.Risk 11.Adaptability and Resiliency 12.Change
+Standards (Processes) of Project ManagementPMBOK 7th Edition
+1.Project Integration Management2.Project Scope Management3.Project Time Management 4.Project Cost Management5.Project Quality Management6.Project Human Resource Management7.Project Communications Management8.Project Risk Management9.Project Procurement Management10.Project Stake Holder Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Management
+1.Project Initiation2.Project Planning3.Project Execution 4.Project Monitoring and Control5.Project Closeout 
+5 Standards (Processes) of Project ManagementPMBOK 6th Edition
+•Systems for Value Delivery •Project Performance Domains:1.Stakeholders2.Team 3.Development Approach and Life Cycle4.Planning 5.Project Work 6.Delivery 7.Measurement 8.Uncertainty
+Guide to PM Body of KnowledgePMBOK 7th EditionPMBOK 8th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementPMBOK 8th Edition
+•Reverting to approach like 6th Edition •This edition presents five Project Management Focus Areas: Initiating, Planning, Executing, Monitoring and Controlling, and Closing.•Sustainability 
+What’s new in the Eighth Edition:•Updated definitions of foundational terms and concepts, aligned to current global practice and language accessibility.•A simplified set of six actionable project management principles.•The re-imagining of Process Groups as five practical Focus Areas.•Integration of technical ways of working and other core concepts into seven comprehensive Project Performance Domains, including 40 newly evolved processes
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Management: Six Principles (PMBOK 8th Addition) Collectively, these principles describe the mindset of project management, which in turn guides the mechanics of project management. 1.Adopt a Holistic View.2.Focus on Value.3.Embed Quality Into Processes and Deliverables.4.Be an Accountable Leader.5.Integrate Sustainability Within All Project Areas.6.Build an Empowered Culture.
+Source: PMBOK 8th Edition
+PMBOK 8th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Management: Six Principles (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+PMBOK 8th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementPMBOK 8th Edition
+Source: PMBOK 8th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementPMBOK 8th Edition
+Source: PMBOK 8th Edition
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementPMBOK 8th Edition
+Source: PMBOK 8th Edition
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementPMBOK 8th Edition
+Source: PMBOK 8th Edition
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementPMBOKProject Integration Management Processes1.Develop Project Charter2.Develop Project Management Plan3.Direct and Manage Project Work4.Manage Project Knowledge 5.Monitor and Control Project Work 6.Perform integrated Change Control7.Close Project or Phase
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementPrince 2 Project Integration Management Processes1. Starting Up a Project (SU)Establish project team and develop a project brief.2. Directing a Project (DU)Oversight of the project by the Project Executive and Project Board.3. Initiating a Project (IP)Develop a project initiation document.4. Controlling a Stage (CS)Management of work packages.5. Managing Product Delivery (MP)Delivery and acceptance of work packages.6. Managing Stage Boundaries (SB)Manage transition from one stage to other (Gateway process).7. Closing a Project (CP)Formal close-out of the project
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementV-Model•This is a project management method for development projects that originally comes from IT. •In this case, the waterfall model is extended by test stages, with each development phase corresponding to test phases.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementRational Unified Process (RUP)•RUP includes a software development process on the one hand and corresponding tools from IBM on the other. •It provides for iterations and defines the following four phases: •Inception•Elaboration•Construction•Transition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ManagementScrum•Scrum is understood as a framework in the field of project management. •It is a simple process model with few rules and is based on agile software development.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Our Approach and Focus AreaWe will focus on the following: 1.PMBOK 6th & 8th Edition (most of the times) 2.Practical Approach as used in the industry3.Focus on AI in Project Management rather AI Project Development. 4.Discussions in the class, in-person tutorials, & online consultations. 
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Person leading the project team achieving the project objectives within the scopeboundaries. Basic expectations•Scope•Cost•Schedule •Quality•Risk
+Project Manager
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Provide leadershipfor the project.•Prepare a Project Management Plan.•Manage Resources, Risks, & Changes.•Direct, coordinate, integrate, and motivate the project team.•Communicateand engage stakeholders.
+Project Manager
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Knowledge (Business, Technical & Commercial) •People management skills, communication, negotiation, and social skills•Able to work under pressure and stay focused to meet the objectives and deadlines•Inspire and motivate others•Political and cultural awareness
+Project Manager: Attributes
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Team reports to the Project Manager.•Work Breakdown Structure (WBS)is used to plan resources on a project.•Project team members are responsible to deliver the specific taskassigned to them.•Team is selected to match the right skills and experience for the needs of the project.
+Project Team
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Senior management personnel from the owner side.•Initiates the project through a Project Charter or any similar initiation document.•Authorizes the committal of resources to the project.•Oversees that the objectives of the project.
+Project Sponsor
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Project Sponsor/Customer•End-users•Project Team•Consultants•Contractors•Suppliers and Vendors•Functional Heads of Organization•Project Management Office (PMO)•Regulatory Agencies
+Project Stakeholders
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Technology/ Software Development Projects
+Examples: •IT Software Development•Data-center set up•Technology development•IT server room set up•Others
+Engineer is leadDeliverables: •Concept design•Schematic design•Detailed design and specifications•Contract documents development. 
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Technology/ Software Development Projects
+Software DevelopmentHardwareSet up
+Pexels.com Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+SDLC Phases:1. Project Initiation2. Requirements Gathering3. Analysis4. Design5. Development6. Testing7. Deployment8. Maintenance
+Software Development Life Cycle (SDLC)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Technology/ Software Development Projects
+Requirements gatheringAnalysisDesignDevelopmentTesting
+Software Development Life Cycle (SDLC)
+Project Manager could be from either of the disciplines: •Information Technology•Computer Science•Data Science
+Initiation DeploymentMaintenance
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Technology/ Software Development Projects
+Requirements gatheringAnalysisDesignDevelopmentTesting
+Phase 2Initiation
+DeploymentMaintenance
+Phase 1 Phase 3Phase 4
+Other Ongoing Responsibilities: •Contract Management•Scope Alignment•Resource Management•Vendors / Sub-contractors Management•Monitoring and Control •Cost & Schedule Management•Risk Management•Value add / Efficiency•Stakeholder Management
+Planned Estimates for each phase:•Proposed schedule •Resource requirements•Cost estimate•Risk assessment
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Software Development Industry
+ProgrammingInternetComputers
+Software Development Industry OutlookMarket Size value in 2021 : ~430 bnRevenue Forecast in 2028 : ~912 bnGrowth rate (2021 – 2028) : CAGR of ~11.3% 
+Source: Business Software And Services Market Report, 2021-2028 (grandviewresearch.com)
+CAGR : Compound Annual Growth Rate
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Management Methodologies
+Source: AGILE PRODUCT AND PROJECT MANAGEMENTA STEP-BY-STEP GUIDE TO BUILDING THE RIGHT PRODUCTS RIGHTMariya Breyter
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Development Projects
+Examples: •AI solutions development & deployment.•Business workflows automation•Various industries (IT, Construction, Manufacturing, Aerospace, Warehouse, Logistics, etc.).•Others.
+Engineer is leadDeliverables: •Workflow development and deployment.•Evaluation.•Operationalization. 
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Development Projects
+Business UnderstandingData UnderstandingData PreparationModel DevelopmentEvaluation
+AI Development Lifecycle Stages
+Project Manager could be from either of the disciplines: •Computer Science•Data Science•Information Technology•Other discipline with knowledge and interest in data
+Operationalization
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence (AI)High level Perspective
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence (AI): Definition (Simplified)
+Artificial intelligence, orAI, is a technology that enables computers and machines to simulate human intelligence and problem-solving capabilities.
+How does AI work?In general, AI systems work by ingesting large amounts of labelled training data, analysing that data for correlations and patterns, and using these patterns to make predictions about future states.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence
+Deep LearningMachine Learning
+LLMsGenerativeAI
+Discriminative
+Artificial Intelligence
+•Machine Learning•Deep Learning•Generative AI•Large Language Models (LLMs)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management or AI Project?High level Perspective, introduction
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence and Project ManagementOur focus in this course
+Pexels.com
+AI in Project ManagementAI Project
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence and Project Management
+AI ProjectStandalone project
+Project (Can be of any industry or type)Construction ProjectResearch ProjectOther Type ofProjectStandalone projectStandalone projectStandalone project
+All projects will have different Workflow & implementation methodologies
+Project Management
+All projects will have commonalities: Scope, Cost, Schedule, Quality, Risk, Resources, Reporting, Lessons, etc.  
+Our Focus AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project ManagementHigh level Perspective, introduction
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence and Project Management
+How does Artificial Intelligencerelate to Project Management?
+•Machine Learning•Deep Learning•Generative AI•Large Language Models (LLMs)
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence: Relation to Project Management•Machine Learning•Deep Learning•Generative AI•Large Language Models (LLMs)
+•Machine Learning•Risk Management: Predict potential risks and issues based on historical data and current trends.•Resource Optimization. •Schedule tracking. •Cost Management (Budget and Actual).•Quality Control.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence: Relation to Project Management•Machine Learning•Deep Learning•Generative AI•Large Language Models (LLMs)
+•Deep Learning•Risk Management.•Natural Language Procession (NLP): Automated reporting from the data. •Image and Video Analysis (Site Monitoring & Quality Control)- performance deviation.•Resource matching (people and machinery).•Fraud detection in financial reports.
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence: Relation to Project Management•Machine Learning•Deep Learning•Generative AI•Large Language Models (LLMs)
+•Generative AI / LLMs•Automated Documentation and Reporting (Plans, Proposals). •Emails, Meetings Agenda, and Meetings key pointers.•Project scenarios planning and Simulation (different outcomes, resource allocation, etc.).•Customized training materials
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence (AI)
+Why to use AI in project execution? 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Out of projects across the industries, 12% of the projects fails (PMI 2021).•35% of the projects over run costs or experience scope changes. •Indicates that there is a huge potential to improve project execution. •Commonly identified causes by Najdawi and Shaheen, 2021: •Outdated or not relevant technologies used on the projects. •Ineffective project management methodologies. •Poor leadership.•Lack of commitment from stakeholders. 
+•Can AI help? 
+AI in Project Management: Is there a need?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Market DataSource: Statista
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Machine Learning Market Size and DataSource: Statista
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence (AI) Market in the Asia-Pacific (APAC):
+Area (segment)20252031 (forecast)Machine Learning38.45 billion USD207.27 billion USD
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Market size of the artificial intelligence (AI) market in the Asia-Pacific region from 2022 to 2031 (in billion U.S. dollars)AI market size APAC 2022-2031, by segment
+Note(s):APAC; 2022 to 2031Further information regarding this statistic can be found on page 8.Source(s): Statista Market Insights; Statista; ID 1622820
+050100150200250300350400
+2022202320242025202620272028202920302031
+Market size in billion U.S. dollars
+Machine Lear ningNatu ral Language ProcessingAutonomous & Sensor TechnologyComputer VisionAI Robotics
+2
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+CAGR of AI Spending in APACSource: Statista
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Investment in AI and GenAI 
+In the Asia-Pacific region, the software and information services industry leads in absolute amount of investment on AI and GenAI in 2025, at around 36.8 billion U.S. dollars. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Compound annual growth rate (CAGR) of AI spending in the Asia-Pacific region from 2023 to 2028, by selected industryCAGR of AI spending APAC 2023-2028, by industry
+Note(s):APAC; 2023 to 2028Further information regarding this statistic can be found on page 8.Source(s): IDC; ID 1620295
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+TelecommunicationsBankingSoftware and information s ervicesRetailProfessional and personal services
+CAGR 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Digital Transformation Market Size and DataSource: Statista
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Digital Transformation
+Digital transformation refers to the adoption of digital technology to transform business processes and services from non-digital to digital. This encompasses, among others, moving data to the cloud, using technological devices and tools for communication and collaboration , as well as automating processes. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Digital TransformationWhat is driving digital transformation? •COVID-19 pandemic increased the digital transformation. •Customer demand and the need to be on par with competitors. •Responding to changing markets and enhance innovation.
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Spending on digital transformation technologies and services worldwidefrom 2017 to 2027 (in trillion U.S. dollars)Digital transformation spending worldwide 2017-2027
+Note(s):Worldwide; 2017 to 2024Further information regarding this statistic can be found on page 8.Source(s): IDC; Statista; ID 870924
+0.9611.181.311.591.92.22.533.43.9
+0.00.51.01.52.02.53.03.54.04.5
+20172018201920202021202220232024*2025*2026*2027*
+Spending in trillion U.S. dollars
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Software Market DataSource: Statista
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Enterprise SoftwareWhat is enterprise software?  •Enterprise software is the software primarily used to satisfy various business needs.•It helps companies meet their goals by boosting enterprise productivity and efficiency – for example through helping to track and improve supply chains, interact with customers, or manage resources. •There are a wide range of applications under the term “enterprise software”, with accounting software, office suites, human resource management (HRM) systems, and enterprise resource planning (ERP) being a few of them. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Enterprise SoftwareHow do most global enterprises deploy their ERP solutions?  •Enterprise resource planning (ERP) is a type of software organizations used to manage day-to-day business activities like supply chain operations, accounting, or project management, among others. •These software solutions can be deployed through different models. •Most companies worldwide report on-premise solutions as their primary method for ERP deployment followed by cloud ERP systems and software-as-a-service solutions. •Over 30 percent of companies worldwide reported cost overruns in their ERP implementation projects as of 2021. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Revenue of the software market worldwide from 2016 to 2027, by segment (in billion U.S. dollars)Software market revenue worldwide 2016-2027, by segment
+Note(s):Worldwide; 2016 to 2021Further information regarding this statistic can be found on page 8.Source(s): Statista; Statista Technology Market Insights; ID 954176
+160.9174.4189.7201.5205.6224.2243.3262.4282.3302.9323.2344.497.51107.4118.6126.5128.5141.4153.5165.3177.7190.6203.4217
+106.8111.8118.2122.2125.5134139143.3147.1150.5153.9156.4
+52.4256.2460.5462.9365.1569.3472.8876.3279.6382.7685.6888.44
+0100200300400500600700800900
+2016201720182019202020212022*2023*2024*2025*2026*2027*
+Revenue in billion U.S. dollars
+Enterprise SoftwareApplication Development SoftwareSystem Infrastructure SoftwareProductivity Software
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Where AI can be used in Projects? AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Project Management Plan•Scope development•Planning and scheduling•Budget development•Cost management •Progress monitoring•Resource allocation & management•Risk assessment & management•Procurement Management•Document control & management•Change management
+AI tools in Project Management: Where to use? (non-exhaustive)•Project Communication•Change management•Vendors/ Suppliers/ evaluation•Sub-contractor evaluation•Progress payments•Financial background checks•Project specifications development•Quality management•Inspections•Trainings•Standard Operating Procedures (SOPs) development. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence: Relation to Project Management
+•Idea Generation and Brainstorming.•Requirement Analysis and Gathering Data: Natural Language Processing (NLP) to analyze client requirements from documents to extract critical needs. •Design Optimization: generate multiple options based on given criteria. •Simulation and Testing: Simulate various design scenarios.•Prototypes, 3D model generation, Virtual and Augmented Reality models. •Design Validation and Verification against specifications, standards, regulations, best practices, etc. •Budget estimation. •Many more…..
+•Machine Learning•Deep Learning•Generative AI•Large Language Models (LLMs)
+•Design Phase
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence: Relation to Project Management
+•Supplier Selection and Evaluation: Based on historical data on supplier performance, unit rates comparison, and market intelligence.•Inventory Optimization: predicting demand fluctuations, reducing the risk of overstocking or stockouts. •Automated Procurement Processes: Purchase orders and sub-contracts drafting. •Suppliers and Sub-Contractors Risk Management / Fraud Detection: monitors financial instability, compliance issues, and geo-political issues to raise early flags.•Many more…..
+•Machine Learning•Deep Learning•Generative AI•Large Language Models (LLMs)
+•Procurement Phase
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence: Relation to Project Management
+•Automated Planning and Scheduling.•Real-Time Tracking.•Automated Reporting. •Process Optimization through identification of deficiencies.•Defect Detection (Quality issues).•Predictive Analysis. •Resource Optimization. •Budget and Cost Tracking. •Many more…..
+•Machine Learning•Deep Learning•Generative AI•Large Language Models (LLMs)
+•Execution Phase
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence: Relation to Project Management•Machine Learning•Deep Learning•Generative AI•Large Language Models (LLMs)
+What else can you think of?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Summary•This is a unique topic helpful to understand the project execution methodologies. •Recorded lectures, in-person tutorials, and class exercises shall be used to deliver this course. Class attendance and participation is marked. •Different standards and approach available to project management.•PMBOK 6thedition is commonly used as a reference in the industry.•Our focus will be AI usage in project management for various industries projects.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+End of class
+Photo by: Ravish M
+Let the journey begin!

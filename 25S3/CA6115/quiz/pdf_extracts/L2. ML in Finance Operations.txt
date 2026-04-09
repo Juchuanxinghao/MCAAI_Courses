@@ -1,0 +1,540 @@
+ML in Finance Operations
+Dr. Eric Tham
+Email: eric.tham@ntu.edu.sg
+
+
+Outline 
+Page 2
+• Types of Machine Learning 
+• Supervised learning methods
+• Logistic Regression, Naive Bayes and 
+Decision trees
+• Evaluation metrics
+• Use cases of Supervised learning methods
+
+Types of ML used in Finance 
+Page 3
+
+
+Key Points of ML Types 
+Page 4
+• Supervised Learning:
+• Learn from labels (a template of true/ false), 
+(yes/no) to make conjectures about new 
+data/ future
+• Unsupervised Learning:
+• Learn from patterns in the data. 
+• Reinforcement learning
+• Learn from experiences and reward system 
+in the environment
+
+Reinforcement Learning
+• Reinforcement learning 
+– How agents learn from the environment and a reward system
+
+
+Supervised Learning
+Page 6
+• Supervised learning is a form of ML that use labelled 
+data to maps input data to the outcome. 
+• Classification & regression are the primary 
+supervised methods. 
+
+
+Some classification models
+Page 7
+• Logistic regression
+• Naïve Bayes
+• Decision tree 
+• Ensemble (meta) models
+ ---- 
+• Neural networks (including deep learning) 
+• Support vector machines (SVM)
+
+Classification Models
+• Egs of classification models
+Logistic Regression
+ Neural network
+ Decision tree
+List of ordered classification rules
+Generally, each method works by 
+minimising prediction errors in 
+the training dataset by adjusting the 
+parameters 
+
+
+How Errors are reduced in training?
+• Method called gradient descent. Parameters are 
+adjusted to reduce the errors ‘going down’ 
+
+Workflow of Classification
+
+
+Steps to do Classification
+• What is needed? DATA
+• Labelled Datasets = training + test sets
+• How does it work? TRAINING
+• Set up some rules (model classifier) to 
+predict (classify) unseen data
+• Are the rules valid? TESTING
+• Test those rules with existing data with 
+established metrics
+
+Steps to do Classification: Dividing Data
+• Divide the total dataset into 2 (or 3) sets:
+– Training data is used for learning the parameters of the model.
+– Test data is used to get a final, unbiased estimate of how well the 
+classifier works.
+o This estimate is usually worse than on the training data or 
+validation data.
+o In production environments, sometimes a validation data set is 
+used. However, that is optional, especially if data is scarce. 
+
+Data Partition
+• There are different ways to split your data into a 
+training set / test set.
+• Resubstitution
+• Hold-out
+• Cross-validation
+• Bootstrap
+Training 
+data
+Test   
+data
+
+
+Data Partition: Re-Substitution & Hold-out 
+1. Re-substitution
+– Use training data as test data. Only used if lack of data.
+2. Hold-out
+– Split data into two parts.
+– Use the larger part (~80%) for training and the other for testing (~20%)
+– Most common method
+Z1 Z2
+
+Data Partition: n-fold cross-validation
+evaluate statistics for each iteration
+and then compute the average
+dataset
+train &
+test #2
+train &
+test #3
+reoder
+arbitrarily
+train
+test
+Training data
+Test data
+• Divide data into n equal parts. Sequentially, use n-1 for 
+training and one part for testing. Average out the test results. 
+• To resolve uneven data granularity
+
+Data Partition: Bootstrapping
+• Data is randomly 
+sampled(from 
+same pool) 
+repeatedly for 
+training/ test. 
+• Test results are 
+averaged out 
+again.
+
+Common Issues in Classification
+• Representativeness of the data set
+• Hopefully, test set is representative for operational data 
+• Scarce data: major problem
+• Data is expensive, or scarce in Finance. 
+• You cannot do trial experiments in finance
+•  Common mistakes
+• Use Learning (Training) data as Test data
+• What’s called re-substitution accuracy (sometimes 
+unavoidable)
+
+Confusion Matrix (2x2)
+• Accuracy : Proportion of correctly classified examples.
+•  𝐴𝑐𝑐𝑢𝑟𝑎𝑐𝑦 =
+𝑇𝑃+𝑇𝑁
+𝑇𝑃+𝐹𝑃+𝐹𝑁+𝑇𝑁
+Lists out all the possible 
+contingencies for model 
+output. Also called 
+contingency table
+
+Types of Errors
+2 types of errors that exist:
+- You guessed Positive but 
+it is actually Negative
+- You guessed Negative it is 
+actually Positive
+
+Recall/ Sensitivity/ True Positive Rate
+• Recall/ Sensitivity/ TPR = 
+• TP / (TP + FN)
+• Proportion of correctly detected positive examples
+• Sensitivity/ recall is an important criterion when the 
+infection rate is low. (very few positive). 
+• The test needs to be v. ‘sensitive’ (cautious) in order to 
+pick up the few positively infected. 
+Contingency table (2X2)
+TNFNNo
+FPTPYes
+NoYes
+Actual class
+Predicted 
+class
+
+
+Precision
+• Precision = TP / (TP + FP)
+• proportion of cases predicted as positive are indeed positive. What 
+proportion of predicted positive cases are actually positive?
+• Use in marketing, stock price prediction
+Contingency table (2X2)
+TNFNNo
+FPTPYes
+NoYes
+Actual class
+Predicted 
+class
+
+
+No free lunch in ML
+22
+• No single algorithm is universally best for all problems.
+• You cannot minimise both error types simultaneously—
+reducing one usually increases the other.
+• Due to threshold tuning (stringency)
+• Lower threshold → catch more defaults (fewer false 
+negatives) but more false alarms (more false positives).
+• Higher threshold → fewer false alarms but more misses.
+• The “best” trade-off depends on the economic cost function 
+(e.g., in lending, missing a default is usually much costlier 
+than wrongly rejecting a safe borrower).
+
+Receiver Operating Characteristic (ROC)
+23
+• Plots the True Positive 
+Rate (TPR) against 
+the False Positive Rate 
+(FPR) at various 
+classification thresholds. A 
+common summary metric 
+for a ROC curve is 
+the Area Under the Curve 
+(AUC). Best = 1.
+• Method to determine the 
+‘overall effectiveness’ of 
+the model (considering 
+trade-off).
+
+
+Key Issue on Classification (ML in general)
+• Model learns too much about training data – on its fine 
+details (noise)
+• Tailored shirt compared to a shirt from Uniqlo.
+Overfitting
+Can an overfitting 
+model generalise 
+in finance?
+
+Over-fitting vs under-fitting
+Page 25
+Bias vs Variance
+
+Overfitting vs. Underfitting
+Source: http://cv-tricks.com/machine-learning/bias-variance-trade-off/
+• Guess few times but get 
+them right OR almost right 
+every time?
+
+Dive into (Some) Classification Models
+27
+• In practice, code to use different classification models 
+in Python is ‘replicable’.
+• Using sci-kit library. Look at in example code:
+• Decision tree
+• Naïve Bayes
+• Logistic regression 
+• Different models have their own strengths or 
+weaknesses (of the evaluation metrics).
+
+Defining a Decision Tree
+28
+A decision tree is a decision 
+support recursive partitioning 
+structure that uses a tree-
+like model of decisions 
+reflecting their possible 
+outcomes.
+
+Using Decision Trees for loan approvals
+Page 29
+• Transparent & easy to understand with series of ‘rules’ . 
+Should the loan application be rejected?
+Decision nodes
+Leaf nodes
+Branches
+Should you reject a loan 
+application for a man 45 
+year old with an excellent  
+credit rating?
+
+Strengths & Weaknesses
+Strengths
+• Easy-to-understand with a set of production rules.
+•  Applied to real problems.
+•  Make no prior assumptions about the data.
+•  Able to process both numerical and categorical data.
+•  Comparatively faster than Neural Networks.
+Weaknesses
+• Limited to one output attribute at a time
+• Unstable (if one data changed, whole tree changes)
+• Trees created from numeric datasets can be complex.
+30
+
+Naïve Bayes  
+Page 31
+• Benchmark for ML method. Based on Bayes Rules – 
+a statistical rule. 
+• Based on observed traits (eating kimchi ), what is 
+the likelihood of label ‘X’ (Korean)? 
+• For eg. About 10% of people eat kimchi. But almost 
+~95% of Koreans eat kimchi. So if we find someone 
+who eats kimchi, can we say he is likely Korean?
+
+Logistic Regression
+Page 32
+• 1st generation technique. A statistical method with a 
+linear combination of the predictor variables. 
+
+
+Assumptions of the Logistic 
+RegressionModel
+• Logistic regression does not assume alinear 
+relationship between the dependent and 
+independentvariables.
+• The dependent variable have 2 categories.
+• The independentvariablesneed not be interval,nor
+normally distributed, nor linearly related, nor of
+equal variancewithin eachgroup.
+• The categories (groups) must be mutually exclusive
+and exhaustive; a case can only be in one group
+and every case must be a member of one of the
+groups.
+© Copyright National University of Singapore. All Rights Reserved Page 7 of38
+
+Basics of Underlying Theory
+• For any set of predictive attributes,outcomesare assumedto be  
+independently distributed binary (Bernoulli)random variables with
+probability of successp
+• p variesbetween 0 and 1 and is a function of predictor variables. The 
+logistic regression provides the odds of being 1 to 0. 
+• Odds = (p/1-p)
+• T o give a classification, the estimated probability of being a 1can be  
+calculated based on a cut-off probability.For example, 0.5 can  be
+used as a cut-off probability.
+
+Perceptron (Basic neural network)
+35
+• Basic building block of deep learning
+• 1960s : a neuron. Each x’s come with a 
+weight (or parameter) to be adjusted
+• Threshold activation function
+Axon
+Terminal Branches 
+of AxonDendrites
+S
+x1
+x2
+w1
+w2
+wn
+xn
+x3 w3
+Output
+
+Deep Learning (DL) Network
+36
+• The neurons can be stacked horizontally and/or 
+vertically to form a deep network. Finally an 
+output.. Huge number of weights
+
+Pros and Cons of DL Methods
+37
+No Advatanges Disadvantages
+1 Accurate Takes a long time to train with high 
+computational needs
+2 Performs well on different 
+types of and complex data
+Could overfit due to large number of 
+parameters
+3 Black box problem
+
+
+Use cases of Supervised learning 
+methods
+Page 38
+• Used for general prediction in classification 
+and regression.
+• Loan applications
+• Sentiment Analysis
+• Trading algorithms
+• Customer churn prediction …etc…
+Can you think of any other?
+
+Conclusion 
+Page 39
+•ML Types in Finance:
+•Supervised (classification/regression with labels), 
+•Unsupervised (pattern discovery), 
+•Reinforcement Learning (agent–reward framework).
+• Supervised Learning Focus:
+•Logistic Regression, 
+•Naïve Bayes, 
+•Decision Trees, 
+•SVMs, Neural Networks
+• Evaluation Metrics:
+Confusion Matrix, Precision, Recall (TPR), ROC & AUC; 
+trade-offs depend on economic cost of errors (no free 
+lunch).
+
+Conclusion 
+Page 40
+• Key Risks:
+•Scarce & noisy financial data, 
+•non-stationarity, 
+•overfitting vs underfitting (bias–variance trade-off).
+• Model Insights:
+•Decision Trees = transparent & explainable; 
+•Naïve Bayes = simple benchmark; 
+•Logistic Regression = interpretable baseline; 
+•DL = powerful but prone to overfitting.
+• Finance Use Cases:
+Loan approval, fraud detection, customer prospecting, sentiment 
+analysis, trading & asset management.
+• Core Takeaway:
+In finance, generalisation and validation matter more than in-
+sample accuracy—model choice and thresholds must align with 
+business costs and explainability needs.
+
+Case Study in Finance: Loan approval
+41
+• Scenario - Loan approval:
+• Suppose a bank built a model to approve application 
+for credit loans. The bank is conservative in granting 
+loans approval. The model identifies positive as 
+defaulters and negative as non-defaulters. 
+• Discuss which metrics are most important to evaluate 
+models.
+________________________________________________
+_________________________________________________
+__________________________________________________
+__________________________________________________
+
+Case Study in Finance: Customer Prospecting
+42
+• Scenario – Customer prospecting:
+• Suppose a model built for the marketing team to 
+approach clients for prospective leads e.g. to use their 
+services. The model does not want to ‘pester’ 
+customers too much and identifies positive as those 
+keen to engage their services. 
+• Discuss which metrics are most important to evaluate 
+models.
+________________________________________________
+_________________________________________________
+__________________________________________________
+__________________________________________________
+
+Case Study: Funds Using ML Models
+43
+Background
+In financial modelling, analysts often seek models that explain 
+or predict returns, credit defaults, or frauds. With vast 
+amounts of data—tick-by-tick prices, corporate financials, 
+alternative datasets—it is tempting to fit highly complex 
+models.
+However, financial data is notoriously noisy, non-stationary, 
+and subject to regime shifts. A model that fits historical data 
+extremely well may fail in real markets. This is the essence of 
+overfitting—capturing noise rather than signal.
+
+Discussion: Using ML in Asset Management
+44
+Scenario
+An asset management firm, AlphaQuant, designs a stock-selection model for its 
+equity long/short fund.
+Dataset: 15 years of daily data on S&P 500 constituents (prices, accounting 
+ratios, analyst recommendations).
+Target: Predict whether a stock will outperform the index over the next month.
+Model chosen: A deep neural network with 12 hidden layers, trained on 
+thousands of engineered features (momentum lags, valuation ratios, sentiment 
+scores, etc.).
+Performance in sample:
+Training accuracy = 99%
+Backtest Sharpe ratio = 3.5
+Performance out of sample:
+Test accuracy = 52% (close to random guessing)
+Sharpe ratio collapses to 0.2
+
+Discussion
+45
+What Happened?
+Too many parameters vs. too little true signal: Finance rarely has strong 
+stable patterns—models easily latch onto noise.
+Data snooping bias: Repeated feature engineering and backtesting 
+effectively mined spurious correlations (e.g., “stocks with tickers starting 
+with M outperformed in 2014”).
+Non-stationarity: Relationships that held in the past broke down as macro 
+conditions and market structure evolved.
+Lack of cross-validation: AlphaQuant optimised hyperparameters using 
+the same period, inflating in-sample performance.
+
+Discussion
+46
+Discussion Questions
+• Why is overfitting particularly acute in financial datasets 
+compared to, say, image recognition?
+• How could AlphaQuant have improved its validation 
+framework to avoid misleading backtests?
+• What techniques exist to combat overfitting in finance?
+You may use ChatGPT and the Internet 
+for due diligence
+
+Quiz Time (together)
+
+Quiz to test your understanding
+1. A bank decides to use decision trees to approve or disapprove credit card 
+applications. For someone who has an excellent credit rating and age 31-40, this 
+application is most likely to be:
+a)  Approved
+b)  Not approved
+c)  Cannot tell
+d)  Need the income information as well 
+
+
+Quiz to test your understanding
+Some (one) key disadvantage of using DL for prediction is: 
+a. Tends to overfit
+b. Ability to model cross interaction effects
+c. Ability to model non-linear effects
+d. (b) and (c)
+
+Quiz to test your understanding
+Model Overfitting in Finance
+Why is overfitting a particularly serious problem in financial machine learning models 
+compared to image recognition?
+a) Financial data are stable and easy to model
+b) Financial data are noisy and non-stationary
+c) Markets always follow predictable cycles
+d) Overfitting does not affect financial models significantly
+
+Quiz to test your understanding
+The Receiver Operating Characteristic (ROC) curve plots which of the following pairs 
+of metrics?
+a) Precision vs. Recall
+b) True Positive Rate vs. False Negative Rate
+c) True Positive Rate vs. False Positive Rate
+d) Sensitivity vs. Specificity
+What is the use of the ROC?

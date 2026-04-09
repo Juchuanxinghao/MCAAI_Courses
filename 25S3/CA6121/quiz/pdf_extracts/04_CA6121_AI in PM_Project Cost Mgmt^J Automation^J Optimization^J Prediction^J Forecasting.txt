@@ -1,0 +1,381 @@
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Cost Management, Optimization, Prediction, Forecasting 
+Lecture 4: CA6121 AI in Project Management
+Presented by Dr Ravish Maqsood
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder.. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+OBJECTIVES
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Overview of Project Cost Management•Prediction and forecasting•Earned Value Management (EVM)•Cost baseline & project funding•AI tools in project management (cost)•Challenges / Benefits of using AI in cost estimation•Case Studies
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Cost ManagementProject Cost Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Cost Management Processes1.Plan Cost Management2.Estimate Costs3.Determine Budget4.Control Costs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Cost Management Plan: Key Inputs1.Project Management Plan•Schedule management plan•Risk management plan
+2.Project Charter3.Enterprise Environmental Factors•Market Conditions (Products, Source and availability).•Currency exchange rates.•Published data.
+4.Organizational process assets•Internal procedures.•Reporting, databases, accounting codes etc.
+Inputs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Cost Management Plan: Components•Cost Management Approach & Processes•Roles and Responsibilities for Cost Management Activities•Reporting Formats •Units of measure•Level of precision  (decimal round up 100.49 to 100)•Level of accuracy (+/-10% or +/-25% ??)•Procedures to be followed•Controls threshold•Performance Management (Earned Value Management –EVM)•Additional Details (Strategic funding, currency fluctuations)
+Outputs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Estimate CostProject Cost Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Preparing Project Cost Estimates•Cost Estimates are derived from Cost of Resources and includes: •Materials•Equipment•Labor•Services•FacilitiesItemType of EstimateAccuracy RangeRemarks1Rough order of Magnitude+/- 25% or higherEarly-stage estimate2Definitive Estimate+/- 5% to +/-10%More clarity on resources by this point
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Inputs to Cost Estimate•Project Scope Statement•Work Breakdown Structure (WBS) information on deliverables and work packages•Project Schedule•Project Resources•Market Conditions •Published commercial informationandCost Databases•Organization templates, Historical Information, Lessons•Risk Register (information on uncertainties and un-known)
+Inputs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Cost Estimating Processes•Project Team is involved•Project requirements are clearly understood•Cost Estimate can be developed using: •Manually•Software Cost Estimating MethodTop-Down Estimating MethodBottom-up Estimating Method
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Top-Down Estimating MethodTop-Down Estimating Method
+•Relies on cost information from past projects•Normally used at the conceptual phase•Helps in making strategic decisions when detailed information is not available•Method is Quick and Less expensive•Estimate level of Accuracy is Low
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Bottom-up Estimating MethodBottom-up Estimating Method
+•Builds up the cost from the cost of the lowest component•Method is used when detailed information is available•WBS (Work Breakdown Structure) is done•Work Packages are known•Resource requirements can be established•Method is time consuming and more expensive•Estimate level of Accuracy is High
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Bottom-up Estimating MethodBottom-up Estimating Method
+Following are possible ways to develop Bottom-up Estimates: •Direct Approach •Parametric Estimating or Ratio Method•Three-Point Estimating
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Bottom-up Estimating MethodBottom-up Estimating MethodDirect ApproachDerive Resource Cost or Work item from the cost components: •Labour•Materials•Equipment•Software / Tools•Overheads•Profits•Contingency
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Bottom-up Estimating MethodBottom-up Estimating MethodParametric Estimating or Ratio MethodThis method uses statistical ration derived from historical information over time to get unit cost of: •Work items•Materials•Services•Example: •Cost per AI Agent development for emails or notes of meeting compilation.•Cost per cubic metre of concrete. 
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Bottom-up Estimating MethodBottom-up Estimating MethodThree-Point Estimating
+•This method also known as PERTMethod (Program Evaluation and Review Technique).•Used when there is some degree of uncertainty about the work.•Uses following three types of estimates:  •Most Likely Estimate, which is based on the realistic-case scenario for the cost of the work item.•Optimistic Estimate, which is based on the best-case scenario for the cost of the work item.•Pessimistic Estimate, which is based on the worst-case scenario for the cost of the work item.
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Bottom-up Estimating MethodBottom-up Estimating MethodThree-Point Estimating•Triangular Distribution: cE=(c0+cM+cP)/3•Beta Distribution Formula below.cE=(cO+4cM+cP)/6cEistheExpectedCostEstimate, cOistheOptimisticCostEstimate, cMistheMostLikelyCostEstimate cPisthePessimisticCostEstimate.
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Estimate Accuracy
+Proposal Submission
+After Details
+FeasibilityBasic Design+/- 20%
+Around +/- 10%
++/- 50%+/- 25%Concept +/- 5% to +/- 10%
+Outputs
+Example 
+FID
+FID: Final Investment Decision
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Determine BudgetProject Cost Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Determine Budget1.Project Management Plan •Cost Management Plan•Resource Management Plan •Scope Baseline2.Project Documents•Basis of estimates•Cost estimates•Project Schedule•Risk Register3.Business documents•Business case (critical business factors including financial success factors)•Benefits management plan (NPV calculations, timeframe)4.Agreements5.Organizational process assets
+Inputs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Determine Budget: Tools and Techniquesa.Expert Judgement and Experienceb.Cost Aggregationc.Data Analysis•Reserve Analysis
+d.Historical information reviewe.Funding Limit Reconciliationf.Financing
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Budget Template
+Source: Introduction to Project ManagementA Source Book for Traditional PM BasicsDavies A. Igberaese
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Determine Budget: Tools and Techniquesa.Cost Baselineb.Project Funding Requirementsc.Project Documents Updates•Cost Estimates•Project Schedule•Risk Register
+Outputs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Control CostProject Cost Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Control Costs
+It’s a process of Monitoring the status of the project to update the project costs and managing changes to the cost baseline.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Control Costs1.Project Management Plan•Cost Baseline•Cost Management Plan•Performance Measurement Baseline2.Project Documents•Lessons register3.Project Funding Requirements4.Work Performance Data•Project Progress•Cost authorized and incurred5.Organizational process assets•Procedures updates•Lessons•Tools 
+Inputs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Control Costs: Tools and Techniquesa.Expert Judgement•Variance analysis•Earned value  analysis •Forecasting •Financial analysis 
+b.Data Analysisc.To-Complete Performance Index (TCPI)d.Performance Management Information System (PMIS)
+Tools & Techniques
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Control Costs: Tools and Techniquesb.Data Analysis•Earned Value Management (EVM)•Planned Value•Earned Value•Actual Cost•Variation Analysis•Schedule Variance•Cost Variance•Schedule performance index•Cost performance index•Trend Analysis•Charts•Forecasting•Reserve Analysis
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Cost prediction, optimization, and forecastingProject Cost Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM)
+Earned Value Management (EVM) is a methodology that combines scope, schedule, and resource measurements to assess project performance and progress.
+It integrates scope baseline and cost baseline, along with the schedule baseline to form the performance management.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM)Earned Value Management (EVM) develops and monitor 3 key dimensions for each work package and control account: 
+1.Planned Value (PV)2.Earned Value (EV)3.Actual Cost (AC)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM)Variances from approved baseline are also monitored: 1.Schedule Variance (SV)2.Cost Variance (CV)3.Schedule Performance Index (SPI)4.Cost Performance Index (CPI)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Determine Budget: Tools and Techniquesa.Work Performance Information•Calculated CV, SV, CPI, SPI, TCPI, VAC values for WBSb.Cost Forecasts•Estimates At Completion (EAC) or a Bottom-up EAC documented and communicatedc.Change Requestsd.PMP Updates•Cost Baseline •Cost Management Plan•Performance management baselinee.Project Documents Updates•Assumption log•Basis of estimates•Cost estimates•Risk register
+Outputs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM) ExampleA company plan to install new computers supply and install by the supplier as follows: Day Work Person required (no.)Planned Rate ($)Planned Cost ($)1Setup1$1000$10002Installation2$1000$20003Installation2$1000$20004Installation2$1000$20005Installation2$1000$20006Installation2$1000$20007Final handover1$1000$1000How do we set this information to monitor?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM) ExampleSet Up
+Day 1Day 2Day 3Day 4Day 5Day 6Day 7
+Install
+Handover
+Planned Cost
+$1000
+$2000$2000$2000$2000$2000
+$1000
+Planned Cost
+Planned Cost
+Cum Cost(PV) Planned Value$12000$3000$5000$7000$9000$11000$1000
+Activities
+Rate Budget$1000 person per day
+This was the Plan
+But what happened 
+in actual?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM) ExampleACTUAL Scenario: Company could not find person at planned rates:Work done 1stday is 100% and 2ndday 50% by 2 people. Day Work Person required (no.)Planned Rate ($)Planned Cost ($)ActualRate ($)Actual Cost ($)1Installation1$1000$1000$1100$11002Installation2$1000$2000$1500$30003Installation2$1000$20004Installation2$1000$20005Installation2$1000$20006Installation2$1000$20007Final handover1$1000$1000How do we represent this information?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM) Example
+Calculate: 1.Schedule Variance (SV)2.Cost Variance (CV)3.Schedule Performance Index (SPI)4.Cost Performance Index (CPI)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM) Example
+Planned Value (PV)
+$1000
+$4000
+$6000
+$8000
+$10000
+$2000$3000
+Day 1Day 2Day 3Day 4Day 5Day 6Day  7Day  8
+$5000
+$7000
+$9000
+$11000$12000
+Set Up
+Day 1Day 2Day 3Day 4Day 5Day 6Day 7
+Install
+Handover
+Planned Cost
+$1000
+$2000$2000$2000$2000$2000
+$1000
+Planned Cost
+Planned Cost
+Cum Cost(PV) $12000$3000$5000$7000$9000$11000$1000
+Activities
+EV$1000$1000Work Done100%50%
+Cum (EV)$1000$2000
+Actual CostAC$1100$3000Cum (AC)$1100$4100
+Rate Actual$1100 1st day and $1500 person per day
+Rate Budget$1000 person per day
+Actual Cost (AC)Earned Value (EV)Planned Value (PV)
+Actual Cost (AC)
+Earned Value (EV)
+Cost Variance (CV)Schedule Variance (SV)
+Cost Variance (CV)        =  EV - ACSchedule Variance (SV) =  EV - PV +ve value is good as it means you have earned more than planned.-ve value is BAD as it means you are falling behind.=> $2000 – $4100  = -$2100=> $2000 – $3000  = -$1000
+Cost Performance Index (CPI)         =  EV / AC    => $2000/$4100 = 0.48Schedule Performance Index (SPI) =  EV / PV     => $2000/$3000 = 0.67< 1 is not good, means you are behind
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Forecasting
+Forecast is developed to: Estimate At Completion (EAC) that may differ from  Budget At Completion (BAC).EAC is typically based on: Actual Costs (AC) incurred to date for the work completed + (Plus) Estimate To Complete (ETC)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Forecasting
+Figure 5-24. To-Complete Performance Index (TCPI)
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Forecasting$12000
+$1000
+$4000
+$6000
+$8000
+$10000
+$2000$3000
+Day 1Day 2Day 3Day 4Day 5Day 6Day  7Day  8
+$5000
+$7000
+$9000
+$11000Actual Cost (AC)Earned Value (EV)Planned Value (PV)
+Actual Cost (AC)
+Earned Value (EV)
+Planned Value (PV)Cost Variance (CV)Schedule Variance (SV)
+$13000 Estimate At Completion (EAC)
+Estimate To Complete(ETC)
+How to Calculate EAC?(BAC)
+Estimate AT Completion => EACBudget AT Completion   => BACEstimate To Complete    => ETC
+Budget ATCompletion(BAC)
+Earned Value (EV)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Forecasting1.EAC forecast for ETC work performed at budgeted rate.When the work is to be completed at Budgeted Rate. •whatever happened day 2 is only one time scenarioand now onwards the project will fall back on budgeted rate.
+EAC = AC + (BAC – EV)              (or AC + ETC)          = $4100 + ($12,000-$2000)         = $14,100Means if we continue current scenario, we would be spending $14,100 to complete the project.  
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Forecasting$12000
+$1000
+$4000
+$6000
+$8000
+$10000
+$2000$3000
+Day 1Day 2Day 3Day 4Day 5Day 6Day  7Day  8
+$5000
+$7000
+$9000
+$11000Actual Cost (AC)Earned Value (EV)Planned Value (PV)
+Actual Cost (AC)
+Earned Value (EV)
+Planned Value (PV)Cost Variance (CV)Schedule Variance (SV)
+$13000
+Estimate At Completion (EAC)
+Estimate To Complete(ETC)
+(BAC)
+Estimate AT Completion => EACBudget AT Completion   => BACEstimate To Complete    => ETC
+Budget ATCompletion(BAC)
+Earned Value (EV)
+(EAC)
+EAC = AC + (BAC –EV)          or AC + ETC = $4100 + ($12,000-$2000)= $14,100
+$14100
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Cost Baseline & Project FundingProject Cost Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Budget Buildup: Initial Budget, Cost Baseline, Work Cost Estimate
+Source: PM@BOK 8th Edition  
+Reserves Managed Implicitly
+Cost BaselineWorkCost Estimates
+ContingencyReserve
+Budgeted Finance
+Project Budget Component
+Total Amount
+Initial Budget 
+ManagementReserve
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Budget Buildup: Initial Budget, Cost Baseline, Work Cost EstimateReserves Managed Explicitly
+Cost BaselineWorkCost Estimates
+ContingencyReserve
+Budgeted Finance
+Project Budget Component
+Total Amount
+Source: PM@BOK 8th Edition  
+Initial Budget 
+ManagementReserve
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Cost Baseline
+Source: PM@BOK 6th Edition  
+Management Reserve
+Time
+Cumulative Values
+Project Budget
+BAC(Budget @ Completion)
+Expenditures
+Cost Baseline
+Funding Requirements
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Tools in Project ManagementHigh level Perspective
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management•Using AI to review the Cost Data. •Review against past projects. •Identify the Risk Profile on this project calling for RFP . •Review the cost in compliance to the policies. 
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Machine Learning in Project ManagementEstimating
+•Analysis of past projects and create a new estimate for future projects. •Challenge is to build the accurate data set
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Machine Learning in Project ManagementCost Estimates:Can build up the estimates using the data on: •Resource availability •Resource Dependencies•Resource Durations•Project Constraints•Parallel working•Fast tracking•Additional resources
+Number of alternative scenarios possible for the given information & priorities
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management•Cost optimization.•Review the scope and optimize etc. •Baseline Cost formats and usage of available AI Tool. •Any changes will have some impact on the project cost. •Creating a workflow to review the impact. •Change request model can be embedded with approval processes. 
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management
+https://www.dartai.com/blog/how-ai-can-automate-project-cost-estimation
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Challenges using AI in Cost EstimationProject Cost Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Cost Estimation: Challenges
+•Resistance to change. •Availability of data due to confidentiality.•Accuracy of the output which needs more human intervention. •Lack of properly built and calibrated model.•Insufficient records in training or testing datasets.•With more complex AI models, more different datasets might be required.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Benefits of using AI in Cost EstimationProject Cost Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Cost Estimation: Challenges
+•Improved accuracy •Improved efficiency. •Enhanced decision-making •Ability to adapt quickly to changing project conditions.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Prediction and forecastingProject Planning & Scheduling / Cost Management / Resource Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Prediction and forecasting
+•Earned Value Management covers prediction and forecasting. •Any changes may have an impact on schedule, cost, risk, and resources. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Studies AI in Project Management (Not in AI Project)AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study AACase Study: Development of Project Cost PlanScenario:GenAI is used to generate the business case documentation.Tools used:LLM via ChatGPTConcerns:•Confidential information data could not be used. •Need human intervention to review the outputs.•Output was not in the existing format available in the company. •Project Manager still needed time to review the outcome. Solutions:•Inhouse LLM (ChatGPT similar) model will help to resolve confidentiality issues. •Implement human-in-the-loop review for AI alerts•Provide training to build trust among workers
+AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study BBCase Study: Calculate EVM (Earned Value Management)Scenario:GenAI is used to generate the business case documentation.Tools used:LLM via ChatGPTConcerns:•Generation of Chart needed more interfaces. •AI Agent would be of better help. •Confidential information data could not be used. •Need human intervention to review the outputs.•Project Manager still needed time to review the outcome. Solutions:•Inhouse LLM (ChatGPT similar) model will help to resolve confidentiality issues. •Provide training to build trust among workers
+AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Student Exercise 3•Perform a search or collate your own personal experience on Cost Estimation or EVM. Please elaborate your understanding where AI can help in the whole process from Project Management perspective. •Any industry.•Any location. •Any type of project (IT, Construction, Pharma, etc.) Prepare your response and submit via Submission Link Provided Separately.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+End of class
+Photo by: Ravish MSingapore

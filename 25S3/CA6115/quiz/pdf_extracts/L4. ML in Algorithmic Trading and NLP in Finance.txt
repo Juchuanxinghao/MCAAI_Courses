@@ -1,0 +1,541 @@
+ML in Algorithmic Trading/ 
+NLP in Finance
+Dr. Eric Tham
+Email: eric.tham@ntu.edu.sg
+
+
+Page 2
+• How is NLP used in Finance
+• Sentiment analysis in finance
+• What is Algorithmic Trading?
+• Technical Indicators in Finance
+• How TA is enhanced with AI/ML
+Outline
+
+Page 3
+• Financial trading uses lots of data:
+• Market data
+• P/E, P/B ratios etc. (largely numerical in 
+nature)
+• New types of data – 
+• Unstructured data (text)
+• Company reports & news
+• Social media
+• Imagery data (satellite data)
+• Sound data (voice transcripts)
+Alternative Data in Finance
+
+Text with Natural Language Processing
+Page 4
+• NLP is the computational quantification of text 
+with AI to elicit insights like ‘what’ , ‘where’, ‘who’ 
+from unstructured data eg text
+• Precursor to LMMs
+
+
+Sources of Text Data
+Business
+processes News
+Yahoo 
+MSGs
+Emails
+Contracts
+Customer  
+call 
+feedback
+Analysts’ 
+reports
+Memos
+Manuals
+Legal 
+documents
+Transcripts
+Reports
+FED 
+minutes
+Etc.
+Web pages  
+(news, 
+reports,etc.
+Social
+media
+data
+And many 
+more…
+
+
+Text as Data
+Page 6
+• Computers read only numbers. How do you 
+convert the text into numbers? 
+‘Structured’ dataCorpus
+
+Convert Text to Numbers : 
+Bag of Words Approach
+Page 7
+• BOW: Bag of words. Simple counting of no of words 
+in the documents to form a term-document matrix
+• Pros:
+• Efficient: words surmise the meaning of the docs
+• Cons: language is only language if the words are 
+used in a particular order. This order is lost
+
+Tokenisation
+Page 8
+• Use tokens not words. Process called tokenization. 
+Breaks down large text into smaller manageable 
+(numerical) units. 
+• Into sub-words, root words (lexeme), or character 
+tokens. 
+• Eg: running -> run – ning
+• Best, better, good -> good
+• Enables AI to understand language/ be efficient across 
+word -> how LLMs break down text into data
+
+Word Embedding
+• A word is recognized by its company. Also called 
+word embedding.
+• Key is how to represent a word with ‘numbers’/ 
+vectors? Dependent on its context.
+
+
+Word Vectors
+Page 10
+• How to represent tokens (words) into numbers that 
+computers crunch?
+• Becomes vectors of numbers.
+
+
+Represent the word as vectors into 
+N-dimensional space
+ For eg., you would 
+expect body part to be 
+closer to food in ‘space’
+document parsing tool library
+
+Large Language Models (LLMs)
+Page 12
+LLMs are 
+GenAI 
+techniques
+LLM explained briefly 
+https://www.youtube.com/watch?v=LPZh9BOj
+kQs 
+
+Different types 
+of LLMs (2025)
+Page 13
+What are they good 
+for? And what do you 
+use?
+
+LLMs SIZE evolution (up to 2024(
+Page 14
+• Very large deep learning models that are 
+pre-trained on vast amounts of data.
+• LLMs are a GenAI technique – generative AI 
+with ever-growing number of parameters. 
+
+
+How do LLMs train? 
+Page 15
+• Data collection – Internet 
+• Model configuration - transformers
+• Model training – optimized weights (parameters)
+• Fine-tuning – human feedback in the loop
+
+
+Underlying technology - Transformers? 
+• A transformer is a type of 
+artificial intelligence model 
+that learns to understand and 
+generate human-like text by 
+analyzing patterns in large 
+amounts of text data.
+Key underlying 
+technology for LLMs. 
+Very complex!
+
+NLP uses in Business Finance
+• Huge use in asset management, compliance, trading, 
+personal banking assistant (chatbots) and RPA.
+• Many mundane tasks for eg in compliance. Names/ 
+entity matching to blacklist, adverse media screening, 
+credit analytics. 
+• Eg. How do traders possibly keep track of all the news 
+incoming? 
+
+
+Sentiment Analysis (Market and Consumer)
+Page 18
+• Markets move by behavioral sentiment – through news.
+• Fear & Greed 
+• Customer sentiment and feedback:
+• Eg. Grab
+
+
+Asset Management
+Page 19
+• Intelligent Tagging:
+• Making data smarter: using natural language 
+processing, text analytics, and data-mining 
+technologies, Intelligent Tagging turns large amounts of 
+unstructured data into precise advantage.
+• Get to know what events are affecting your portfolio, 
+clients and acquisition targets etc. 
+https://permid.org/tagging 
+
+
+KYC/ AML
+Page 20
+• Name checks in KYC/ AML: to verify the identity of a business 
+or entity to prevent fraud, money laundering or in Politically 
+exposed person. Or combat terrorism.
+• Not trival. Permid.org for e.g. initiative by LSEG
+• To escape international sanctions in trade financing:
+
+
+Intelligent Tagging Demo
+Page 21
+Answers questions like what, who, where and types of relationships in articles. 
+
+Refinitiv Framework: Not trivial!
+Page 22
+• Permid https://permid.org/
+• Not trivial. Suppose KYC on Asia Pacific Brewery on customer database 
+suspected on Blacklist. 
+• But who is Asia Pacific Brewery? 
+• Search results indicate multiple https://permid.org/entity-
+search;search=Asia%20pacific%20brewery 
+• Data entries in different offices regionally may have no standard way 
+to data entry. 
+
+Topic Classification
+• Supervised learning method to classify text into its 
+relevant topics. The idea is that common topics tend to 
+have common words. For eg. In finance, lingo like interest 
+rates, trading, options, derivatives are common.
+• The machine learns these words from a reference text, 
+and then apply to new texts to classify them. In finance, 
+category of news, IPO, compliance, bond raising etc.
+
+
+Topics Relevance
+• Knowing the news topics of companies allows you to keep 
+abreast of news types of your competitors, investments, 
+customers etc. and take according action.
+Which companies have 
+recently issued new 
+bonds?
+
+Personal Finance
+Page 25
+• Relationship managers need to obtain sources of 
+information – 
+• investment products, 
+• risk/ returns level etc. to match risk preferences
+• Client Q&A and chatbots
+• Build portfolios
+What are the advantages 
+and disadvantages of using 
+LLMs for the relationship/ 
+wealth managers? 
+
+Comparing between Fundamental and Technical Analysis
+26
+• Financial markets analysis uses either fundamental or technical analyses 
+to predict market movements. 
+• AI/ML can be used with both fundamental and technical indicators for 
+prediction, instead of human intuition. 
+
+What is technical analysis?
+27
+• Technical analysis is a method of predicting the future 
+direction of a market’s price by studying historical chart 
+patterns and formations. 
+• The aim of technical analysis is to identify recognisable 
+patterns to help traders find the right time and price point 
+at which to enter and exit the market. 
+Formulated by Charles Dow, 
+1st editor of WSJ in late 1890s 
+and based on Dow theory History does not 
+repeat but it rhymes  
+
+Based on Dow Theory
+28
+Hypothesis in theory:
+1. The averages discount everything (from demand and supply)
+•  Before that individual prices…
+2. The primary trend is inviolate 
+• Trends consist of tide (primary), wave (secondary) and ripples (minor)
+• Uptrend/ downtrend: 
+
+
+Trends in Dow Theory
+29
+Other trends: secondary trend
+• Corrective phase of the primary trend (retrace ~1/3 to 2/3 of primary 
+trend in 3 -4 months)
+• Minor trends: (~<3 weeks) fluctuations in secondary trend.
+Primary trend
+• Accumulation phase
+• Public participation phase
+• Distribution phase
+
+Primary Trends in Dow Theory
+30
+Accumulation Phase: (consolidation)
+•Occurs after a substantial decline in prices.
+•Typically marked by negative sentiment, 
+bearish media coverage, and frantic selling 
+by uninformed participants.
+•Informed investors take advantage of low 
+prices to accumulate shares gradually, 
+anticipating a bullish reversal.
+Trend Phase:
+•Triggered by expectations of higher prices post-
+accumulation or lower prices post-distribution.
+•Begins with technical breakouts signaling an 
+uptrend, attracting early adopters and savvy 
+investors.
+•Media coverage becomes optimistic, drawing 
+increased public participation.
+•Participants exhibit regret bias, buying on dips and 
+covering short positions as prices rise.
+Distribution Phase:
+•Follows a significant price increase, 
+accompanied by positive company data and 
+bullish media coverage.
+•Uninformed participants exhibit bullish 
+sentiment, leading to a buying frenzy and rising 
+margin debt.
+•Informed investors initiate selling campaigns.
+
+Technical Analysis is widely used
+31
+
+
+Why does it work (or not)
+32
+Pros
+• Relatively ‘easy’ to pick up
+• Range of tools for any security for (usu.) short term
+• History rhymes: greed and fear (primitive emotions). Does 
+it?
+Cons:
+• ‘Voodoo’ science. Not theory based?
+•  Subjective: everyone thinks they are right. But even experts 
+get it wrong!
+• Limited information set from historical mkt data (ignore 
+fundamentals?)
+
+Two Main Types of Technical Analysis
+33
+• Key types of technical analysis:
+• Trend:
+Price/ volume momentum indicators
+Fibonacci sequence
+• Overbought or oversold indicators 
+Support/ resistance levels
+Moving averages convergence divergence
+Augmented with AI/ML + fundamental analysis -> 
+part of arsenal for informed decision
+
+34
+Moving average (MA) Tools:
+ -Technical indicator in finance that smooths out price fluctuations 
+by calculating the average closing price over a specific period.
+• Simple MA
+• Exponential MA  
+Average out over last 50, 22 days etc. (user decide)
+For e.g. you can use ML to determine the best parameters 
+according to backtesting.
+Uses:
+• Indicates trends/ support levels
+• filter out market noise
+Moving Averages
+
+35
+• MACD is a technical analysis indicator used to identify the momentum and 
+direction of a trend. 
+• Comprises 2 technical indicators
+• MACD line = 12 period EWMA - 26-period EMA 
+• Signal line = 9-period EMA of this MACD line  
+• Stages:
+• Convergence (crossover): MACD line crosses above the signal line, it's 
+considered a buy signal. When it crosses below, it's a sell signal
+• Divergence: When the MACD line diverges from the price, it can signal a 
+potential reversal in the market.
+• There is no reason to conform to the parameters set. 
+Moving Average Convergence Divergence (MACD)
+
+36
+Moving Average Convergence Divergence (MACD)
+convergence
+
+37
+Moving Average Convergence Divergence (MACD)
+Bullish divergence
+MACD forms 2 rising lows 
+while price forms 2 falling 
+lows -> bullish
+Bearish divergence
+MACD forms 2 falling lows 
+while price forms 2 rising lows 
+-> bearish
+AI can be used to recognise these images in CV (computer vision)
+
+Indicators & Oscillators: Relative strength index (RSI) 
+38
+• Momentum indicator to measure speed and change of price movements. 
+• To determine overbought or oversold condition. Can be used to assess 
+whether momentum will continue or a reversal would come.
+• Between 0 to 100, formula:
+𝑅𝑆𝐼 = 100 − 100
+1 + 𝑛𝑢𝑝
+𝑛𝑑𝑜𝑤𝑛
+𝑛𝑢𝑝- average of price gains during the n past days
+𝑛𝑑𝑜𝑤𝑛- average of price falls during the n past days
+• Again, ML can be used to optimise the parameters in prediction.
+
+Indicators & Oscillators: Relative strength index 
+(RSI) 
+39
+Like a gas indicator:
+Typically 
+< 30 (oversold)
+> 80 (overbought)  
+
+
+Indicators & Oscillators: Bollinger bands 
+40
+• Determine oversold or overbought conditions. Indication of volatility.
+• Consists: Middle line SMA + upper/ lower bounds (+/- 2 standard 
+deviation)
+
+
+Indicators & Oscillators: Bollinger bands  
+41
+• Some ‘words of wisdom’
+• If the band tightens, possibility of sharp up or down movements 
+(trend)
+• If the band widens, existing trend could lead to consolidation. (ending 
+trend)
+• If prices exceeds upper band -> sign of overbought
+• If prices breaks lower band -> sign of oversold
+• These ‘wisdom rules’ can be written as part of predictors for ML 
+algorithms.
+
+Some practical advice
+42
+• Your trading horizon matters! Intraday? A few days? 
+Usually technical trading not applicable for long term.
+• Technical trading cannot predict events especially on 
+fundamentals. It is largely based on behavior.
+• Sometimes you don’t have to buy/sell. Not trading is also 
+an decision! 
+
+Many GenAIs projects are failing
+LLMs form the backbone of GenAIs technology, but ...
+https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-
+at-companies-failing-cfo/ 
+
+
+Exercise: Discussion on Lessons Learnt
+• Read and hear the article on Fortune.com link. What are 
+the lessons learnt to enable successful deployment of 
+GenAI projects in enterprises? 
+• How should (and can) that apply to your own 
+experiences or company?
+_______________________________________________
+_______________________________________________
+_______________________________________________
+_______________________________________________
+
+Case Study: Staying updated and 
+Automating News on entities
+• News:
+• Affect pricing in markets
+• Are forward-looking sentiment
+• Corporate valuation:
+• Keeping track of news that affects fundamentals (cash 
+flow channel – how much can firms earn?)
+• News moves discount rates (risk/discount-factor channel)
+News queries help capture the dynamic inputs — both hard 
+fundamentals and soft sentiment signals — that drive business 
+valuation.
+
+Case Study: Analysing Annual Reports
+• Using OpenAI (ChatGPT) to analyse annual reports. 
+• This can be automated to generate key insights and for 
+multiple reports.  
+• Costs about 40 cents and 10 mins for one annual report 
+on ChatGPT. 
+• Notebook location: Why automate? 
+• Increased productivity
+• Part of AgenticAI workflow
+
+Conclusion
+• From NLP to LLMs:
+Natural Language Processing (NLP) converts unstructured text into 
+numerical representations (tokens, word vectors, embeddings) that allow 
+machines to understand language contextually, paving the way for modern 
+Large Language Models (LLMs).
+• Customization and Future Trends:
+Enterprise-grade solutions use RAG and MCP to integrate LLMs with 
+proprietary datasets and tools, addressing the limitations of generic models 
+— though many GenAI pilots still struggle due to poor integration and 
+governance.
+
+Conclusion
+48
+• Technical analysis has its place as part of trading tools.
+• It is relatively easy to use – but highly subjective and cannot 
+be used to predict unexpected events. Use it with other tools 
+in the arsenal – fundamentals, AI/ML.
+• There is a wide array of tool within technical analysis
+• Technical analysis could be based on behavioral factors in the 
+finance theory. 
+
+Resources for Technical Trading
+49
+"Technical Analysis of the Financial Markets" by John J. Murphy 
+"Japanese Candlestick Charting Techniques" by Steve Nison "Technical 
+Analysis Using Multiple Timeframes" by Brian Shannon 
+"Technical Analysis for Dummies" by Barbara Rockefeller and Vicki Schmelzer 
+
+Quiz Time
+
+Question: Understanding Data in Modern Finance
+Which of the following best describes the 
+evolution of data used in finance? 
+A. Finance only relies on numerical data like prices 
+and ratios
+B. Financial analysis now incorporates unstructured 
+data such as text, images, and audio
+C. Only structured data is relevant because 
+computers cannot process unstructured data
+D. AI models ignore alternative data because it lacks 
+numerical representation
+
+Question: Role of NLP and LLMs
+What is the main role of Natural Language Processing 
+(NLP) in finance before the emergence of LLMs?
+A. Generating fake financial reports
+B. Converting textual data into numerical form that 
+AI can understand
+C. Calculating bond yields and portfolio returns
+D. Encrypting trading algorithms
+
+Question: RAG vs MCP in Customizing LLMs What is 
+the key difference between Retrieval-Augmented 
+Generation (RAG) and Model Context Protocol 
+(MCP)?
+A. RAG is a training algorithm, MCP is a visualization 
+tool
+B. RAG connects to external databases, MCP 
+standardizes how LLMs access tools and data
+C. Both are identical and interchangeable in GenAI 
+systems
+D. MCP is for small models, RAG is for large models 
+only

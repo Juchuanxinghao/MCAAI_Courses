@@ -1,0 +1,345 @@
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Procurement, Quality, Risks, Streamlined Work Processes, Productivity
+Lecture 5: CA6121 AI in Project Management
+Presented by Dr Ravish Maqsood
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder.. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+OBJECTIVES
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+To learn and understand: •Overview of Project Procurement•Procurement process cycle•Procurement risks and AI tools•Project Quality Overview•Project Risks Overview•Case Studies: AI tools 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ProcurementProject Procurement
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Definition
+What is Procurement?Project Procurement Management includes the processes necessary to purchase or acquire products, services, or results needed from outside the project team.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement
+Sub-Contracting
+Vendors / SuppliersOther contracts
+Procurement
+Vendors / Suppliers/ other contracts
+Procurement
+Some companies use terminology “Procurement” only for purchasing of Equipment and other itemsSome companies use terminology “Procurement” to combine purchasing of Equipment and other items PLUS sub-contracts
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Plan Procurement Management
+Fixed Price ContractsTime and Material Contracts (T&M) 
+Contracts Types
+Firmed Fixed Price(FFP)
+Fixed Price Incentive Fee (FPIF)
+Fixed Price with Economic Price Adjustments (FPEPA)
+Hybrid of Fixed Price and Cost-Reimbursable Contracts
+Cost-Reimbursable Contracts
+Cost Plus Fixed Fee(CPFF)
+Cost Plus Incentive Fee (CPIF)
+Cost Plus Award Fee (CPAF)
+Target-Cost Contract
+Set a Target Cost with provision of sharing overruns and savings
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement Process Flow
+SOW: Schedule of WorksRFI: Request for InformationRFP: Request for ProposalRFQ: Request for Quote
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement Management Process
+1.Plan Procurement Management2.Conduct Procurements 3.Control Procurements
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Plan Procurement Management1.Project Charter2.Business Documents•Business Case•Benefits management plan3.Project Management Plan•Scope Management Plan•Quality Management Plan•Resource Management Plan •Scope Baseline4.Project Documents•Milestone List•Project Team Assignments•Requirements Traceability Matrix•Resource Managements•Risk Register•Stakeholder Register
+Inputs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Plan Procurement ManagementInputs5.Enterprise Environmental Factors•Marketplace conditions•Availability of product or services in the marketplace•Seller past performance and reputation•Terms and Conditions applicable•Local and regulatory requirements•Legal requirements •Contract management system•Established multi-tier supplier system•Financial Accounting and Contract Payments System
+6.Organizational process assets •Approved seller lists•Formal Policies, Procedures and Guidelines•Contract Types
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Plan Procurement ManagementTools & Techniques
+a.Expertise and Past Experienceb.Data Gathering•Market Researchc.Data Analysis•Make-or-buy analysisd.Source Selection Analysis•Least Cost•Qualifications Only •Quality Based / Highest Technical Proposal Score•Quality and Cost Based•Sole Source•Fixed Budgete.Meetings
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Plan Procurement ManagementOutputsa.Procurement Management Pan•Project procurement activities coordination•Key Procurement Activities Schedule•Role & Responsibilities•Legal Requirements•Estimates•Risk Management•Pre-qualified sellersb.Procurement Strategy•Delivery Methods•Contract payment types (Fixed, Cos plus, incentives etc)•Procurement Phases
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Plan Procurement ManagementOutputsc.Bid Documents•Request for Information•Request for quotation•Request for proposald.Procurement Statement of Worke.Source Selection criteria•Capability and Capacity•Product cost and life cycle cost•Delivery dates•Technical expertise•Experience•Comply to specifications and requirements•Resources and their suitability and competence•Financial Stability
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Plan Procurement ManagementOutputsf.Make-or-buy decisionsg.Independent Cost Estimatesh.Change Requestsi.Project Documents Updates•Lessons/ Risk / Stakeholder Register•Requirement's documentationj.Organizational Process Assets Updates
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Conduct ProcurementOutputsa.Select Sellersb.Agreements•Scope•Schedule •Performance progress reporting•Pricing and Payment terms•Inspection, Quality and Acceptance criteria•Warranty•Incentives and penalties•Insurance and performance bonds•General T&C•Termination clause and dispute resolution clausec.Change Requests
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Conduct ProcurementOutputsd.Project Management Plan Updates•Requirements updates•Quality Management Plan•Communications management plan•Risk Management Plan •Procurement Management Plan •Scope baseline•Schedule baseline•Cost baseline
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Conduct ProcurementOutputse.Project Documents Updates•Lessons Register•Requirements documentation•Resource calendars•Risk Register•Stakeholder Register
+f.Organizational Process Assets Updates
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Control ProcurementOutputsa.Closed Procurementsb.Work Performance Informationc.Procurement Documentation Updatesd.Change Requestse.Project Management Plan Updates•Risk Management Plan•Procurement Management Plan •Schedule Baseline•Cost Baseline
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Control ProcurementOutputsf.Project Documents Updates•Lessons Register•Resource Requirements•Risk Register•Stakeholder Register
+g.Organizational Process Assets Updates
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Success FactorsProject Procurement Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Assessing Project Success
+Effectiveness of Project in realizing the intended value. Efficiency of Project Management Processes
+2 Dimensions
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Success Factors•Timely and good quality of:•Overall scope and concept deliverables•Realist achievable schedule•Timely:•Deliverables from Engineering: Material/Contract requisition, standards, specs.•Issuance of request for quote.•Bid reviews thru final technical and commercials.•Placement of Purchase orders for equipment, bulk items, material.•Placement of Sub-contracts for installation and other services.•Fabrication.•Inspection.•Factory Acceptance Test for equipment.•Shipping and delivery on time.•Site acceptance, inspection.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Success Factors•Good planning and monitoring•Good Material Control and Management•Installation quality•Development / Fabrication / Construction monitoring •Installation•Minimize rework
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement Process CycleProject Procurement Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Development Projects
+Business UnderstandingData UnderstandingData PreparationModel DevelopmentEvaluation
+AI Development Lifecycle Stages
+Project Manager could be from either of the disciplines: •Computer Science•Data Science•Information Technology•Other discipline with knowledge and interest in data
+Operationalization
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Technology/ Software Development Projects
+Requirements gatheringAnalysisDesignDevelopmentTesting
+Phase 2Initiation
+DeploymentMaintenance
+Phase 1 Phase 3Phase 4
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement Process Cycle
+Technical Package
+Review and Approval
+Calling for BidsEvaluationRecommendation
+Engineering & Design
+Contract 
+Manufacturing/DevelopmentShippingReceipt at location (Site)Inspection/ TestingAcceptance
+Commercial DocumentationShortlist Bidders
+PaymentsContract Close
+Technical Team
+Client/ Customer
+Procurement TeamSupplier Team
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement: Pre-Order and Post Order Activities
+Procurement Activities
+•Vendor Selection•Preparing Bid / Tender Documents•Calling Bids/ Tenders•Evaluating•Award
+Procurement Prime Responsibility: Purchase Equipment, items, place orders and ensure its timely delivery to the project
+•Order tracking and coordination•Expediting and Inspection•FAT (Factory Acceptance Test) witness•Shipping and Delivery to the site•Material Control and Management•Over, Short and Damaged (OS&D)•Contract close out
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement Process CycleProject ScopePurchases requiredIdentify the Vendors available in the marketShortlisting criteriaShortlistNumber of BidsFinal shortlisted Bidders List Identify purchase to be made (List of Equipment and other items) 
+Understand the scope of the project
+Identify the possible vendors who could deliver the requirement
+Location of the project, Best Value Option to select the Vendors, Client Preference etc.
+Shortlist the best available VendorsAgree number of Bids need to be called for each purchase to be made
+Prepared by Procurement Team 
+Client APPROVAL
+Seek Approval by the CLIENT prior proceeding any further
+Best Source Options are explored at this stageIn coordination with Technical Team and Master Plan Agreement with Project Manager and Client Representative
+Approval to proceed
+Involve Technical Team
+Call TenderReceived TenderEvaluate
+Recommend, seek approval and award
+Approval & AWARD
+Tender Process and Award
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement Process Cycle
+Arrival of Equipment/ Services/ ProductInspectionDeploy / InstallClose out
+Inspect the condition of the items arrivedRaise any damages or concerns
+Contract close outPayment settlement
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement RisksProject Procurement Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+ProcurementRisks: Vendors / Suppliers / Sub-ContractorsTimely Approvals: •Can we proceed without client’s approvals? •Any client suggested vendor/ supplier/ sub-contractor/ specialist must be recorded and duly signed by the client. •Such list must be mentioned in PMP (Project Management Plan).•Past performance and financial checks still must be performed on client’s suggested vendor/ supplier/ sub-contractor/ specialist. •Single source items and vendor/ supplier/ sub-contractor/ specialist must be recorded and duly signed. 
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+ProcurementRisks
+Risks need to be managed:•Financial failure of the Vendor / Supplier/ Sub-contractor•Under performance •Delays (Development, Fabrication, Delivery, Installation etc.)
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project QualityProject Quality Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Definition
+What is Quality???
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+DefinitionClient Asked for GOLD Plated Item1.If you provide him/her a Platinum Plated… Is it QUALITY???2.If you provide him/her a Silver Plated… Is it QUALITY???3.If you provide him/her a Gold Plated… Is it QUALITY???
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+DefinitionMeeting customer’s expectationsand perceptions
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What is Quality? •Fit for the purpose •Perception of the end-user•Customer focus• Concepts: •Plan•Manage•Control•Quality Assurance (Project Processes)•Quality Control (Project Deliverables)
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Quality Management Quality Management processes include all the activities that determine quality policies, objectives and responsibilities so that the project will satisfy the quality requirements and produce a product that meets quality standards. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Quality ManagementInternational Organization of Standardization (ISO)Most Common StandardsISO 9000 Quality Management System Standard ISO 14000 Environment ManagementISO 27000 Information Security ManagementISO 31000 Risk ManagementISO 45000 Occupational Health & Safety
+Fun Fact: Which ISO Standard defines currency?ISO 4217  Currency Codes
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Quality ManagementModern PQM (Project Quality Management) approaches: a.Customer Satisfactionb.Prevention over Inspectionc.Continuous Improvement (PDCA, TQM, Six Sigma, Lean Sigma)
+d.Management Responsibilitye.Cost of Quality (COQ)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Consequence of Bad QualityDefective goods/ products/ service delivery spoils image of the manufacturer/ developer/ service provider and leads to: •Re-Work•Resources Losses•Efficiency and Productivity Losses•Financial losses•Reputation losses
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Functional Requirements Testing Pyramid
+Test types are ranked by:•Importance•Speed•Cost•Success rate
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Type of Software Development Testing•Unit testing, or modular testing•Integration testing.•Big Bang•Incremental Approach•Bottom-up Integration •To-down Integration•Hybrid Integration •System Testing
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Type of Software Development Testing•Acceptance Testing•Performance Testing•Load Testing•Fault Tolerance Testing•Compatibility Testing•Security Testing•Disaster Recovery Testing
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Unit testing, or modular testing•A check of the correctness of individual modules of the program source code, individual functions of the application or service.•This establishes whether the code is operational, whether it gives correct results with different inputs, and whether the logic matches the expected one.•An example: •Obtain the sum of two numbers•The input values required for testing are entered into the function•The unit test is passed if the expected result of the function is equal to the one actually obtained. •The metric is calculated by comparing the number of lines of code that passed the test to the total number of lines of code in the repository. •The best indicator is considered to be 80%.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Integration Testing
+•Testing the interaction of the components of the future application. •The integration of modules is checked. •These tests are more complex than unit testing, since the ability to perform sequential actions in various components is checked. •Example: The user logs in — is redirected to the main page — places an ad. That is, several modules are tested at once.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+System Testing•All components of the program are tested as a single application. •The specialist must ensure that the product correctly handles various scenarios and situations based on requirements.•This option may include testing non-functional requirements. •System testing requires considerable time, because as the product evolves, the number of possible use cases grows. •With each product update, it is necessary to check whether the previously tested functions work. This process is called regression testing. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Acceptance Testing•The product is tested by key specialists and customers.• •Check in real time •Ensure expectations and requirements have been met.• •Acceptance is the final stage of testing.•Minimize any bugs or defects fixing at this stage. Non-functional testing checks the application for:•performance•reliability•compatibility•security•utility•scalability
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Development Projects
+Business UnderstandingData UnderstandingData PreparationModel DevelopmentEvaluation
+AI Development Lifecycle Stages
+Project Manager could be from either of the disciplines: •Computer Science•Data Science•Information Technology•Other discipline with knowledge and interest in data
+Operationalization
+Recap
+Quality assurance & Control is important
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Quality Management Process in SDLC 
+Requirements gatheringAnalysisDesignDevelopmentTesting
+Software Development Life Cycle (SDLC)Initiation DeploymentMaintenance
+Quality assurance is part of every step
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Risk AssessmentProject Risk Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Definition
+What is Risk?Project Risk is an uncertain event or condition that, if occurs, has a positive or negative effect on one or more project objectives such as scope, schedule, cost and quality.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risks•Risks will continue to emerge through out project lifecycle.•Risks must be monitored and managed.•Important to manage the risks to deliver the project within the expectations of contractual agreement.  •Level of acceptable level of risk exposure to be agreed and known upfront. •Contingencies are built in the cost and schedule estimates for risks. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risks
+Project Risks
+Known – UnknownUnknown – Unknown
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risk Classification
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risk Classification
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Level of RisksINDIVIDUAL PROJECT RISKOVERALLPROJECT RISK
+Risks
+•Exposure to the project variations.•Impact on overall project. 
+•Impact on one or more project objectives.  
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risk MatrixProject Risk Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risk Management ProcessLowMediumHigh
+MediumLow High
+RISK CONSEQUENCE
+RISK LIKELIHOOD
+Risk Level:LowMediumHigh
+S.No.RISKDESCRIPTIONRISK MITIGATION PLAN
+1Description. Action
+2Description. Action
+3Description. Action
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risk Management Process
+ESTABLISH THECONTEXT
+IDENTIFY RISK
+ANALYZE RISK
+EVALUATE RISK
+TREAT RISK
+MONITOR &REVIEW
+RISK ASSESSMENT
+Information managed through Risk Register
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risk Management Process
+RISKLOW HIGH
+RISK METERMONITOR & REVIEW
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Streamlined Work Processes, Improve ProductivityWork Processes Improvement
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Work processes improvement and productivity•Review the current workflow. •Propose the areas to improve efficiency and productivity of the overall process.•Many methodologies are applied to improve work-processes improvement. •Our focus is on AI Tools usage to improve the workflow. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Studies AI in Project Management (Not in AI Project)AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study ACase Study: Detailed risk analysis table format with suggested solutionsScenario:GenAI is used to generate the documentation.Tools used:LLM via ChatGPTConcerns:•Confidential information data could not be used. •Need human intervention to review the outputs.•Output was not in the existing format available in the company. •Project Manager still needed time to review the outcome. Solutions:•Inhouse LLM (ChatGPT similar) model will help to resolve confidentiality issues. •Implement human-in-the-loop review for AI alerts•Provide training to build trust among workers
+AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study BCase Study: Generation quality plan for a project. Scenario:GenAI is used to generate Quality Plan for a project.Tools used:LLM via ChatGPTConcerns:•Confidential information data could not be used. •Need human intervention to review the outputs.•Project Manager still needed time to review the outcome. Solutions:•Implement human-in-the-loop review for AI alerts•Provide training to build trust among workers
+AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study CCase Study: Generation quality NCR reporting with analysis. Scenario:AI Agent used to generate NCR (Non-Conformance Report) on a live system.Tools used:LLM via ChatGPTConcerns:•Confidential information data could not be used. •Need human intervention to review the outputs.•Project Manager still needed time to review the outcome. Solutions:•Implement human-in-the-loop review for AI alerts•Provide training to build trust among workers
+AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Student Exercise 4•Perform a research to find and list the available AI tools which may be used in the project management processes. •Risk analysis and generating results.•Quality plan and quality inspection checkpoints. •Procurement delays impact on project. •Any industry•Any project 
+Prepare your list and submit via Submission Link Provided Separately.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+End of class
+Photo by: Ravish M
+Let the journey begin!

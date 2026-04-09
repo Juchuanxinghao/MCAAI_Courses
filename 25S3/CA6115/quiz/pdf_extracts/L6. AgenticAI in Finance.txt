@@ -1,0 +1,367 @@
+Agentic AI in Finance
+Dr. Eric Tham
+Email: eric.tham@ntu.ed.sg
+
+
+Outline 
+Page 2
+• What is Agentic AI?
+• Applications in Finance
+• Tools used: RAG, LLM
+
+What is Agentic AI?
+ 
+Page 3
+• Agentic AI refers to artificial 
+intelligence systems that act 
+autonomously, make decisions, 
+and adapt to achieve goals.
+• Think of it as a "smart assistant" 
+that:
+• Learns from data
+• Plans and executes tasks
+• Adapts to changing 
+environments
+Nvidia on AgenticAI
+Video link
+
+Benefits of AgenticAI 
+Page 4
+• Automated
+• Reduce manual/ menial work
+• Could be more responsive to environment
+• Less labour…
+
+Agentic AI vs GenAI 
+Page 5
+• GenAI is more ‘generative’ with summaries/ reports (now moving to reasoning). 
+• AgenticAI is more task-based and can include GenAI as part of its workflow.
+
+What the press says (CNA news)
+
+
+Key Skill for SG Workforce (link)
+Page 7
+
+
+How does the Agentic AI work?
+Page 8
+•Perception: Agentic AI uses sensors, data inputs, or APIs to gather information 
+from its environment. This could include text, images, numerical data, or real-
+time feeds from the web or connected systems. 
+•Reasoning and Decision-Making: The AI processes the collected data using 
+advanced algorithms, often powered by large language models (LLMs) or 
+reinforcement learning. It evaluates options, predicts outcomes, and selects 
+actions based on predefined goals or learned objectives. 
+• Executes Action: Once a decision is made, the AI executes actions, which 
+could involve generating responses, manipulating data, controlling devices, or 
+interacting with other systems. 
+•Goal-Oriented Behavior: Unlike traditional AI, which might focus on specific 
+tasks, agentic AI is driven by broader objectives. It can break down complex 
+goals into smaller tasks, prioritize them, and adjust its approach dynamically. 
+
+What technologies do the agents use?
+Page 9
+•Machine Learning Models: LLMs, neural networks, or 
+reinforcement learning frameworks power the AI’s reasoning. 
+•APIs and Tools: Agentic AIs often integrate with external systems 
+for data access or action execution (e.g., web search, database 
+queries). 
+•Planning Algorithms: Techniques like hierarchical task networks 
+or chain or feedback loops help the AI break down and pursue 
+goals. 
+•Memory Systems: Short-term and long-term memory (like my 
+ability to recall prior conversations) enable continuity and learning 
+amongst agents. (simpler for LangChain as objects and states live 
+within the key orchestrator)
+
+LLMs in daily use
+How do you use 
+LLMs in your daily 
+life?
+
+What if you have your own data set?
+Page 11
+• Many LLMs are ‘universal’ – trained on common data
+• What if you have your own dataset? For e.g. company bespoke 
+information? Or you cannot access the Internet within the 
+organisation?
+• LLMs would not be able to answer specifics as they are not 
+trained on these data. 
+• Enter:
+• Retrieval-augmented generation (RAG) and 
+• Model Context Protocol (MCP)
+• Local server (Ollama) Customising LLMs.
+
+Hosting your own LLMs
+Page 12
+• Ollama is a local runtime for large language models (LLMs) that lets 
+you run modern open-source models entirely on your own machine (CPU 
+or GPU), without calling cloud APIs.
+• Matters in finance as:
+Issue Ollama’s Advantage
+Data privacy Models run locally — no data leaves your 
+machine
+Cost control No per-token API fees
+Latency Millisecond-level local inference
+Reproducibility Fixed model versions
+Offline usage Works without internet
+Regulatory comfort Easier compliance (MAS / GDPR / internal IT)
+
+Retrieval Augmented Generation 
+Page 13
+• Combines the strengths of large language models (LLMs) 
+with external knowledge bases to ground AI responses to 
+real-world bespoke data and information 
+
+
+Different RAG Solutions
+Page 14
+• Pure document only:
+• Accesses internal documents. These are vectorised into node 
+(bytes) a chromaDB (see e.g.)
+• Useful in finance for eg with Relationship Managers, and research 
+documents.
+• Hybrid – document + Web
+• Accesses document (if confidence level or similarity is not high 
+enough) then Internet.
+• RAG solutions consist of:
+• Vector database
+• Parsing of documents 
+Example workbooks provided. 
+
+Model Context Protocol (MCP)
+Page 15
+• MCP is an open standard that provides a standardized way for large 
+language models (LLMs) to connect to external data, tools, and 
+services. It acts like a universal adapter, similar to a USB-C port for AI, 
+allowing applications to provide LLMs with necessary context to 
+perform tasks, build workflows, and interact with the real world more 
+effectively.
+
+
+MCP vs RAGs
+Page 16
+• RAGs is an architectural pattern while MCP is a standardised protocol.
+ 
+Aspect RAG MCP
+Purpose Ground the model in factual 
+documents or text data
+Connect the model to 
+external systems (APIs, 
+databases, analytics tools)
+Data Source Examples Annual reports, PDFs, transcripts, 
+policies, client memos
+Market-data feeds, Database 
+feeds
+Latency Slightly slower (retrieval + 
+generation) Real-time (much faster)
+Typical Use Cases Summarization, Q&A, grounded 
+explanations
+Execution, analytics, dynamic 
+querying, system 
+orchestration
+Output Nature Narrative or explanatory text Data, computations, or 
+structured results
+Analogy “Bring knowledge to the model.” “Bring the model to the 
+knowledge.”
+
+Exercise: When do you use MCP vs RAGs 
+Stage Underlying Method
+“What are my largest spending categories 
+this quarter?”
+“Explain how my spending pattern compares 
+to last quarter”
+“What if I shift $20,000 from equity to fixed 
+income?”
+“Summarize the risk section from my mutual 
+fund’s prospectus”
+“Generate a client-ready financial summary 
+PDF”
+
+Enterprise Agentic AI system
+Page 18
+There are additional concerns when using agentic AI systems 
+for enterprises. 
+• Scalability:  much larger volume 
+• Security: protect data sensitivity and compliance with 
+regulations
+• Integration: integrate with legacy systems to leverage 
+existing infrastructure
+• Robustness: able to operate in variety of environments 
+and conditions
+• Customisation: meet specific needs and requirements of 
+different organisation
+
+Enterprise AI Implementation 
+Considerations
+Page 19
+Additional considerations with Enterprise Implementation
+• RAG with external knowledge base
+• Structured output: in JSON for output
+• Conversational memory (contextual memory) -> LLMs 
+remember your earlier actions
+• AI-powered search engines 
+• Security and confidentiality of data
+Enterprise-ready agents are AI 
+systems specifically designed to 
+meet the needs of businesses 
+and organisations.
+
+Comparison of Agentic AI Frameworks 
+Page 20
+Feature / 
+Purpose Ollama LlamaIndex LangChain LangGraph
+Primary role LLM runner (local 
+models) RAG framework General LLM app 
+framework
+Multi-agent 
+workflow 
+orchestrator
+Runs models?
+  Yes (local)
+ No (connects 
+to APIs/local 
+backends)
+ No (connects 
+to APIs/local 
+backends)
+ No (connects 
+to APIs/local 
+backends)
+Data connectors 
+/ loaders
+Vector store / 
+index tools
+Agents & tools
+  (via graph 
+nodes)
+Multi-agent 
+orchestration
+  Limited
+  Limited
+  Primary 
+strength
+Offline capable
+ (if connected 
+to local model 
+like Ollama)
+ (if connected 
+to local model 
+like Ollama)
+ (if connected 
+to local model 
+like Ollama)
+This course focuses on Ollama, LlamaIndex and LangChain.
+
+Building Blocks of Agentic AI Systems
+Page 21
+• Knowledge Bases
+• For input + information
+• Model context protocols & RAG
+• For live input and information
+• Large Language Models
+• For reasoning 
+• Actionable APIs
+• For actioning and execution
+• Orchestration and workflow management
+• Including supervision and regulation
+
+AgenticAI in Corporate FX Hedging 
+Page 22
+
+
+Corporate FX Hedging Agents
+Page 23
+No Agent Requires ‘Skill’ Function
+1 Portfolio agent Knowledge base To gather all positions 
+in portfolio
+2 Market data Knowledge base To keep abreast of 
+market data
+3 Risk analysis Knowledge base, LLM, 
+report writing
+To determine risk of 
+portfolio
+4 Compliance Knowledge base, 
+orchestration, actionable 
+APIs
+To supervise and limit 
+amount of risks
+5 Report writing LLM Generate report for 
+management and 
+regulation
+
+AgenticAI in Stock Trading
+Page 24
+
+
+Stock Trading Agents
+Page 25
+No Agent Requires ‘Skill’ Function
+1 Market Data
+(action)
+- To obtain market data 
+from trusted sources
+2 Technical Analysis
+(action)
+Technical indicators etc Need to make 
+judgement on bullish/ 
+bearish etc. 
+3 Risk management
+(perception)
+Risk of existing portfolio, 
+exposure limits etc.
+Make judgement on key 
+market risks in trading
+4 Execution
+(supervision)
+Final decision point/ 
+judgement
+Executes trade to 
+broker
+Agents do either action, perception or supervision. 
+
+Case Study: Design Workflow in Agentic AI 
+Page 26
+• Define Objectives: Clearly state what the agentic workflow needs to 
+accomplish.
+• Map Current Process: Analyze the existing process to identify tasks and 
+potential areas for automation.
+• What patterns are appropriate? 
+• Determine the types of processes encompass: perception, action, supervision 
+in each agent?
+• What memory is needed? To pass between agents?  
+• What is the knowledge base? Data input.. Either dynamic (by MCP) or static?
+• What LLM would you use? Is it for coding? Or writing? Etc. 
+• What type of actions are needed? Send emails/ reports? 
+• What type of supervision? Human in the loop?
+
+Case Study: Work Design for Agentic AI 
+Page 27
+• Discuss in your job scope the possibilities to use AgenticAI. 
+• Frame the job into various steps in a work design stage. 
+• Use as guidelines the design workflows and also the 
+describe the use/ type of agents you would use at each 
+stage. 
+• Human judgement, adaptability and ethics are KEY .
+
+
+Conclusion
+Page 28
+Concept & Evolution:
+Agentic AI refers to autonomous, goal-directed systems that perceive, reason, and act 
+using data, APIs, and planning algorithms that moves from rule-based automation to 
+adaptive, intelligent decision-making.
+Enterprise & Technical Foundations:
+Enterprise-ready agentic systems combine LLMs, machine-learning models, APIs, 
+memory, and orchestration tools while ensuring scalability, integration, and security 
+within corporate environments.
+Workflow & Design Patterns:
+Common patterns include delegation/hand-off, tool-use and function-calling, 
+sequential chains, judge-and-critic feedback loops, parallelisation for speed, and 
+guardrails for safety, governance, and privacy.
+Finance Applications & Case Workflows:
+Demonstrated through corporate FX hedging and stock-trading agents, the slides 
+emphasise designing workflows that define objectives, map processes, choose agent 
+types, set memory and knowledge bases, specify actions and determine appropriate 
+human supervision.

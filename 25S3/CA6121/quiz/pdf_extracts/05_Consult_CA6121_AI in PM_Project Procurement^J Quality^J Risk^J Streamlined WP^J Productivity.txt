@@ -1,0 +1,196 @@
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project ProgressConsult 5: CA6121 AI in Project Management
+Presented by Dr Ravish Maqsood
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder.. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ProcurementProject Procurement
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Definition
+What is Procurement?Project Procurement Management includes the processes necessary to purchase or acquire products, services, or results needed from outside the project team.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement
+Sub-Contracting
+Vendors / SuppliersOther contracts
+Procurement
+Vendors / Suppliers/ other contracts
+Procurement
+Some companies use terminology “Procurement” only for purchasing of Equipment and other itemsSome companies use terminology “Procurement” to combine purchasing of Equipment and other items PLUS sub-contracts
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Plan Procurement Management
+Fixed Price ContractsTime and Material Contracts (T&M) 
+Contracts Types
+Firmed Fixed Price(FFP)
+Fixed Price Incentive Fee (FPIF)
+Fixed Price with Economic Price Adjustments (FPEPA)
+Hybrid of Fixed Price and Cost-Reimbursable Contracts
+Cost-Reimbursable Contracts
+Cost Plus Fixed Fee(CPFF)
+Cost Plus Incentive Fee (CPIF)
+Cost Plus Award Fee (CPAF)
+Target-Cost Contract
+Set a Target Cost with provision of sharing overruns and savings
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement Process Cycle
+Technical Package
+Review and Approval
+Calling for BidsEvaluationRecommendation
+Engineering & Design
+Contract 
+Manufacturing/DevelopmentShippingReceipt at location (Site)Inspection/ TestingAcceptance
+Commercial DocumentationShortlist Bidders
+PaymentsContract Close
+Technical Team
+Client/ Customer
+Procurement TeamSupplier Team
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement: Pre-Order and Post Order Activities
+Procurement Activities
+•Vendor Selection•Preparing Bid / Tender Documents•Calling Bids/ Tenders•Evaluating•Award
+Procurement Prime Responsibility: Purchase Equipment, items, place orders and ensure its timely delivery to the project
+•Order tracking and coordination•Expediting and Inspection•FAT (Factory Acceptance Test) witness•Shipping and Delivery to the site•Material Control and Management•Over, Short and Damaged (OS&D)•Contract close out
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Procurement RisksProject Procurement Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+ProcurementRisks: Vendors / Suppliers / Sub-ContractorsTimely Approvals: •Can we proceed without client’s approvals? •Any client suggested vendor/ supplier/ sub-contractor/ specialist must be recorded and duly signed by the client. •Such list must be mentioned in PMP (Project Management Plan).•Past performance and financial checks still must be performed on client’s suggested vendor/ supplier/ sub-contractor/ specialist. •Single source items and vendor/ supplier/ sub-contractor/ specialist must be recorded and duly signed. 
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+ProcurementRisks
+Risks need to be managed:•Financial failure of the Vendor / Supplier/ Sub-contractor•Under performance •Delays (Development, Fabrication, Delivery, Installation etc.)
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project QualityProject Quality Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Definition
+What is Quality???
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+DefinitionMeeting customer’s expectationsand perceptions
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Risk AssessmentProject Risk Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Definition
+What is Risk?Project Risk is an uncertain event or condition that, if occurs, has a positive or negative effect on one or more project objectives such as scope, schedule, cost and quality.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risks•Risks will continue to emerge through out project lifecycle.•Risks must be monitored and managed.•Important to manage the risks to deliver the project within the expectations of contractual agreement.  •Level of acceptable level of risk exposure to be agreed and known upfront. •Contingencies are built in the cost and schedule estimates for risks. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Risk Classification
+
+
+How much % of group project work have your group completed so far? 
+The Slido app must be installed on every computer you’re presenting from
+Do not editHow to change the design
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Your Group Project Progress?AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project Approach
+Team Formed
+Topic FinalizedProblem StatementFinalizedScope FinalizedWorkflow developedAI Tools usage identified
+Project Organization ChartSchedule Developed
+AI Tools list, eval, finalizedData UnderstandingData Collection/ SortingModel DevelopmentFinal Test and ResultsReady to deploy
+Report
+Demo & Present
+Start Finish
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Steps & Planning-Gantt Chart
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Steps & Planning-Gantt Chart
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Topics / Presentation Sequence / Important Dates
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project TopicsS.NoGroup No. Project Title (Short Description)11, 3, 19, 20,21, 13Job Application22, 10, 16Notes Of Meeting311, 12Contract Document Summary 4 4AI-Powered Agile Requirements Engineering: Intelligent User Story and Acceptance Criteria Generation System5 5Issue tracker (Improvement)6 6What is in my fridge7 7AI-Assisted Event Synchronization for Construction Project Management8 8Personalized Periodic Health Check-up9 9Keeping track of product failures using AI to help in performing the analysis to improvement.1014Project Feasibility Analysis for Startup1115Weekly posts for the team communication (key messages, updates, announcement, etc.).1217Managing AI Education Product Development: Leveraging AI Models and Agents for Enhanced Project Management1318Analyzing data set to propose the best fit solution for any process of your choice.1422Resources allocation on a game development project. 1523AI-Driven Personalized Scheme Generation and Intelligent Full-Process Management of Multi-Party Communication for Smart Home Appliance Planning and Deployment of Renovation Groups
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Selection for Presentation
+Spin the !!! Wheel !!! 
+8 groups to be selected
+SATURDAY
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Selected for PresentationSequence Group No. Project Title (Short Description)1, 3, 19, 20,21, 13Job Application2, 10, 16Notes Of Meeting11, 12Contract Document Summary 4AI-Powered Agile Requirements Engineering: Intelligent User Story and Acceptance Criteria Generation System5Issue tracker (Improvement)6What is in my fridge7AI-Assisted Event Synchronization for Construction Project Management8Personalized Periodic Health Check-up9Keeping track of product failures using AI to help in performing the analysis to improvement.14Project Feasibility Analysis for Startup15Weekly posts for the team communication (key messages, updates, announcement, etc.).17Managing AI Education Product Development: Leveraging AI Models and Agents for Enhanced Project Management18Analyzing data set to propose the best fit solution for any process of your choice.22Resources allocation on a game development project. 23AI-Driven Personalized Scheme Generation and Intelligent Full-Process Management of Multi-Party Communication for Smart Home Appliance Planning and Deployment of Renovation Groups
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+FINAL QUIZ & PRESENTATIONS - ScheduleDAY 111April2026 Saturday (1:30pm- 2:15pm)StartEnd FINAL QUIZ11:30pm2:15pm35 min (45min for special case)
+DAY 111April2026 Saturday (2:30pm- 5:00pm)StartEnd Group to present: At random picked up12:30pm2:45pm22:45pm3:00pm33:00pm3:15pm43:15pm3:30pm53:30pm3:45pm63:45pm4:00pm74:00pm4:15pm84:15pm4:30pm
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Important dates and timeline: GROUP REPORT•Group report (*.*ppt format only) to be submitted by: 09 April 2026 (8pm)•File name as GroupNN_report.ppt •Please submit your report via NTU Learn folder provided. •Only one student from each group to submit one copy. •Please also email a copy of *.*ppt format submission to ravish.maqsood@ntu.edu.sg•Mark subject of the email: CA6121-GroupNN-Presentation Submission.Note: No submission after 2hours buffer time shall be entertained. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Important dates and timeline: FINAL QUIZ•Final Quiz: 11 April 2026 (1:30pm) •Online quiz on NTU Learn. •Please set up your lockdown browser on your laptop and test prior coming to the class. •MCQ (Multiple Choice Question) format. •Closed Book •Closed Notes•Attendance will be marked for this compulsory quiz. (No make-up quiz is planned). 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Important dates and timeline: PEER REVIEW•Peer Review completion between: 03 April 2026 (1:00am) to 11 April 2026 (11:59pm) •Online peer review via NTU Learn. •Please ensure you complete it on time as penalty will be imposed for not completing on time. •No extension of time is given. 
+
+Audience Q&A
+The Slido app must be installed on every computer you’re presenting from
+Do not editHow to change the design
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Your Group Project Progress? 1.Teamwork is important.  2.Group lead acting as project manager is reminded to coordinate group assignment activities. 3.Group assignment progress is monitored and managed. •Problem Statement •Scope •Workflow development•Tools selected and work is in progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Any questions? 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Progress Check
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Get Ready for your draft work
+•Any group can be asked to about their group work progress. •It could be discussion on their project report draft. •At random any of the groups can be picked to share. 
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What to do before next consultation?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Get Ready
+•Ensure to watch all the lessons.•Attempt the sample quiz questions to familiarize. •Setup lockdown browser on your laptops for the final quiz. •Work towards completion of your project report and work presentation. •Check your work prior getting ready to submit. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What to do before next tutorial class?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Tutorial Classes•Ensure you have watched the relevant lecture(s).
+•Familiarize yourself with •Risk management and quality related concepts on a project
+•Please bring your laptop to participate in class exercises/ activities.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+End of class
+Photo by: Ravish M

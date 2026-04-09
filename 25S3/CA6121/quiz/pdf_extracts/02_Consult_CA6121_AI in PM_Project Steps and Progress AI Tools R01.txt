@@ -1,0 +1,189 @@
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project Steps & ProgressConsult 2: CA6121 AI in Project Management
+Presented by Dr Ravish Maqsood
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder.. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management or AI Project?High level Perspective, introduction
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence and Project ManagementOur focus in this course
+Pexels.com
+Recap
+AI ProjectAI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Integration (recap)AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Project Management ProcessesProject management processes:1.Initiating2.Planning3.Executing4.Monitoring and Controlling5.Closing
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Integration Management -Processes1.Develop Project Charter2.Develop Project Management Plan3.Direct and Manage Project Work4.Manage Project Knowledge 5.Monitor and Control Project Work 6.Perform integrated Change Control7.Close Project or Phase
+MONITORING & CONTROL
+INITIATING
+PLANNING
+EXECUTING
+CLOSING
+MONITORING & CONTROL
+EXECUTING
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Project Management Knowledge
+Project management knowledge draws following areas:6.Procurement7.Human resources8.Communications9.Risk management10.Stakeholder management
+1.Integration2.Scope3.Time4.Cost5.Quality
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What it takes to use AI in Projects?AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management•Understanding of Project Management Workflow and where it adds value to use AI? •AI can not be implemented on every workflow. •Some of the areas can be used as: •Data consolidation, analysis, collation•Generating periodic communications•Auto response to regular queries•Planning •Reporting•Monitoring•Prediction•Others…
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: What is takes to implement AI?Six (6) phases of implementation process of a AI project:1.Business Understanding2.Data Understanding3.Data Preparation4.Model Development5.Evaluation 6.Operationalization
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Development Projects
+Business UnderstandingData UnderstandingData PreparationModel DevelopmentEvaluation
+AI Development Lifecycle Stages
+Project Manager could be from either of the disciplines: •Computer Science•Data Science•Information Technology•Other discipline with knowledge and interest in data
+Operationalization
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: PitfallsData quality and availabilityFinding relevant, up-to-date, and clean data is a challenge.
+•Data redundancy and gaps•Unsupported formats•Unclear permission and ownership issues of data
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Managing DataData quality and availability
+•Verify data sources•Mindful of data limitations and biases•Set-up alerts for anomalies•Monitor and validate 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: AI ModelsChoosing and Integrating AI Models Picking the right AI model and integrating the existing workflows can be challenging. 
+•Different workflows•Deployment challenges
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: AI ModelsChoosing and Integrating AI Models 
+•Assess project needs•Set clear expectations•Pilot test•Collaborate•Road map
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Tools in Project ManagementHigh level Perspective
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+PM knowledge areas and suitable types of AI tools.ItemPM knowledge areaDominant knowledge typeMost suitable types of AI toolsExamples of AI capabilities1Integration management•Formal•Data Driven•TacitGenAIAI Agents (LLMs & Integration)Decision-making support based on real-time tracking anddeviation alerts.2Scope management•Data Driven•TacitGenAIAI Agents (LLMs & Integration)Drafting work breakdown structures, clarifying deliverables3Schedule management•Formal•Data DrivenML for optimizationAI Agents (LLMs & Integration)Timeline generation, scheduling, forecasting, Critical Path identification.4Cost management•Formal•Data DrivenML for optimizationAI Agents (LLMs & Integration)Budget forecasting, variance analysis, EVM5Quality management•Formal•Data DrivenML for optimizationAI Agents (LLMs & Integration)Quality monitoring, anomaly detection. 6Resource management•Formal•Data DrivenML for optimizationAI Agents (LLMs & Integration)Resource allocation, workload balancing.7Communication management•Formal•TacitGenAIAI Agents (LLMs & Integration)Summarizing meetings, drafting reports, language translation. 8Risk management•Data Driven•TacitGenAIML for optimizationAI Agents (LLMs & Integration)Identifying emerging risks, probabilistic impact analysis. 
+9Procurement management•FormalAutomationAI Agents (LLMs & Integration)Contract analysis, vendor, sub-con selections. 10Stakeholder management•Formal•TacitGenAIAI Agents (LLMs & Integration)Drafting engagement plans, analyzing feedback, conflict resolution assistance. Tacit: categorised by being deeply personal, intuitive, experientialEmpirical Research Paper, Artificial intelligence tools for project management: A knowledge-based perspective by Pedro M. Almeida, Gabriela Fernandes, Jos´e M.R.C.A. Santos
+From lecture
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Student Exercise 1-Self study no submission required•Perform a research to find and list the available AI tools which may be used in the project management processes. •Collating the business documentation. •Reviewing the lessons from the past projects. •Data quality check and filtering. •Planning and scheduling activities. •Resource Management. •Risk Management. •Cost and EVM (Earned Value Management). •Project Reporting. •Project Communication. •Any other tool which you may feel could be used. 
+From lecture
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Topic and ApproachAI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Select Project Title•Your team needs to select a project title. •Project can be from any of the following areas: •IT / Software development project•Construction or building/ manufacturing plant project (new or modification). •Research project. •Any other project of your choice. 
+•Project title must be submitted for in-principal approval. 
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence and Project Management
+AI ProjectStandalone project
+Project (Can be of any industry or type)Construction ProjectResearch ProjectOther Type ofProjectStandalone projectStandalone projectStandalone project
+All projects will have different Workflow & implementation methodologies
+Project Management
+All projects will have commonalities: Scope, Cost, Schedule, Quality, Risk, Resources, Reporting, Lessons, etc.  
+Our Focus AI in Project Management
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management:•Criteria to select a project for group assignment: •Can have either or all phases of project covered in the lecture •Initiation, •planning, •executing, •monitoring & control, •close-out. 
+•Must draw a workflow of the current situation and proposed improvement. •Improve process for a project by implementing AI tool of your choice. (Example: collating of notes of meeting, preparation of EVM, sorting the team profiles, etc.).
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Where can it help a Project Manager? 
+•Project Business Case development. •Review and analyze the contract document. •Client supplied technical and commercial documents compile and analysis.•Project Charter development. 
+•Team selection (Review of applications). •Project schedule development and updates. •Earned Value Management (EVM) and Forecasting. •Budget vs Actual performance analysis. •Notes of meeting automation, summary, issue to the stakeholders. •Issue regular communication with the stakeholders. (Emails, Project Updates, Newsletters, etc.).•Periodic project reports (weekly / monthly / quarterly). •Project Quality and Inspection (Plan and Actual performance / analysis). •Project Risk Analysis (Plan and Actual performance / analysis). •Project Change Management and its impact on project. (Plan and Actual performance / analysis). •Project procurement management (vendor, sub-con selection, tender comparison, recommendation, performance analysis, etc.).•Expenses reporting.
+MONITORING & CONTROLINITIATINGPLANNINGEXECUTING CLOSING
+•Project Management Plan preparation and updating. •Project specific procedures. •Project compliance to contract, local regulations, etc. 
+•Planned vs Actual Data analysis (Scope, Schedule, Cost, Resources).•Changes and rework analysis. •Quality/ Safety/ Compliance/ Testing/ Deployment/ Handing over, performance and analysis. •Vendors / Sub-contractors/ Suppliers performance analysis. •Team performance analysis. •Lessons mapping and analysis. •Project close-out documentation. 
+All of the above mentioned can be improved using AI Tools
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management: General Workflow
+Business Understanding
+Data Preparation Model Evaluation
+Operationalization
+Data UnderstandingModel DevelopmentUp to 80% total effort
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Select the right AI ToolsMONITORING & CONTROLINITIATING CLOSINGEXECUTINGPLANNINGTools availableTools availableTools availableTools availableTools available
+12345678
+12345678
+12345678
+12345678
+12345678
+Tutorial 2 will have hands-on exercise on this
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Workflow 
+Data input
+Project Data
+Data SortingData AnalysisData OutputData Sharing
+Which tool? 
+Date SharingData SortingData AnalysisData SortingWhich tool? Which tool? Which tool? Which tool? 
+Tutorial 2 will have hands-on exercise on this
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management:•Use the consultation session regarding the group project. •AI Tools can be of your choice.•Marking will have the rubrics to include: •Group report (content and quality). •Workflow snapshot.•Proposed AI tools for the solution to the workflow.   
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management:•Use the project report template provided. •Please do not delete the headings and bullets. (please mark N.A, if any of them is not applicable for your selected project). •Use the guidelines provided for preparation. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project: What Next? AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Topic understanding and to set a path to work on. 
+•You have project topic selected. •Your inputs:•Workflow with project steps explained.•Identify the areas where AI Tools can be implemented in Project Management Processes. •Resources needed to develop and implement the AI solutions. •Proposed Cost / Time / Schedule to execute the project.•Any other value-added pointers.
+ClientConsultant Your Group Represents as Consultant and expected to advise the client.Client wish to implement AI Tools in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Your Group Project Progress?AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Your Group Project Progress? 1.Teamwork is important.  2.Appoint a group lead who will act as project manager to coordinate this group assignment activities. 3.Group assignment topic is reviewed and agreed by all team members?4.Problem Statement development status? 5.Have you finalized the scope? 6.Where are you on the workflow development for the overall project? 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Topic understanding and to set a path to work on. •Understand your group project topic. (Use tutorial 01 class exercise as reference). 
+•What type of project and which industry workflow your project belongs to? (Suggestion: IT, Construction, Building, Manufacturing, Aerospace, etc.?)
+•Explain current problem in this workflow where your group is trying to solve by implementing AI tools in Project Management Process? (Example: Notes of meeting compilation, review, analysis, draft email to be sent to the attendees).•What is your proposal to solve the identified problem statement? (Example: AI tool implementation to collate meeting transcript and compile into notes of meeting, perform review, analysis, and prepare draft email to be sent to the attendees)•Draw a workflow or block diagram or write down the steps you will take to solve.•Once topic is finalized, ask again: is your team confident to work on this project topic or wish to revise or fine-tune? 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What to do before next consultation?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group topic submission•Stay in touch with your group mates. •Get to know each other. •Explore the topics in depth for the group assignment do you wish to work on. •Come up with proposed topic for your group. •Submit your group topic one day before the next consultation class. 
+ CA6121 NTU Group Assignment Topic selection Mar2026 – Fill out form
+https://forms.cloud.microsoft/r/B8zBtFa6Nb
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What to do before next tutorial class?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Tutorial Classes•Ensure you have watched the relevant lecture(s).
+•Complete the learning exercise, if any suggested in the lecture. 
+•Please bring your laptop to participate in class exercises/ activities.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Photo by: Ravish M
+End of class
+Batam, Indonesia

@@ -1,0 +1,550 @@
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & Scheduling, Resource, Optimization, Prediction, Forecasting 
+Lecture 3: CA6121 AI in Project Management
+Presented by Dr Ravish Maqsood
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder.. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+OBJECTIVESOBJECTIVES
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Overview of planning & scheduling •Schedule network diagram •Dependencies•Critical path method (CPM)•Resources•AI tools in Project Management•Case studies: •AI in Project Management•AI usage in industry
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingProject Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Planning ConceptProject Planning & Scheduling
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+PlanningA plan is used to: •Align expectations of all parties involved •Minimize workflow time of a project•Minimize or avoid conflict•Manage changes effectively•Resource allocation•Many more… 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Planning helps to answer: •What?•Identify and describe the subprojects, work packages and tasks; The result is the work breakdown structure.•Until when?•Describe the timeline; The result is the time schedule and milestone plan.•Who/how many?•Show which forces are to be used with which qualification, which personnel and material resources are needed. This is documented in the resource and cost plan. The project organization describes the type of cooperation.•Conditions?•Specify the technical and spatial requirements, list the known restrictions. This is noted directly in the project plan.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Planning challenge to balance following three aspects
+•Quality•Cost•Time
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning and SchedulingProject Planning & Scheduling
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Key Processes1.Define Activities2.Sequence Activities3.Estimate Activity Duration4.Develop Schedule 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingInputs
+Define Activities
+.1 Project management plan •Schedule Management Plan•Scope baseline
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingInputs
+Define Activities
+Project Scope Baseline•Project WBS, •Deliverables, •Constraints, •Assumptions as mentioned in scope baseline document. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingOutputs
+Define Activities
+a.Activity Listb.Activity Attributes (location, cost, resource requirement etc.)c.Milestone Listd.Change Requestse.Project Management Plan Updates•Schedule Baseline•Cost Baseline  
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & Scheduling
+1.Define Activities2.Sequence Activities3.Estimate Activity Duration4.Develop Schedule 
+Sequence Activities
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingTools & Techniques
+•Precedence Diagramming method•Finish-to-start (FS)•Finish-to-finish (FF)•Start-to-start (SS)•Start-to-finish (SF)  •Dependency Determination and Integration•Mandatory dependencies•Discretionary dependencies•External dependencies•Internal dependencies  •Leads and Lags
+Sequence Activities
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingOutputsa.Project Schedule Network Diagrams
+b.Project Documents Updates•Activity Lists•Activity Attributes•Milestone Lists•Assumption log
+Sequence Activities
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & Scheduling
+1.Define Activities2.Sequence Activities3.Estimate Activity Duration4.Develop Schedule 
+Estimate Activity Durations
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingTools & Techniques
+•Reserve Analysis (Contingency)•Known – unknowns •Buffers or reserves•Management Reserves are not included in schedule baseline
+ReservesContingencyReserve
+ManagementReserve
+Known-UnknownIncluded in Baseline Schedule
+Known-UnknownNot Included in Baseline schedule
+Estimate Activity Durations
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingOutputsa.Duration Estimatesb.Basis of Estimates•Documentation of the basis of the estimate development•Assumptions•Constraints•Range of accuracy (+/- 10%)•Confidence level of the final estimate•Risks c.Project Documents Updates•Activity Attributes•Assumption log•Lessons register
+Estimate Activity Durations
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & Scheduling
+1.Define Activities2.Sequence Activities3.Estimate Activity Duration4.Develop Schedule 
+Develop Schedule
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingTools & Techniques
+Develop Schedule
+•Refer to schedule development details in this lecture later. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Planning & SchedulingOutputs
+a.Schedule Baseline•Activity duration estimates; quantitative assessment of required to complete an activity.•2 weeks +/- 2 days.•15% probability of exceeding given time.•Agreed and approved version of Schedule.•Any changes from now must be approved through Change Management Process.b.Project Schedule•Milestone Charts•Project Schedule Network Diagramsc.Schedule Data•Resource requirements 
+Develop Schedule
+d.Project Schedule Calendars•Workdays, shifts available for the schedule 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Schedule Network DiagramProject Planning & Scheduling
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Schedule Network DiagramIt’s a graphical representation of the logical relationships and known as dependencies, among project schedule activities.
+Start
+ Finish
+Activity A
+Activity C
+Activity G
+Activity B
+Activity DActivity EActivity F
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any pla:orm without permission of the owner. 
+DependenciesProject Planning & Scheduling
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any pla:orm without permission of the owner. 
+Dependency Determination and Integration1.Mandatory Dependencies: •Legally or contractually required. •Hard Logic or Hard Dependencies.2.Discretionary Dependencies: •Preferred Logic, Preferential Logic or Soft Logic.•Should be fully documented and reviewed in fast-track project environment as they may add to total float.  3.External Dependencies: •Relationship between project activities and non-project activities. •Outside project’s team control.4.Internal Dependencies: •Inside project’s team control.•Activities are interdependent.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any pla:orm without permission of the owner. 
+Dependency Determination and Integration1.Mandatory Dependencies: •Legally or contractually required. •Hard Logic or Hard Dependencies.
+Concept
+Detailed
+Approval to proceed
+Example: 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any pla:orm without permission of the owner. 
+Dependency Determination and Integration2.   Discretionary Dependencies: •Preferred Logic, Preferential Logic or Soft Logic.•Should be fully documented and reviewed in fast-track project environment as they may add to total float.  
+Concept
+Detailed
+Approval to proceed
+DesignReview concept to get best value
+Design
+Extra
+Example: 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Dependency Determination and Integration3.External Dependencies: •Relationship between project activities and non-project activities. •Outside project’s team control.
+Concept
+Detailed Design
+Approval to proceed
+Wait clearance
+Detailed DesignCovid 19 Situation
+Overall impact on schedule
+Example: 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Dependency Determination and Integration4.Internal Dependencies: •Inside project’s team control.•Activities are interdependent.
+Concept
+Detailed Design
+Approval to proceed
+Wait
+Detailed DesignNew software set up and training
+Overall impact on schedule
+Example: 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any pla:orm without permission of the owner. 
+Critical Path Method (CPM) TechniqueProject Planning & Scheduling
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any pla:orm without permission of the owner. 
+Critical Path Method (CPM)
+This is the network diagram method used to estimate the minimum project duration and determine the amount of scheduling flexibility on the logical network paths within schedule model.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Critical Path Method (CPM)ActivityABCDEFGImmediate Predecessors----AA,BDC,EETime (weeks)79128965
+AtESLSEFLF
+EF= ES + tLS= LF - tFLOAT = LS - ES or LF - EF
+•A represents Activity Node•t represents time taken by each activity •ES Early Start•LS Latest Start•EF Early Finish•LF Latest Finish
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Critical Path Method (CPM)
+Start
+ Finish
+A7
+AtESLSEFLF
+B9 D8E9G5
+C12 F6
+ActivityABCDEFGImmediate Predecessors----AA,BDC,EETime(days)79128965ES
+LS
+tFloat
+EFLFAc'vityPMBok@ Guide
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Diagraph Representation
+Start
+ Finish32A(7)(12)CF(6)
+B(9)D(8)E(9)G(5)
+0
+Task duration
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Float
+TASK
+Earliest Start Time(EST) Latest Finish Time(LFT)
+Float is the maximum permissible time in a task without affecting project completion. 
+EST, LFT gives an interval which a task can float without affecting the earliest project completion time. 
+What happens if the task with ZERO Float is delayed?
+TASK
+FLOATFLOAT
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Float
+TASK
+Earliest Start Time(EST) Latest Finish Time(LFT)Earliest Finish Time(EFT)FLOATFLOAT = LFT - EFT
+TASK
+Earliest Start Time(EST) Latest Finish Time(LFT)Latest Start Time(LST)
+FLOAT = LST - ESTFLOAT
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Critical Path Method (CPM)
+Start
+ Finish
+A707
+AtESLSEFLF
+B909D8917E91726G52631
+C12719F62632
+32
+EF= ES + t
+ActivityABCDEFGImmediate Predecessors----AA,BDC,EETime(days)79128965
+Forward Pass
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Critical Path Method (CPM)
+Start
+ Finish
+A70279
+AtESLSEFLF
+B90099D8991717E917172626G526273132
+C127141926F62626323232
+LS= LF - t
+EF= ES + t
+FLOAT = LS - ES  or  LF - EF
+FLOAT= 2
+FLOAT= 0
+FLOAT= 7
+FLOAT= 0FLOAT= 0FLOAT= 1
+FLOAT= 0
+ActivityABCDEFGImmediate Predecessors----AA,BDC,EETime(days)79128965
+Backward Pass
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Critical Path Method (CPM)
+Start
+ Finish
+A70279
+AtESLSEFLF
+B90099D8991717E917172626G526273132
+C127141926F62626323232
+FLOAT = LS - ES  or  LF - EFFLOAT= 0
+FLOAT= 7Means can begin anytimeBetween week 7 and 14Finish between 19 & 26
+FLOAT= 0FLOAT= 0
+FLOAT= 0FLOAT= 2Means can begin anytimeBetween week 0 and 2Finish between 7 & 9
+FLOAT= 1Means can begin anytimeBetween week 26 and 27Finish between 31 & 32
+ActivityABCDEFGImmediate Predecessors----AA,BDC,EETime(days)79128965
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Critical Path Method (CPM)
+Start
+ Finish
+A70279
+AtESLSEFLF
+B90099D8991717E917172626G526273132
+C127141926F62626323232
+FLOAT = LS - ES  or  LF - EF
+FLOAT= 2Means can begin anytimeBetween week 0 and 2Finish between 7 & 9
+FLOAT= 0
+FLOAT= 7Means can begin anytimeBetween week 7 and 14Finish between 19 & 26
+FLOAT= 0FLOAT= 0FLOAT= 1Means can begin anytimeBetween week 26 and 27Finish between 31 & 32
+FLOAT= 0
+Critical Path 
+Critical Path LinkNon-Critical Path Link
+ActivityABCDEFGImmediate Predecessors----AA,BDC,EETime(days)79128965
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Gantt ChartProject Planning & Scheduling
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Gantt Chart
+A Gantt chart, commonly used in project management tool to show activities (tasks or events) displayed against time. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Gantt Chart•On the left of the chart is a list of the activities and along the top is a suitable time scale. •Each activity is represented by a bar; the position and length of the bar reflects the start date, duration and end date of the activity. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Gantt ChartGantt chart allows to see:•Various activities•Start and finish of each activity•Duration of each activity•Activities overlap with other activities•Critical path activities and Float •The start and end date of the whole project
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project ResourcesProject Resource Management
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Type of Resources
+Human ResourceAcquireTrain DeployManageDemobilize
+EquipmentMaterial SuppliesFacilities
+TEAM RESOURCES
+PHYSICAL RESOURCES
+Project Execution
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Human Resource ManagementHelp to manage Processes •Plan•Estimate•Acquire•Develop Team•Manage Team •Control Resources
+Human ResourceAcquireTrain DeployManageDemobilize
+TEAM RESOURCES
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Human Resource ManagementVarious aspects: •Type of Project •Team environment•Geographical locations of team members•Politics (internal and external)•Critical issues and any unique features
+Question: Can you use “all best resources” on a project? 
+Human ResourceAcquireTrain DeployManageDemobilize
+TEAM RESOURCES
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project PhysicalResource Management
+EquipmentMaterial SuppliesFacili=es
+PHYSICAL RESOURCESIt is also important and focus on allocation and control of physical resources. 
+•Material / Software licenses / Cloud•Equipment •Supplies•Facilities•Transport
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project PhysicalResource Management
+EquipmentMaterial SuppliesFacilities
+PHYSICAL RESOURCESFailing to manage and control physical resources, increase the risk on the project completion. •Timely availability of the equipment is important.•Rework due to non-conformance to the specifications and requirements. •Managing quantities.
+Question: Do you think project can order more quantities? 
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Schedule & Resource OptimizationProject Planning & Scheduling
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Resource Optimization Techniques
+StartActivity ATom: 8hrs
+Activities Before Resource Leveling
+Jerry: 8hrs
+Activity BJerry: 8hrs
+Day 1Day 2Day 3Tom  : 8 hrs.Jerry : 16 hrs.Tom  : 8 hrs.
+Activity CTom: 8hrs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Resource Optimization Techniques
+StartActivity ATom: 8hrs
+Activities After Resource Leveling
+Jerry: 8hrs
+Activity BJerry: 8hrs
+Day 1Day 2Day 3Tom  : 8 hrs.Jerry : 8 hrs.Jerry  : 8 hrs.Tom  : 8 hrs.
+Activity CTom: 8hrs
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Resource Optimization: : Leveling and SmoothingResource Allocation Chart
+JerryTomCheryl8hrs
+12hrs
+16hrs
+4hrs
+DonDay 1Day 2Day 3
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Resource Optimization: : Leveling and SmoothingResource Allocation Chart
+JerryTom
+8hrs
+12hrs
+16hrs
+4hrs
+DonDay 1Day 2Day 3
+Cheryl
+CherylJerry
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Schedule Optimization: Schedule CompressionTechniques used to shorten the schedule duration without reducing scope, in order to meet schedule constraints, imposed timeline, and other schedule objectives.
+1. Fast Tracking  Activities and phase delivered in parallel (overlap). 2. CrashingAdditional resources to expedite the work. Only to be used for activities under critical path as it may result in cost increase. 
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Schedule Optimization: Schedule Compression1234567891011121314Normal
+Fast Tracking
+Crashing
+123434566789
+12345678910
+1011High RiskHigh Cost
+High CostHigh Risk
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project OrganizationProject Resource Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Organization Structure (Company Level)
+Functional Manager AFunctional Manager BFunctional Manager CFunctional Manager D
+Project A Manager
+Project B Manager
+Project C Manager
+StaffStaffStaffStaff
+StaffStaﬀStaffStaff
+StaffStaffStaffStaff
+Matrix Organization
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any pla:orm without permission of the owner. 
+Project Organization
+Functional OperationalTechnicalSystem AdministratorQuality AssuranceTraining
+Project Manager
+Project Sponsor
+Receiving
+Delivery
+Hardware EngineerMaintenance
+Enhancements
+Interfaces
+Testing 
+UX / UI Design
+Procedures
+Quality Audits
+Improvements
+Training Lab
+Trainer
+Sample
+Client Project ManagerHR / AdminFinance
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Roles & ResponsibilitiesProject Resource Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Roles and ResponsibilitiesRoles and Responsibilities are defined based on: •Type of Project•Expertise needed to execute a particular task•Experience and competencies•Skills and training•Willingness
+AI Tool can helpMapping Skills, Competencies and identify training needs
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Roles and Responsibilities
+•Role•Responsibilities•Authority•Competency
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Roles and Responsibilities
+RACI Matrix is used in large projects. •Responsible•Accountable•Consulted•Informed Source: Project Management for PracticeA Guide and Toolbox for Successful ProjectsDaud Alam · Uwe Gühl
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Roles and ResponsibilitiesDecision and Reporting paths 
+Source: Project Management for PracticeA Guide and Toolbox for Successful ProjectsDaud Alam · Uwe Gühl
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Roles and ResponsibilitiesPoints to take note while setting up: •Manageable size•Social Mix•Blend of different competencies •Experience and skills•Politics•Client preferences
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project StaffingProject Resource Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project StaffingStaffing Management Plan•Staff Recruitment •Resources Calendar•Staff Mobilization•Training Needs•Recognition and Rewards•Staff De-Mobilization •Compliance •Safety
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Team Recruitment
+Project Manager / Team Appointment: •Similar experience as to the requirement of the project.•Type•Size •Location•Familiarity •Availability •Willing•Fits the budget
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Team Recruitment
+How to search the right candidate?  •Internal candidate•Local office•Other location
+•External hire•Direct advertisement•Referral•Agency•Consultant
+AI Tool can help to filter the candidates’ profile
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Tools in Project ManagementHigh level Perspective
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management•Using AI to review the Request For Proposal (RFP). •Review against previous projects. •Iden>fy the Risk Proﬁle on this project calling for RFP . •Review the schedule and purchasing in compliance to the policies. 
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Machine Learning in Project ManagementEstimating
+•Analysis of past projects and create a new estimate for future projects. •Challenge is to build the accurate data set
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Machine Learning in Project ManagementSchedulingCan build up the schedule using the data on: •Resource availability •Task Dependencies•Task Durations•Project Constraints•Parallel working•Fast tracking•Additional resources
+Number of alterna>ve scenarios possible for the given informa>on & priori>es
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management•Schedule optimization.•Schedule changes to the project within our control or outside and responding to the changes. •Shop fabricated became overbooked and need some intervention. •Review the scope and optimize etc. •If need to be de-scope etc. •Shipping impact •Linear regression model solution (descope and re-scheduling can be done). 
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management•Linear progression approach can help.•Baseline schedule is available in different formats or software.•Any changes will have some impact on the schedule. •Creating a workflow to review the impact is a mini-project. •Change request model can be embedded with approval processes. 
+AI Tool can help
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Prediction and forecastingProject Planning & Scheduling
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Prediction and forecasting
+•Earned Value Management covers predic>on and forecas>ng. •Any changes may have an impact on schedule, cost, risk, and resources. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Studies AI in Project Management (Not in AI Project)AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study ACase Study: Development of Business CaseScenario:GenAI is used to generate the business case documentation.Tools used:LLM via ChatGPTConcerns:•Confidential information data could not be used. •Need human intervention to review the outputs.•Output was not in the existing format available in the company. •Project Manager still needed time to review the outcome. Solutions:•Inhouse LLM (ChatGPT similar) model will help to resolve confidentiality issues. •Implement human-in-the-loop review for AI alerts•Provide training to build trust among workers
+AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study BCase Study: Generation schedule with critical path identified. Scenario:GenAI is used to generate schedule with highlighted critical path.Tools used:LLM via ChatGPTConcerns:•Confidential information data could not be used. •Need human intervention to review the outputs.•Project Manager still needed time to review the outcome. Solutions:•Implement human-in-the-loop review for AI alerts•Provide training to build trust among workers
+AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study CCase Study: Automatic summarizing the notes of meeting in google drive. Scenario:AI Agent workflow is used to generate the output. Tools used:Make, Google Drive, Jotform, LLM via ChatGPTConcerns:•Paid version of ChatGPT developer version was used to generate APIs.•Jotform subscription. Solutions:•Good workflow which could be implemented easily. 
+AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study DCase Study: Automatic summarizing the invoices from different suppliers. Scenario:AI tools are used to generate expected outcome. Tools used:Expensify, Altyrex, Excel Concerns:•Expensify and Altyrex are paid account to utilize to max.•Learning curve. Solutions:•Good workflow which could be implemented easily. 
+AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Studies AI Projects (Not in Project Management)AI Projects
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study A1Case Study: Predictive Maintenance in ManufacturingScenario:AI is used to predict equipment failure before it happens to avoid unplanned downtime.Ethical concerns:•Reliability: False positives lead to waste; false negatives lead to danger•Transparency: Operators may not trust a black-box system•Accountability: Who is responsible when a machine fails after an AI alert?Creative Solutions:•Build interpretable models with visual diagnostics•Implement human-in-the-loop review for AI alerts•Provide training to build trust among workersSource: https://apmonitor.com/pds/index.php/Main/AIEthics
+AI Project
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study B1
+Source: https://apmonitor.com/pds/index.php/Main/AIEthics
+Case Study: Structural Safety AIScenario:Civil engineers use AI to detect stress and predict failure in bridges and buildings.Ethical concerns:•Explainability: Regulatory bodies require justification for decisions•Dataset limitations: Lack of failure examples can limit accuracy•Safety: Engineers must never defer responsibility to the AICreative Solutions:•Combine AI with physics-based modeling•Use explainable AI methods for transparency•Maintain final decision-making with licensed professionals
+AI Project
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study C1
+Source: https://apmonitor.com/pds/index.php/Main/AIEthics
+Case Study: Energy Optimization in Chemical EngineeringScenario:ML optimizes energy usage, reducing waste and emissions in a chemical plant.Ethical concerns:•Pushing systems to the limit could sacrifice safety•Collection of sensitive operational data•Environmental justice: Are negative externalities properly considered?Creative Solutions:•Impose safety bounds in optimization routines•Use encrypted, anonymized data for analysis•Regular audits for environmental compliance and fairness
+AI Project
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study D1
+Source: https://apmonitor.com/pds/index.php/Main/AIEthics
+Case Study: Autonomous VehiclesScenario:An AI system controls a self-driving car to reduce accidents.Ethical concerns:•Crash dilemmas: How should it decide between two harmful outcomes?•Bias in perception systems (e.g., skin tone, age)•Legal accountability after accidentsCreative Solutions:•Program safety envelopes and default-safe behavior•Diversify training data to minimize bias•Use black-box logs to ensure transparency in decision-making
+AI Project
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Case Study E1
+Source: https://apmonitor.com/pds/index.php/Main/AIEthics
+Case Study: Smart Cities and PrivacyScenario:AI is used in traffic control, surveillance, and city planning.Ethical concerns:•Surveillance: Citizens unaware of being tracked•Data retention and usage without consent•Algorithmic bias in policing or resource allocationCreative Solutions:•Engage communities in system design and governance•Apply privacy-preserving data practices•Implement fairness audits for public-facing AI decisions
+AI Project
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Student Exercise 2•Perform a search or collate your own personal experience to identify at least 1 case study where you think AI is used in Project Management. •Any industry.•Any location. •Any type of project (IT, Construction, Pharma, etc.) Prepare your response and submit via Submission Link Provided Separately.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+End of class
+Photo by: Ravish MSingapore

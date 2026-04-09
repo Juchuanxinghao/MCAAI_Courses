@@ -1,0 +1,280 @@
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project ProgressReport Writing Progress and TipsConsult 4: CA6121 AI in Project Management
+Presented by Dr Ravish Maqsood
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder.. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Check your email inbox/spam folders for the survey link from•NTU Student Experience Survey 2026 <ntusurveyadmin2026@sg.beacon.mx>•Open to all NTU/NIE students who have completed at least one semester/trimester with the university•For enquiries, please contact NTUStudentSurvey@ntu.edu.sg•Win many attractive lucky draw prizes!
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Tutorial ActivityAI in Project Management
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Tutorial Activity/ Exercise: 03Topic: Schedule & Critical Path: AI Tools implementation in Project Management.
+This is INDIVIDUAL Exercise. You are a project manager and planning to implement some improved solutions to your work processes / workflow for the project management . 
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Tutorial Activity/ Exercise: 03Activity: Work as an INDIVIDUAL on the exercises in the class.
+Tools used: ChatGPT , Make, Excel, Google Drive or similar of student’s choice. Problem statement: You have received the client documentation and need to be sorted out to prepare a business case. (Document provided as per the instructions).  
+Please use the AI Tools which you can use for your project. 
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Tutorial Activity/ Exercise: 03PART 1, 2: (90min)
+Part 1: (60 min)i.Use the prompt provided to generate the result using AI Tool of your choice.ii.Perform some research and evaluate what are the best tools do you wish to use. 
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Tutorial Activity/ Exercise: 03PART 1, 2: (90min)
+Part 2: (60 min)i.Create a workflow mentioning the tools you proposed / used. ii.Mention maximum five (5) challenges you faced and how did you overcome these?iii.Do you think, this workflow is helpful for the project managers? Please write 5 positive and 5 negative points. iv.Upload the results in the folder provided in NTU Learn. 
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Cost prediction and forecastingProject Cost Management
+Quick Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM)
+Earned Value Management (EVM) is a methodology that combines scope, schedule, and resource measurements to assess project performance and progress.
+It integrates scope baseline and cost baseline, along with the schedule baseline to form the performance management.
+Quick Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM)Earned Value Management (EVM) develops and monitor 3 key dimensions for each work package and control account: 
+1.Planned Value (PV)2.Earned Value (EV)3.Actual Cost (AC)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM) ExampleA company plan to install new computers supply and install by the supplier as follows: Day Work Person required (no.)Planned Rate ($)Planned Cost ($)1Setup1$1000$10002Installation2$1000$20003Installation2$1000$20004Installation2$1000$20005Installation2$1000$20006Installation2$1000$20007Final handover1$1000$1000How do we set this information to monitor?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM) ExampleSet Up
+Day 1Day 2Day 3Day 4Day 5Day 6Day 7
+Install
+Handover
+Planned Cost
+$1000
+$2000$2000$2000$2000$2000
+$1000
+Planned Cost
+Planned Cost
+Cum Cost(PV) Planned Value$12000$3000$5000$7000$9000$11000$1000
+Activities
+Rate Budget$1000 person per day
+This was the Plan
+But what happened 
+in actual?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM) ExampleACTUAL Scenario: Company could not find person at planned rates:Work done 1stday is 100% and 2ndday 50% by 2 people. Day Work Person required (no.)Planned Rate ($)Planned Cost ($)ActualRate ($)Actual Cost ($)1Installation1$1000$1000$1100$11002Installation2$1000$2000$1500$30003Installation2$1000$20004Installation2$1000$20005Installation2$1000$20006Installation2$1000$20007Final handover1$1000$1000How do we represent this information?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Earned Value Management (EVM) Example
+Planned Value (PV)
+$1000
+$4000
+$6000
+$8000
+$10000
+$2000$3000
+Day 1Day 2Day 3Day 4Day 5Day 6Day  7Day  8
+$5000
+$7000
+$9000
+$11000$12000
+Set Up
+Day 1Day 2Day 3Day 4Day 5Day 6Day 7
+Install
+Handover
+Planned Cost
+$1000
+$2000$2000$2000$2000$2000
+$1000
+Planned Cost
+Planned Cost
+Cum Cost(PV) $12000$3000$5000$7000$9000$11000$1000
+Activities
+EV$1000$1000Work Done100%50%
+Cum (EV)$1000$2000
+Actual CostAC$1100$3000Cum (AC)$1100$4100
+Rate Actual$1100 1st day and $1500 person per day
+Rate Budget$1000 person per day
+Actual Cost (AC)Earned Value (EV)Planned Value (PV)
+Actual Cost (AC)
+Earned Value (EV)
+Cost Variance (CV)Schedule Variance (SV)
+Cost Variance (CV)        =  EV - ACSchedule Variance (SV) =  EV - PV +ve value is good as it means you have earned more than planned.-ve value is BAD as it means you are falling behind.=> $2000 – $4100  = -$2100=> $2000 – $3000  = -$1000
+Cost Performance Index (CPI)         =  EV / AC    => $2000/$4100 = 0.48Schedule Performance Index (SPI) =  EV / PV     => $2000/$3000 = 0.67< 1 is not good, means you are behind
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Forecasting$12000
+$1000
+$4000
+$6000
+$8000
+$10000
+$2000$3000
+Day 1Day 2Day 3Day 4Day 5Day 6Day  7Day  8
+$5000
+$7000
+$9000
+$11000Actual Cost (AC)Earned Value (EV)Planned Value (PV)
+Actual Cost (AC)
+Earned Value (EV)
+Planned Value (PV)Cost Variance (CV)Schedule Variance (SV)
+$13000
+Estimate At Completion (EAC)
+Estimate To Complete(ETC)
+(BAC)
+Estimate AT Completion => EACBudget AT Completion   => BACEstimate To Complete    => ETC
+Budget ATCompletion(BAC)
+Earned Value (EV)
+(EAC)
+EAC = AC + (BAC –EV)          or AC + ETC = $4100 + ($12,000-$2000)= $14,100
+$14100
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Topic and ApproachAI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management:•Criteria to select a project for group assignment: •Can have either or all phases of project covered in the lecture •Initiation, •planning, •executing, •monitoring & control, •close-out. •Must draw a workflow of the current situation and proposed improvement. •Improve process for a project by implementing AI tool of your choice. (Example: collating of notes of meeting, preparation of EVM, sorting the team profiles, etc.).
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Where can it help a Project Manager? 
+•Project Business Case development. •Review and analyze the contract document. •Client supplied technical and commercial documents compile and analysis.•Project Charter development. 
+•Team selection (Review of applications). •Project schedule development and updates. •Earned Value Management (EVM) and Forecasting. •Budget vs Actual performance analysis. •Notes of meeting automation, summary, issue to the stakeholders. •Issue regular communication with the stakeholders. (Emails, Project Updates, Newsletters, etc.).•Periodic project reports (weekly / monthly / quarterly). •Project Quality and Inspection (Plan and Actual performance / analysis). •Project Risk Analysis (Plan and Actual performance / analysis). •Project Change Management and its impact on project. (Plan and Actual performance / analysis). •Project procurement management (vendor, sub-con selection, tender comparison, recommendation, performance analysis, etc.).•Expenses reporting.
+MONITORING & CONTROLINITIATINGPLANNINGEXECUTING CLOSING
+•Project Management Plan preparation and updating. •Project specific procedures. •Project compliance to contract, local regulations, etc. 
+•Planned vs Actual Data analysis (Scope, Schedule, Cost, Resources).•Changes and rework analysis. •Quality/ Safety/ Compliance/ Testing/ Deployment/ Handing over, performance and analysis. •Vendors / Sub-contractors/ Suppliers performance analysis. •Team performance analysis. •Lessons mapping and analysis. •Project close-out documentation. 
+All of the above mentioned can be improved using AI Tools
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Select the right AI ToolsMONITORING & CONTROLINITIATING CLOSINGEXECUTINGPLANNINGTools availableTools availableTools availableTools availableTools available
+12345678
+12345678
+12345678
+12345678
+12345678
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Workflow 
+Data input
+Project Data
+Data SortingData AnalysisData OutputData Sharing
+Which tool? 
+Date SharingData SortingData AnalysisData SortingWhich tool? Which tool? Which tool? Which tool? 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management:•Use the consultation session regarding the group project. •AI Tools can be of your choice.•Marking will have the rubrics to include: •Group report (content and quality). •Workflow snapshot.•Proposed AI tools for the solution to the workflow.   
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management:•Use the project report template provided. •Please do not delete the headings and bullets. (please mark N.A, if any of them is not applicable for your selected project). •Use the guidelines provided for preparation. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project: What Next? AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Topic understanding and to set a path to work on. 
+•You have project topic selected. •Your inputs:•Workflow with project steps explained.•Identify the areas where AI Tools can be implemented in Project Management Processes. •Effort needed to develop and implement the AI solutions. •Proposed Time / Schedule to execute the project.•Any other value-added pointers.
+ClientConsultant Your Group Represents as Consultant and expected to advise the client.Client wish to implement AI Tools in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Your Group Project Progress?AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group Project Approach
+Team Formed
+Topic FinalizedProblem StatementFinalizedScope FinalizedWorkflow developedAI Tools usage identified
+Project Organization ChartSchedule Developed
+AI Tools list, eval, finalizedData UnderstandingData Collection/ SortingModel DevelopmentFinal Test and ResultsReady to deploy
+Report
+Present
+Start Finish
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Your Group Project Progress? 1.Workflow understanding. 2.Workflow developed and finalized. 3.AI Tools usage understood and agreed. 4.AI Tools list is finalized.5.Proposed project schedule, cost, resource requirements are developed. 6.Other relevant details progress, risk identification, challenges, lessons, opportunities, etc. 
+7.Following are applicable if you are also developing a demo with some dummy data: •Data collection.•Data understanding.•Data sorting and preparation. •Model development.•Model testing. •Testing complete. •Results verification and validation. 
+Actual Work Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Report Writing ProgressAI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group project report preparation progress•Executive Summary – Better to write at last after the whole project report is completed. •Project Introduction / Description / Problem Statement.•Project Management and implementation: •Scope of work.•Project Organization chart.•Workflow diagram for your project. 
+Report Preparation Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group project report preparation progress•Project Schedule. •Gantt Chart for the project with key milestones.
+•Project Cost: •Cost of AI Tools and other resources. (Cloud, server, etc.)•Cost of people for development. •Cost of Vendors and Suppliers (as may be applicable). •Cost of testing, deployment.  •Cost of training staff. •Others. •Overall performance of the project. Plan vs Actual. 
+Report Preparation Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group project report preparation progress•AI Tools used on the project. •List all the tools used and its purpose on this project.•Source of the AI tools (Vendors / Suppliers/ 3rd party installers as may be applicable). •License & Cost of each AI tool. •Schedule to implement these tools. •Training needs to apply these tools. 
+Report Preparation Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group project report preparation progress
+•AI Tools usage / implementation: •Understanding: why did you select them?•What are other 3 best choices available in the market (if any)?•Explain data understanding / data preparation approach and requirements for each AI Tool proposed.  
+Report Preparation Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group project report preparation progress
+•Model development / evaluation and deployment. •Explain model development for this whole project.•Draw a workflow as may be applicable. •Explain evaluation approach and results. •Deployment strategy and results.  
+Report Preparation Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group project report preparation progress•Benefits of implementing these AI Tools on your project. •Explain for the whole project.
+•Challenges of implementing these AI Tools on your project. •Explain for the whole project.
+•Risks of implementing these AI Tools on your project. •Explain for the whole project.
+Report Preparation Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group project report preparation progress•Lessons learned while implementing these AI Tools on your project. •Explain for the whole project.
+•Any other points you wish to share.
+Report Preparation Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group project report preparation progress•Workflow snapshots/ screenshots/ coding/ inputs/ results. •Explain for the whole project.•Attachments.•Problem statement. •Input data•Output
+Report Preparation Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Group project report preparation progress•All slides reviewed and ready to present. •Check the slides. •All slides are marked with person presenting. •All slides' data is correct. 
+Report Preparation Progress
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Check your email inbox/spam folders for the survey link from•NTU Student Experience Survey 2026 <ntusurveyadmin2026@sg.beacon.mx>•Open to all NTU/NIE students who have completed at least one semester/trimester with the university•For enquiries, please contact NTUStudentSurvey@ntu.edu.sg•Win many attractive lucky draw prizes!
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What to do before next consultation?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Get Ready for your draft work
+•Any group can be asked to about their group work progress. •It could be discussion on their project report draft. •At random any of the groups can be picked to share. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What to do before next tutorial class?
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Tutorial Classes•Ensure you have watched the relevant lecture(s).
+•Familiarize yourself with •Project Cost related concepts on a project•EVM (Earned Value Management) 
+•Please bring your laptop to participate in class exercises/ activities.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+End of class
+Photo by: Ravish M

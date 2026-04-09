@@ -1,0 +1,642 @@
+ML in Financial Compliance
+Dr. Eric Tham
+Email: eric.tham@ntu.edu.sg
+
+
+Outline 
+Page 2
+• Financial Compliance: AML/ CBT 
+• Unsupervised methods
+• Clustering
+• Graphical ML
+
+Aspects of Financial Compliance
+• The regulation and enforcement of the laws and 
+rules in finance and the capital markets for 
+companies. 
+• Two main aspects
+• Regulatory compliance
+• Regulatory for eg Basle Accord capital 
+calculations, international sanctions
+• Financial Crime compliance
+• Guard against AML, CBT and fraud detection. 
+
+Battle against Crime and Making the World 
+a Safer Place
+Page 4
+• Protecting the global financial system https://www.ft.com/content/a81bc993-97fc-
+45d2-bd55-9dd32b5957d 
+
+
+Tightens scrutiny of clients
+Page 5
+https://www.ft.com/co
+ntent/8d1a9820-05ac-
+4f90-9417-
+8efd2222c42c 
+
+
+Financial Crime Compliance
+• Anti-Money laundering (CBT)
+• Laundering of ‘dirty money’ in the world 
+financial systems
+• Source of funds from illicit activities – 
+drugs, slavery, scams etc. 
+• Combat Terrorism financing (CBT)
+• Scams / Frauds alert!  
+
+Anti-Money Laundering (AML) & Combating 
+the Financing of Terrorism (CFT)
+Page 7
+• Protecting the global financial system
+The process of making illegally obtained money appear legitimate
+1. Placement
+Introduction of illegal funds into the financial system through deposits, wire transfers, 
+or other means
+2. Layering
+Complex transactions to obscure the origin of funds through multiple transfers, 
+conversions, or investments
+3. Integration
+Reintroduction of laundered funds into the legitimate economy as apparently legal 
+wealth
+
+Why AML/CBT matters: Global Impact
+Page 8
+Economic Impact
+• Undermines financial system integrity
+• Distorts investment and trade flows
+• Estimated 2-5% of global GDP laundered annually
+Social Impact
+• Funds organized crime and terrorism
+• Increases corruption and inequality
+• Threatens national security
+Regulatory Impact
+• Reputational damage to institutions
+• Severe penalties and sanctions
+• Loss of banking licenses
+Global Cooperation
+• Cross-border coordination essential
+• Information sharing critical
+• Standardized regulations needed
+
+Key International Framework: FATF 
+and global standards
+Page 9
+Financial Action Task Force (FATF)
+Established in 1989, FATF sets international standards for combating money laundering 
+and terrorist financing
+FATF 40 Recommendations Cover:
+Risk assessment and policy coordination
+Customer due diligence (KYC)
+Suspicious transaction reporting
+International cooperation
+Beneficial ownership transparency
+Targeted financial sanctions
+
+Core AML/CFT Obligations
+What financial institutions must do
+Page 10
+Know Your Customer (KYC)
+Verify customer identity, understand business relationships, and assess risk profiles
+Customer Due Diligence (CDD)
+Ongoing monitoring of transactions and periodic review of customer information
+Suspicious Activity Reporting (SAR)
+Report unusual or potentially criminal transactions to relevant authorities
+Record Keeping
+Maintain comprehensive records of transactions and customer data for specified 
+periods
+Risk-Based Approach
+Apply enhanced measures for higher-risk customers, products, and jurisdictions
+
+Red Flags & Warning Signs
+Common indicators of suspicious activity
+Page 11
+Transaction Patterns
+• Unusual transaction volumes or frequencies
+• Transactions just below reporting thresholds
+• Rapid movement of funds between accounts
+• Complex transactions with no clear purpose
+• Use of multiple accounts or intermediaries
+Customer Behavior
+• Reluctance to provide information
+• Inconsistent business rationale
+• Unusual concern about reporting requirements
+• Transactions inconsistent with profile
+• Use of shell companies or nominees
+ 
+
+Red Flags & Warning Signs
+Common indicators of suspicious activity
+Page 12
+Geographic Indicators
+• Transactions involving high-risk jurisdictions
+• Frequent cross-border wire transfers
+• No apparent business connection to location
+• Sanctions-listed countries involvement
+Product/Service Misuse
+• Cash-intensive business anomalies
+• Unusual use of trade finance instruments
+• Cryptocurrency mixing or layering
+• Prepaid cards with large balances
+
+How AI/ML helps in financial compliance
+Page 13
+• Sifting through the deluge of data to find patterns and anomalies. 
+• Eg: 
+• Transactions monitoring: distinguish genuine suspicious activity (fraud 
+detection) from routine transactions more accurately. Reducing false positives 
+top priority. Huge false positives create massive backlogs.
+• Blockchain analytics: Tools to trace cryptocurrency transactions and identify 
+connections to illicit activities
+• Customer risk assessment: during onboarding and KYC (know your customer); 
+helps to uncover hidden links 
+• Automated (continued) risk assessment: constant monitoring of news and 
+regulatory updates through NLP (for e.g. enable summarization) on key entities
+
+AI/ML Techniques for Financial Compliance
+Page 14
+• Unsupervised ML methods:
+• K-means clustering
+• DBSCAN
+• Graphical ML
+• Objectives of unsupervised learning usually to reduce the 
+complexity of the data/ reduce noise. Done by: (usu.)
+• Transform data points
+• Reduce the no of data points
+• How does it capture key essence of original data?
+->  Through grouping (clustering) of data points
+
+Unsupervised Learning
+Look up to sky 
+and observe the 
+stars
+What do you 
+see?
+
+
+Constellations!
+Stars that are 
+grouped together – 
+constellations! 
+
+
+K-means clustering
+Page 17
+• How do you group multiple ‘entities’ together based on 
+their characteristics? Fixed no of groups at start.
+• Eg. Customers with features – age, income, occupation, 
+interests etc
+• Objectives:
+• group members as similar as possible to one another
+• groups as different as possible with other groups
+
+How to measure Similarity?
+Page 18
+
+
+Similarity (Distance) Measure
+19
+• A distance measure is normally used to measure the 
+similarity or dissimilarity between two data objects
+• Data is often in matrix 
+– n records (rows), each with p attributes/ features in columns
+– n-by-p matrix structure
+– xab = value for ath record and bth attribute
+                                                         Attributes
+     Records
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+npx...nfx...n1x
+...............
+ipx...ifx...i1x
+...............
+1px...1fx...11x
+nrecord
+irecord
+record 1
+
+Similarity (Distance) Measure
+20
+• General distance measuring method:  Minkowski distance
+         
+   where  i = (xi1, xi2, …, xip) and j = (xj1, xj2, …, xjp) are two  
+            p-dimensional data objects, and q is a positive integer
+• For Euclidean distance:  q = 2
+• Manhattan distance:  q = 1
+q q
+pp
+qq
+jxixjxixjxixjid )||...|||(|),(
+2211
+−++−+−=
+||...||||),(
+2211 pp jxixjxixjxixjid −++−+−=
+)||...|||(|),( 22
+22
+2
+11 pp jxixjxixjxixjid −++−+−=
+
+21
+x
+y
+1    2     3     4     5     6    7     8
+1
+2
+3
+4
+5
+6
+7
+8
+Euclidean 
+distance
+Manhattan distance
+Euclidean & Manhattan
+Distance between red and purple?
+
+22
+Transform Numeric Data
+Step 1: Standardize the data
+• To ensure they all have equal weight
+• To match up different scales into a uniform, single scale
+Step 2: Compute dissimilarity between records
+Euclidean, Manhattan or Minkowski distance
+
+• Distance between Nominal variable (more than 2 states e.g., red, 
+yellow, blue, or green) are computed by:
+• Method 1: Simple matching
+m: # of matches, p: total # of variables
+• Method 2: use a large number of binary variables
+creating a new binary variable for each of the M nominal states
+Nominal (Categorical) Data  
+p
+mpjid −=),(
+23
+
+Popular ML Term: Anomaly Detection
+Page 24
+• Anomaly: also called outlier detection. 
+• what’s not ‘belong’ to usual groups or 
+abnormal. 
+• Commonly uses unsupervised learning.
+• Used in finance for fraud detection, suspicious 
+trades, AML, trading, stress testing, market 
+and trading anomalies
+
+k-Means Algorithm
+• Given k, the k-means clustering works as follows:
+1. Choose a value for k, the total number of clusters.
+2. Randomly choose k points as cluster centers (seeds)
+3. Assign the remaining instances to their closest cluster 
+center.
+4. Calculate a new cluster center for each cluster.
+5. Repeat steps 3-4 until the cluster centers do not 
+change.
+25
+
+26
+k-Means Clustering in action
+
+27
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0 1 2 3 4 5 6 7 8 9 10
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0 1 2 3 4 5 6 7 8 9 10
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0 1 2 3 4 5 6 7 8 9 10
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0 1 2 3 4 5 6 7 8 9 100
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0 1 2 3 4 5 6 7 8 9 10
+K=2
+Arbitrarily choose K 
+object as initial 
+cluster center (seeds)
+Assign 
+each 
+object 
+to 
+closest 
+center
+Update 
+the 
+cluster 
+means
+Update 
+the 
+cluster 
+means
+reassign
+…
+reassign
+Finish 
+when no 
+change
+k-Means Clustering
+
+28
+k-Means Clustering
+With more iterations, the data points within each cluster become ‘more 
+similar’ as a whole
+
+K-means clustering in fraud detection
+Page 29
+Non-conformance
+• Anomaly detection for money-laundering, frauds (in credit card 
+use & applications etc)
+• Early days use rules-based ML. 
+• Idea is to find non-conforming clichés amongst trades/ 
+transactions with high-dimensional (many) features in 
+‘groups’ setting
+
+30
+• Clustering based on density (local cluster criterion), such as the 
+density of points
+• Earlier, with K-means/ medoids: distances are measured wrt from 
+points to a point; but now to a group of nearest points
+Major features:
+Able to uncover clusters of arbitrary shape
+Handle noise
+Need density parameters as termination condition
+ 
+Density-based Clustering
+
+
+DBScan – an analogy in the stadium
+
+
+How is ‘density’ defined?
+• Two main hyper-parameters to define density
+• Eps (radius)
+• minPts (minimum number of points in a group)
+eps (radius)
+Dense enough? 
+-
+> 
+Regard as a group
+
+
+DBScan – Group or Noise
+• Group data points as either: 
+• Part of a group
+• Noise (outside group) 
+
+
+Use of DBSCAN
+Page 34
+• Fraudulent trades
+• In the past, rules-based method to identify 
+fraudulent trades AML/CBT.
+• Normally works by looking single characteristics 
+• Trade notionals
+• Trade frequencies etc
+• DBSCAN/ other ML Methods useful in that it 
+considers high-dimensional features, and in bias-
+free method. 
+
+35
+DBSCAN Demonstration
+https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/ 
+
+
+Advantages of using ML for compliance
+• Rules are static but ML is dynamic.
+• Tackle high-dimensional transaction features at once
+• ML learns by ‘itself’. Rules etc. need historical precedence and human judgement
+
+
+Test your understanding: menti.com xxxxxx 
+For illustration, we use 
+only 2 features to identify 
+suspicious trades:
+For eps = 2 and minPts = 
+4; what are the trades 
+flagged out as suspicious?
+
+
+False Positives (Suspicious) Trades
+• Previous eg of: too many trades flagged out?
+• Raise (stricter) or lower the bar? (ML Metrics) -> tug of war between 
+regulators and FIs
+False 
+Positives
+ Laxness
+
+
+Introducing and Demystifying Graphs
+Page 39
+• Put simply, graph are a network of nodes and links. Links 
+connect the nodes.
+• The links represent relationships. Relationships are 
+ubiquitous and key in the financial industry.
+
+
+Graphs – more common than thought
+Common in finance. Examples:
+Trade links, debt inflow/ outflow
+Correlation matrices in portfolio risk management. 
+More in the applications on finance … …
+A typical correlation matrix can be represented as a graph.
+Singtel DBS UOB KrungThai
+Singtel 1 0.45 0.35 0.2
+DBS 0.45 1 0.6 0.3
+UOB 0.35 0.6 1 0.26
+KrungThai 0.2 0.3 0.26 1
+
+Correlation Matrix - Graphs
+• The width of the links shows the strengths of the correlations. Correlation 
+matrix fundamental in portfolio risks management. Portfolio theory 
+teaches to reduce the variance of the returns by diversification on 
+negative correlation. 
+• Similarly, graphs seek to increase the overall stability of the whole 
+network. 
+
+Stability of a Graphical Network
+• Two types of graphs – assortative and disassortative showing the 
+links between the portfolio assets
+• Which graph network do you think will be more stable?
+
+Something more about graphs
+• Unique characteristics compared to simple correlation matrix.
+Directional orientation. No such idea in correlation. Both 
+impact each other equally. In graphs (and in practice), the 
+impacts can be unidirectional or bi-directional.
+• Cyclical loops
+•  Either acyclical or cyclical graphs. Cyclical graphs form loops 
+amongst the nodes resulting in feedbacks. Feedback effects 
+more often than not in finance. Does feedback contribute to 
+stability?
+• Eg. Does the market drive sentiment or does sentiment drive 
+market? 
+
+
+Graphs in Industry
+• Widely used in Technology industry. The Big Tech 
+companies are storing data as graphs. 
+• Facebook social graph :  data API in graphical format
+Google Knowledge Graph Search API : provides for the related 
+insights to the entities you are looking at. 
+• Natural fit for Big Data to link up data together from 
+different sources and see relations 
+
+
+Graph Analytics – the 3 C’s
+ Centrality 
+•Which node is the important or most influential? Who are the 
+influencers?
+•Which node impacts most on the network stability? 
+Clusterness
+•Which are the group of friends or social network – FB?
+•Which nodes lie outside of a cluster – outliers analysis for fraud 
+analytics? 
+•Which are the key trading hubs (clusters) in financial lending or 
+trading with the most common trading partners? 
+•Which assets in the portfolio share common risk factors or traits?
+•Where are the risk concentrations in portfolio risk management?  
+
+Connectedness 
+•What is the influence one node has on another particular node?
+•How will news effect cascade from a main node to another ?
+•What is the shortest route from one node to another? 
+•What are the associated search entities with a search target entity – 
+eg Google search recommendations
+•What are the connected ones in a recommendation engine? 
+•In KYC, how closely related are other entities to a ‘black-listed’ 
+entity? 
+The list of use examples can go on.
+Some of these analysis already can be gleaned from good visuals – 
+gephiz, d3.js, alchemy.js
+Graph Analytics – the 3 C’s 
+
+Examples of Graphs AI in 
+Finance
+Graphical AI applied in different areas of 
+finance.
+•Financial Stability 
+•BlockChain real-time settlement (Project Ubin II)
+•KYC detection
+•Early warning of portfolio risks systems
+… … and more
+
+Graphs+RegTech
+• You don’t know what you 
+don’t know. 
+Close 
+supplier
+News source 2 - NLP
+CoXYZ
+CoXYZ 
+human 
+trafficking 
+in Africa
+External data 
+source linking
+Mr Wong 
+Someone 
+CoABC 
+Director
+KYC check
+Internal source
+• Background checking more extensive using a graph of 
+relationships
+• Amalgamates internal and external sources of 
+information in a ‘data lake’. enabling knowledge 
+discovery. 
+
+Conclusion (Financial Compliance) 
+Page 49
+•  Financial Crime & Compliance
+Financial compliance covers regulatory requirements (Basel 
+Accord, sanctions) and financial crime prevention (AML, CFT, 
+fraud detection)
+• Regulatory Framework & Obligations
+Core obligations include KYC (Know Your Customer), Customer 
+Due Diligence, Suspicious Activity Reporting, record keeping, and 
+risk-based approaches
+Red flags include unusual transaction patterns, geographic 
+indicators involving high-risk jurisdictions, and customer behavior 
+inconsistencies.
+
+Conclusion (AI/ML) 
+Page 50
+• AI/ML Applications in Compliance
+•AI helps sift through massive data volumes to find patterns and anomalies, 
+reducing false positives in transaction monitoring
+•Key applications: fraud detection, customer risk assessment, and automated 
+monitoring through NLP
+• Unsupervised ML Techniques
+K-means clustering: Groups entities with similar characteristics into fixed number 
+of clusters, measuring similarity through distance
+DBSCAN: Density-based clustering that identifies arbitrary-shaped clusters and 
+handles noise
+Both methods enable anomaly detection without predefined rules
+• Graph Analytics in Compliance
+Graphs represent networks of nodes and relationships, capturing directional flows 
+and feedback effects common in finance
+The 3 C's: Centrality (identifying influential nodes), Clusterness (finding groups and 
+outliers), Connectedness (tracing influence paths)

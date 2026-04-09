@@ -1,0 +1,540 @@
+ML in Banking and Finance: 
+An Introduction
+Dr. Eric Tham
+Email: eric.tham@ntu.edu.sg
+
+
+Outline 
+Page 2
+• Introduction
+• Where is ML/AI used in finance?
+• Types of data in Finance
+• Data life cycle
+• Pertinent factors for ML/AI in Finance
+• Privacy, Security
+• Data governance
+
+Learning Outcomes
+Page 3
+Machine Learning in finance: opportunities and 
+limitations
+• Introduction to ML in Finance
+• Where is ML used? 
+• in banking, news monitoring and customer 
+prospecting
+• Some (early) applications of ML in finance
+
+AI in Finance and Banking
+• This course will cover skills/ knowledge in the financial 
+context where AI/ML is applied.
+• For e.g. anti-money laundering/ combat terrorism, 
+technical analysis, portfolio theory. 
+• Not just the AI/ML methods that are used:
+• Successful application of the AI/ML methods requires a 
+good domain knowledge of the use case. 
+Finance 
+context 50%
+AI/ML 
+methods 
+50%
+
+Learn how to 
+learn and not  
+learn
+Page 5
+Rather apply and 
+get things done! 
+For work
+How this course will be conducted
+Won’t go overly 
+technical
+
+What makes AI/ML in Finance Different?
+• Economic Issues: 
+• Systemic risks. (got to do with the livelihoods 
+of billions)
+• Human behaviour (not natural laws)
+• Self-learning
+• Unpredictable
+• IMF Study: Potential Benefits
+• Efficiency 
+
+Use of ML and Analytics in Finance
+Page 7
+• Financial Operations (General)
+• *Credit Loans 
+• *GenAI and LLMs
+• Financial Markets
+• For trading and risk management 
+• Algorithmic trading
+• Robo advisory
+• Consumer banking/ service
+• *Customer prospecting/ segmentation
+• Chatbots
+• Regulatory compliance
+• AML/CBT
+• KYC news
+
+Course Plan (Thematic Focus)
+Page 8
+We
+ek
+Topic Financial Knowledge
+(Theory)
+Ai/ML and Data Component 
+(Practical)
+1 Introduction 
+to AI in 
+finance 
+Data governance, AI 
+explanability
+Using Data APIs
+2 Financial 
+operation
+- Logistic Regression (binomial), 
+Naïve Bayes, Decision trees
+Evaluation metrics for 
+supervised learning. 
+3 Portfolio 
+management
+Risks and returns in investing. 
+CAPM, Factor Investing
+Boosting methods, ordered 
+logistic regression model
+
+Course Plan (Thematic Focus)
+Page 9
+We
+ek
+Topic Financial Theory Ai/ML methods 
+4 Algorithmic 
+Trading
+Technical Analysis Word tokenisation, LLMs
+5 Compliance 
+in finance
+Regulatory landscape in finance DBScan/ K-means learning/ 
+Graphical ML
+6 Agentic AI Agent orchestration
+
+Types of Data in Finance
+Page 10
+• Client personal data and transactional data
+• Financial data and transactional data
+• Textual data
+• Risk, control and compliance data
+
+
+Sources of Financial Data
+Page 11
+• Market Data Providers
+• News : from reliable news agencies
+• Refinitiv, Bloomberg
+• Exchanges and trading venues
+• TradeWeb, NYSE, SGX etc
+• Publicly available sources
+• Company filings (SEC EDGAR, SGXNet, ACRA)
+• Regulatory bodies – FED, World Bank, IMF
+• Open source data: web –scraped data, alphavantage, Kaggle, alpaca
+• Specialised sources: private company data (PREQIN), pitchbook.  
+• BVAL (derived data by Bloomberg)
+Which data source is 
+most/ least reliable?
+
+Data Revolution in Finance
+Page 12
+• Financial analysis has evolved from purely numerical data to encompass text, 
+images, audio, and alternative data sources. Each type offers unique insights.
+• Streaming 
+prices, news, 
+signals
+• video
+• Satellite, social, 
+transactional
+• Text, images, 
+audio
+• Organized, 
+quantifiable, 
+traditional,
+Structured 
+Data
+Unstructure
+d Data
+Real-time 
+Data
+Alternative 
+Data
+
+Structured Data: Numeric
+Page 13
+• Traditional quantitative financial data
+• Price & Market Data
+• Stock prices, volume, bid-ask spreads, market cap, high/low, open/close. 
+Typically stored in time series format.
+• Financial Statements
+• Revenue, earnings, cash flow, assets, liabilities, equity. Quarterly and annual 
+reporting from balance sheets, income statements.
+• Financial Ratios
+• P/E ratio, ROE, debt-to-equity, profit margin, current ratio. Derived metrics for 
+fundamental analysis.
+• Economic Indicators
+• GDP , inflation, unemployment, interest rates, PMI. Macroeconomic data for 
+top-down analysis.
+
+Data Transformation for Structured 
+Data
+14
+Several approaches:-
+Smoothing: remove noise from data
+Aggregation: summarization, data cube construction
+Generalization: concept hierarchy climbing
+Normalization: scaled to fall within a small, specified range
+min-max normalization
+z-score normalization (standardization)
+Attribute/feature construction
+New attributes constructed from the given ones
+
+Data Aggregation
+Daily values combined to weekly or monthly or yearly
+
+Normalization & standardisation
+16
+• Min-max normalization: to [new_minA, new_maxA]
+[Example]  Let income range $12,000 to $98,000 normalized to [0.0, 1.0].  
+Then $73,000 is mapped to  
+• Z-score standardisation (μ: mean, σ: standard deviation):
+[Example] Let μ = 54,000, σ = 16,000.  Then $73,600 is mapped to 
+716.00)00.1(000,12000,98
+000,12600,73 
+
+225.1000,16
+000,54600,73 
+AAA
+AA
+A
+minnewminnewmaxnewminmax
+minvv _)__(' 
+
+A
+Avv 
+'
+
+Transformation other techniques
+17
+
+
+Integration and Transformation
+18
+• What are major challenges in data integration?
+• Data redundancy
+• Data quality
+• Conflict resolution (we have different values for same data from two 
+different sources)
+• What are issues with data transformation?
+• Loss of information
+• Subjective sometimes
+• May not help (don’t overdo it)
+
+Structured Data: Ordinal & Nominal
+Page 19
+• Ranked by order (Ordinal)
+• Credit Ratings
+AAA, AA+, A, BBB, BB, etc. Ordinal scale indicating creditworthiness. Used for 
+bond pricing and risk assessment.
+• Analyst Recommendations
+ Strong Buy, Buy, Hold, Sell, Strong Sell. Consensus ratings aggregate expert 
+opinions into actionable signals.
+• No rank (Nominal)
+• Industry Classifications
+ GICS sectors, SIC codes, NAICS. Categorical data for sector rotation and peer 
+comparison strategies.
+• ESG Scores
+ Environmental, Social, Governance ratings (A-F or 0-100 scale). Growing 
+importance in sustainable investing.
+
+Ordinal Data: Usage Considerations
+Page 20
+Special handling for ranked data
+• Non-Linear Distances
+The difference between AAA and AA is not the same as BB and B. Statistical methods 
+must account for ordinal nature.
+• Encoding Strategies
+Label encoding (1, 2, 3...), one-hot encoding, or learned embeddings. Choice affects 
+model performance in ML applications.
+• Consensus Challenges
+Different rating agencies may disagree. Aggregating ordinal data requires careful 
+methodology (median vs mean).
+• Time Variation
+Ratings change over time. Tracking upgrades and downgrades can signal investment 
+opportunities.
+
+21
+Data Encoding
+• Models cannot read in non-numeric data. The unstructured 
+data needs to be discretised. 
+• Categorical to numerical:
+• Gender (male/ female) -> (0,1)
+• Bank customer type (normal, VIP , priority) - > (1,2,3)
+• Numerical to categorical (age -> below 21 and above 
+21)
+• Income $250k -> high income
+
+22
+One-Hot Encoding
+• What is it?
+A technique to convert categorical variables 
+into a binary vector representation where 
+each category becomes a separate column 
+with 1s and 0s.
+• Why use it?
+•Machine learning models require numerical 
+input
+•Prevents ordinal relationships between 
+categories
+•Each category is treated independently
+
+
+Unstructured Data: Text
+Page 23
+The richest source of qualitative information
+News Articles & Press Releases
+Breaking news drives market reactions. Event studies analyze price movements around 
+announcements. Sentiment analysis extracts tone.
+Earnings Call Transcripts
+Management tone, word choice, Q&A dynamics. NLP techniques detect deception, 
+confidence, and forward guidance.
+SEC Filings (10-K, 10-Q, 8-K)
+Risk factors, MD&A sections reveal management concerns. Text analysis tracks changes 
+across filings for early warning signals.
+Social Media & Forums
+Twitter, Reddit (WallStreetBets), StockTwits. Retail sentiment, meme stock detection, 
+crowd wisdom or madness.
+
+Unstructured Data: Images
+Page 24
+Visual data in financial analysis
+Satellite Imagery
+Count cars in parking lots (retail traffic), oil storage tanks (inventory), construction 
+activity. Alternative data for earnings prediction.
+Technical Chart Patterns
+CNN models detect head-and-shoulders, flags, triangles. Automate pattern recognition 
+that technical analysts do manually.
+Product Images
+E-commerce platforms, fashion trends. Computer vision tracks product popularity, 
+pricing strategies, inventory levels.
+Document Scans
+Historical records, handwritten notes, old financial statements. OCR and image 
+processing digitize legacy data.
+
+Imagery: Satellite data
+Page 25
+• Used in crops field identification
+• Used in freight movement of crude/ oil for 
+demand/ supply projections 
+From the satellite 
+imagery, what is the 
+expected harvest (thence 
+supply) of this crop?
+
+AI in pictures
+• What happened on 20 Apr 2020?  
+• Fundamental reason for the negative price – WTI in 
+USA 
+From the news – poor demand + lack of storage tankers 
+space
+• AI in pictures!
+© Copyright National University of Singapore. All Rights 
+Reserved
+26
+
+AI in pictures (satellite)
+© Copyright National University of Singapore. All Rights 
+Reserved
+27
+Generally, the pictures can tell you if an oil storage tank is full 
+or not. 
+
+AI in pictures (satellite)
+28
+Google Earth Link
+
+
+Unstructured Data: Audio
+Page 29
+Sound and speech in financial markets
+Earnings Call Audio
+Voice stress analysis, speech patterns, hesitation markers. Detect CEO confidence or 
+deception beyond words. Tone carries information.
+Financial News Podcasts
+Transcribe and analyze audio news. Real-time sentiment from CNBC, Bloomberg audio. 
+Faster than text for breaking news.
+Trading Floor Audio
+Historical: pit trading recordings. Modern: trader communication analysis for 
+compliance, risk management, strategy identification.
+Conference Presentations
+Investor days, industry conferences. Extract management commentary, Q&A insights, 
+competitive intelligence from audio.
+
+Alternative Data Sources
+Page 30
+Beyond traditional financial data
+Transaction Data
+Credit card purchases, point-of-sale data. Real-time consumer spending trends predict 
+earnings before official reports.
+Web Traffic & App Usage
+Website visits, app downloads, time spent. Digital engagement metrics forecast revenue 
+for tech companies.
+Geolocation Data
+Mobile phone location data. Foot traffic to stores, restaurants, attractions. Pandemic-
+era alternative to traditional metrics.
+Weather & Environmental
+Temperature, precipitation affect agriculture, energy demand, retail. Climate data for 
+commodity trading and insurance.
+
+ML Lifecycle
+Page 31
+Models
+Data
+Governance
+
+Data and Machine Learning
+• Data is the oil that drives 
+the AI/ML engine.
+• Garbage in, 
+garbage out!
+Data is a critical factor for the 
+success of AI/ML projects
+
+Data Integration Challenges
+Page 33
+Data Quality & Cleaning
+Missing values, outliers, errors. Unstructured data is noisy. Text has typos, images have 
+poor quality, audio has background noise.
+Scale & Computational Cost
+Processing millions of documents, images, audio files requires significant infrastructure. 
+Cloud computing essential.
+Feature Engineering
+Converting unstructured data to structured features. Embeddings, sentiment scores, 
+image descriptors must be meaningful for prediction.
+Legal & Privacy Concerns
+Alternative data may have restrictions. Personal data requires compliance with GDPR, 
+CCPA. Material non-public information risks
+
+MAS AI/ML Governance in Finance
+34
+MAS FEAT Principles of AI Governance
+1. Fairness
+•AI and data-driven decisions should be accurate, unbiased, and equitable.
+•Customers with similar profiles should be treated consistently.
+•Institutions should put in place measures to identify and mitigate bias in 
+data, models, and processes.
+2. Ethics
+AI should be used in a responsible and transparent way.
+Decisions must align with the firm’s ethical standards and societal norms.
+Institutions are accountable for outcomes from AI use — they cannot “blame 
+the algorithm.”
+
+MAS AI/ML Governance in Finace
+35
+MAS FEAT Principles of AI Governance
+3. Accountability
+Financial institutions remain responsible for the outcomes of their AI models.
+Clear governance structures must be in place, including board oversight and 
+internal accountability mechanisms.
+Human-in-the-loop principles should ensure important decisions are 
+explainable and reviewable.
+4. Transparency
+Institutions should explain to customers, regulators, and stakeholders how 
+AI-driven decisions are made.
+Transparency should be proportionate to the impact (e.g., higher when 
+decisions affect credit, insurance, or investments).
+Proper documentation of models, data sources, and processes is essential.
+
+36
+Why AI Governance is important
+•Helps ensure trust in AI adoption in finance.
+•Provides a balanced framework — encouraging 
+innovation while managing risks.
+How will AGI impact AI 
+governance?
+Explain AGI
+
+Data Governance framework
+Page 37
+• Data Governance is the framework of rules, roles, processes, and 
+technologies that ensures data is managed as a trusted, secure, and 
+valuable asset across an organization.
+• Key Objectives
+• Data Quality – accuracy, completeness, timeliness, consistency.
+• Data Security & Privacy – compliance with laws (GDPR, PDPA).
+• Standardisation – common data definitions, taxonomies, and 
+metadata.
+• Accountability – clear ownership of data assets (data stewards, 
+custodians).
+• Value Creation – enable better analytics, decision-making, and 
+innovation.
+
+A Data life cycle
+Plan: what data 
+and definition of 
+quality data?
+Design: what systems 
+and control to ensure 
+consistency? 
+Create/ obtain 
+:Ensure data is 
+unique (no double 
+entry), and timelyData remains 
+consistent in 
+Storage/ 
+maintence
+Use: data is 
+consitent 
+(unchanged) with 
+integrity
+Enhance: 
+update for 
+completeness 
+& timeliness
+
+Components in Data Governance
+Page 39
+
+
+40
+How to implement projects in AI/ML? 
+• Set your objectives (pick small wins first) 
+• Decide whether to do inhouse or with outside vendors. What are the pros and 
+cons of this? 
+• Decide on the time line and the budget. 
+• Decide what data you need. Do you already have them or need to source for 
+some of them. Are the data confidential and need to satisfy PDPA or other 
+regulations? How should you regulate the data? 
+• Data pre-processing and cleaning to make it useful for ML algorithms
+• Train the AI/ML model. Analyse it for its implications. Run UAT on the model.
+• Finally put into operations. Finetune it. 
+
+Conclusion
+Page 41
+• Role of AI/ML in Business Finance – Machine learning and analytics uncover data 
+patterns for predictive and generative tasks across trading, customer 
+prospecting/ segmentation, news monitoring, credit scoring, and regulatory 
+compliance, product recommendation and automation in finance.
+• Project Success & Governance – Effective AI/ML initiatives depend on clean, 
+well-governed data and adherence to principles (fairness, ethics, accountability, 
+transparency) to build trust and ensure responsible model deployment.
+
+Case Discussion (AI/ML in you workspace)
+Page 42
+Discuss the types of projects you encounter among your team.
+• A core objective of this course is for participants to identify use cases for 
+AI and/or analytics in their work place. To set the stage:
+• Discuss in your groups, the recent AI/ML initiatives that your work place 
+is looking at/ planning to harness this recent advance in technologies.
+• What stage of the project is it at?
+• What technologies are being explored?
+• What are the (operational) objectives?
+• How will the objectives (targets) be measured? 
+• What difficulties are being faced by the project implementation?
+Please share with the class. 
+* If there are no plans, consider what type of AI/ML projects you think can 
+benefit your organisation.

@@ -1,0 +1,495 @@
+ML in Investment Management
+Dr. Eric Tham
+Email: eric.tham@ntu.edu.sg
+
+
+Outline 
+Page 2
+• What are graphs (or networks)?
+• The 3 C’s of graphs 
+• Graphical applications in finance
+▪ Portfolio Investment 
+▪ Risks and Returns in Finance
+▪ CAPM in Finance
+▪ Factor Pricing theory
+▪ AI/ML methods applied
+▪ Logistic Regression (Binomial/ Multinomial)
+▪ Boosting Methods
+
+Which Investment would You Choose?
+Both investments cost $100 now
+– Investment A: 100% chance of getting $150 in one year’s 
+time 
+– Investment B: 50% chance of getting $300 and 50% of 
+getting $0 in one year’s time
+3
+
+Investors’ Attitude towards Risk
+• Most investors are risk averse
+Risk-averse investors dislike risk and require higher rates of 
+return to encourage them to hold riskier securities.
+• Risk premium—the difference between the return on a 
+risky asset and a riskless asset
+Serves as compensation for investors to hold riskier securities.
+Implication:
+Higher risk ➔ Higher required return
+4
+Does not mean that they will 
+always choose the lowest risk 
+investment! 
+
+Investment Returns
+Calculating the rate of return on an investment:
+If $1,000 is invested and $1,100 is returned after one year, the 
+annual rate of return is: 
+    (1100–1000)/1000=10%
+A stock is selling for $30 and you expect the stock price to be 
+$39 in one year’s time. The stock is also expected to pay a 
+dividend of $3 at the end of the year. The annual rate of return 
+is: (39+3-30)/30 = 40% 
+( )
+InvestedAmount 
+InvestedAmount   valueEnding Return −=
+5
+
+What is Investment Risk?
+• Investment risk is related to the probability of earning a 
+return that is different from expected.
+• Comprises both a single stock and all the stocks in a 
+portfolio.
+• Measured by the standard deviation of the returns
+Investment risk
+Stand-alone 
+risk
+(Total risk)
+Portfolio risk
+6
+
+Investment Alternatives
+Economy Prob. T-Bill Index Tech Defensive
+Recession 0.1 5.5% -17.0% -27.0% 27.0%
+Below avg 0.2 5.5% -3.0% -7.0% 13.0%
+Average 0.4 5.5% 10.0% 15.0% 0.0%
+Above avg 0.2 5.5% 25.0% 30.0% -11.0%
+Boom 0.1 5.5% 38.0% 45.0% -21.0%
+Defensive stocks e.g. Sheng 
+Siong, Walmart while Tech 
+like Tesla and Nvidia are 
+generally riskier
+Market Index represents the 
+general market
+Returns for each state of the 
+world’s economy estimated 
+based on future cash flows 
+and current price
+7
+
+Probability Distributions
+A listing of all possible outcomes, and the probability 
+of each occurrence.
+Can be shown graphically.
+Expected Rate of Return
+Rate of
+Return (%)100150-70
+Firm X
+Firm Y
+Standard deviation: 
+Measures stand-alone risk 
+or total risk
+Standard deviation ➔ 
+Measures whether returns 
+are likely to be close to the 
+expected return
+8
+
+What factor drives asset returns? 
+Risk & return  > Investment risk > Stand-alone risk > Calculating expected returns for each investment > Measuring stand-alone risk for 
+each investment > Coefficient of variation > LL1 > calculating portfolio expected returns > Measuring portfolio risk > LL2 > CAPM > 
+Beta > Determining under/overvalued stock > LL3 > Factors affecting the SML > Realised-expected-required returns > LL4 > Conclusion
+9
+CAPM says it’s the market! 
+
+Capital Asset Pricing Model (CAPM)
+• Mode linking market risk to asset returns.  CAPM 
+suggests that a stock’s required return equals the 
+risk-free return plus a risk premium that reflects 
+the stock’s risk after diversification. 
+ri = rRF + (rM – rRF)βi 
+Primary conclusion: The relevant riskiness of a stock 
+is its market risk as measured by beta βi.
+• Single factor here is the market (often the market 
+index)
+10
+
+What is the Market Risk Premium (rM – rRF)?
+Average amount of risk ➔ same risk as market portfolio
+11
+• Additional return over the risk-free rate needed to 
+compensate investors for assuming an average amount of 
+risk. 
+Meaning
+• Depends on the perceived risk of the stock market and the 
+investors’ degree of risk aversion.
+Size
+• Varies from year to year, but most estimates suggest that it 
+ranges between 4% and 8% per year 
+Value
+
+
+Beta β 
+• Measures a stock’s market risk and shows a stock’s 
+volatility relative to the market.
+• How sensitive is the stock to market-wide risk factors?
+A stock’s beta is the expected change in its return given a 1% 
+change in the return of the market portfolio. 
+Why market portfolio? Changes in the value 
+of market portfolio are due solely to market-
+wide events ➔ Market portfolio returns is a 
+good proxy for market-wide events
+12
+
+Comments on Beta
+If beta = 1.0, the security is just as risky as the average 
+stock.
+If beta > 1.0, the security is riskier than average.
+If beta < 1.0, the security is less risky than average.  
+Most stocks have betas in the range of 0.5 to 1.5.
+13
+
+Extensions of the CAPM 
+• Single factor not enough (cannot capture all factors that 
+drive stock market). 
+• Other factors:
+• Size, fundamental ratios, momentum 
+14
+E[Rᵢ] - Rf = βm(Rm - Rf) + βs(SMB) + βv(HML)
+
+Factor Pricing Theory
+• More general multi-factor framework. 
+• AI/ML helps by: 
+• search for more factors F₁, F₂ etc
+• quantifying the correct relationship: many financial 
+theories construct a linear relationship.Can it be non-
+linear with no fixed form? Or?
+15
+E[Rᵢ]             Rf + β₁F₁ + β₂F₂ + ... + βₖFₖ
+AI/ML has a unique way 
+of specifying relationship 
+correct
+
+AI/ML ‘cooking’ more factors:
+• Search for more factors: alternative data (from Big Data): 
+sentiment factors, image factors (satellite)
+• Cooking up (creating) new factors by transforming
+16
+Original 
+Data 
+(factors)
+‘Transformed’ by AI/ML
+- Largely unsupervised ML
+β₁AI_F₁ + β₂AI_F₂ + ... + 
+βₖAI_Fₖ
+
+Some Common Factors (Fundamental)
+·
+17
+No Ratios Remarks
+1 P/E (Price / Earnings) Most common valuation metric; high = growth 
+expectations
+2 P/B (Price / Book) Good for banks / asset heavy firms
+3 EV/EBITDA Enterprise valuation; universal across industries
+4 EV/Sales For unprofitable firms
+5 ROE (Return on Equity) Return generated on shareholder capital
+• Sometimes, these factors are transformed by unsupervised 
+learning or used as ‘new’ predictors to predict returns.
+
+Challenges in Factor Investing
+•  Factor Timing
+Attempting to predict when factors will perform well is 
+extremely difficult. Most evidence suggests staying consistently 
+exposed.
+• Factor Crowding
+As more capital flows into factor strategies, returns may 
+diminish. Popular factors may become overvalued.
+• Implementation Costs
+Transaction costs, market impact, and trading frictions can 
+erode factor returns in practice.
+18
+
+Why factors work?
+• Risk-Based View
+Factors represent compensation for bearing other systematic 
+risk. Rational investors demand higher returns for exposures to 
+bad times risk.
+• Behavioral View
+Factors exploit persistent investor biases and market 
+inefficiencies. Examples include overconfidence, anchoring, and 
+herding.
+• Structural View
+Factors arise from market frictions, limits to arbitrage, or 
+institutional constraints that prevent mispricing correction.
+19
+
+Performance Metrics (for portfolio 
+strategies)
+• What makes a portfolio ‘good’? Aside from profits, there are 
+other important metrics. 
+• For e.g. have it endured undue risks to generate huge profits? 
+We look at this in other backtesting results (we will 
+perform)
+• Suppose: 
+• you make 4% each year over 5 years buying US treasuries (buy and hold)
+• You make 5% each year over 5 years with BTC (buying and selling)
+20
+Which is better? 
+
+Performance Metrics
+• Why Multiple Metrics?
+Different metrics capture different aspects of 
+performance: returns, risk, tail risk, downside protection, 
+and consistency. No single metric tells the complete story.
+• Examples of Metrics:
+• Return-Based: Total return, CAGR, Excess return
+• Risk-Adjusted: Sharpe, Sortino, Information ratio
+• Drawdown Max drawdown, recovery time
+• Statistical Volatility, skewness, kurtosis
+21
+
+The Sharpe Ratio
+• The most widely used risk-adjusted performance metric
+Sharpe Ratio = (Rp - Rf) / σp
+• Rp: Portfolio return
+• Rf: Risk-free rate
+• σp: Standard deviation of portfolio returns
+Interpretation
+Measures excess return per unit of total risk. Higher is better. A Sharpe ratio 
+of 1.0+ is good, 2.0+ is excellent, 3.0+ is exceptional.
+Advantages
+Simple, widely understood, allows comparison across strategies
+Limitations
+Assumes normal returns, penalizes upside volatility equally
+22
+
+Sharpe Ratio: Example
+23
+Strategy A Strategy B
+Annual Return: 15%
+Risk-free Rate: 2%
+Volatility: 10%
+SR = (15% - 2%) / 10%=1.3
+Annual Return: 20%
+Risk-free Rate: 2%
+Volatility: 18%
+SR = (20% - 2%) / 18%
+= 1.00
+Strategy A has better risk-adjusted returns despite lower absolute returns. 
+It generates more return per unit of risk taken.
+Comparing two strategies
+
+The Sortinio Ratio
+• Focus on downside risk only
+ Sortino Ratio = (Rp - Rf) / σd
+• Rp: Portfolio return
+• Rf: Risk-free rate (or target return)
+• σd: Downside deviation (only negative returns)
+Key Difference from Sharpe
+Only penalizes downside volatility, not upside. More appropriate 
+when returns are not symmetrical or when investors only care 
+about losses.
+When to Use
+Preferred for strategies with asymmetric returns, options 
+strategies, or when distinguishing between "good" and "bad" 
+volatility matter.
+24
+
+Maximum Drawdown
+• Measuring peak-to-trough decline
+ Max DD = (Trough - Peak) / Peak
+ Largest percentage loss from a historical peak
+What It Shows
+The worst loss an investor would have experienced during any 
+period. Critical for understanding pain and risk of ruin.
+Example
+Portfolio grows from $100k to $150k, then falls to $90k. Max DD 
+= ($90k - $150k) / $150k = -40%
+Recovery Time
+How long it takes to return to the previous peak. A 50% loss 
+requires 100% gain to recover.
+25
+
+Metrics for different investors
+Risk-Averse Investors
+Focus on: Max drawdown, Sortino ratio, downside deviation, 
+VaR. Prioritize capital preservation.
+Growth Investors
+Focus on: CAGR, Sharpe ratio, Calmar ratio. Willing to tolerate 
+volatility for returns.
+Active Managers
+Focus on: Information ratio, alpha, tracking error. Demonstrate 
+skill vs benchmark.
+Institutional Investors
+Focus on: VaR, CVaR, tail risk metrics, skewness. Manage 
+portfolio-level risk and regulatory requirements.
+26
+
+Testing your strategy with Backtesting
+27
+• Backtesting is simulating an investment strategy using historical market 
+data to see how it would have performed, revealing its potential 
+profitability, risks, and weaknesses (like drawdowns) before risking real 
+money, helping investors refine asset allocation, optimize rules, and 
+build confidence in a data-driven approach, not just assumptions.  
+(partial AI generated)
+• It's like a "time machine" for your investments, allowing you to test 
+different scenarios and market conditions and understand how its 
+performance metrics are.
+
+Illustration of AI/ML Backtesting
+28
+252 days
+Predict 20 
+days
+Lookback 
+60 days
+Date of test
+• On date of test, use the XGBoost (or other AI/ML) model to find the 
+relationship between the factors and the projected future return known 
+on hindsight (for each stock).
+• Sort the predicted return. Long the highest value and short the lowest 
+value at the end of the month. 
+• At the next month, do the same and re-adjust the portfolio based on 
+the long/short stocks.
+
+Common Pitfalls in Backtesting
+1. Relying on Single Metric
+No single metric captures all aspects. Always use multiple complementary 
+metrics.
+2. Short Time Periods
+Metrics can be misleading over short periods. Use at least 1-3 years of data if 
+possible.
+3. Ignoring Non-Normality
+Sharpe ratio assumes normal returns. Check skewness and kurtosis for tail 
+risk.
+4. Survivorship Bias
+Failed strategies disappear from databases, inflating reported metrics.
+5. Data Snooping
+Optimizing for past metrics doesn't guarantee future performance. Choosing 
+the year it works.
+29
+
+AI/ML Methods
+• How have the AI/ML methods worked in backtesting? 
+• Not possible to cover every AI/ML method used to uncover 
+this relationship. We look at 2 methods (more promising)
+• Ensemble methods: Boosting methods
+• Logistic regression (multinomial)
+30
+
+Why not more ‘advanced’ methods? 
+• Eg: deep learning, attention models etc. 
+• A good model is judged not by its sophistication but whether it is profitable in 
+actual operations. 
+• Harder to understand and over-fit in operations
+31
+
+
+(MultiNomial) Logistic Regression
+Page 32
+• Extension of binomial logistic regression. Instead of predictive variable 
+having only 2 classes, there are a multiple of categories (usually n ≥3), 
+modelled separately by n – 1 equations.  
+• Useful in predicting markets as:
+• Bull market
+• Rangebound
+• Bear market
+
+
+Ordered Logistic Regression
+Page 33
+• Uses proportional odds logit model to accommodate the order of the 
+labels (High > Average> Low) market scenarios matters.
+• Contrast with predicting a bank customer’s region (no order as in 
+Singapore, HK, or Japan). 
+• For ordered categories Bear 1 < Rangebound 2 < Bull (3), model:
+𝑃 𝑌 ≤ 1  and 𝑃 𝑌 ≤ 2  
+• Outputs the odds that the predicted variable is a bear and bear + 
+rangebound? 
+• Assign predicted variable based on the calculated odds. 
+
+Ensemble Models
+Page 34
+• Aim for low bias and low variance 
+• Meta Ensemble models
+o Bagging
+o Bagging – wisdom of the collective ‘weak’ learners 
+(usu. homogenous)
+o Boosting
+o Learning sequentially from each other’s weakness
+o Stacking
+o Learning from the best of each other
+
+Bagging
+Page 35
+• Parallel set of (weak) learners with final result by 
+voting. 
+• Useful for high variance data.
+ Models fed independent 
+datasets by bootstrapping
+
+Boosting
+Page 36
+• Generally, boosting is a sequential learning model of 
+individual ‘base models’, each weighted according to 
+its accuracy.
+Source: Edureka
+
+ADA Boosting
+Page 37
+• Ada Boosting or adaptive boosting trains each base 
+model sequentially, by adjusting its weight – with 
+more weight on ‘more accurate’ models.
+• Each base model is usually a decision stump 
+(decision tree with single level).
+• Useful to lower bias and account for non-linear 
+effects.  
+
+
+Gradient Boosting
+Page 38
+• Both sequential base learners.  
+• Gradient boosting has arbitrary loss function, 
+unlike ADA boosting has an exponential loss 
+function.
+• ADA looks at the actual error of classification. 
+While gradient boosting focuses on the derivative 
+change on the errors. 
+
+
+Conclusions (Financial Theory)
+• Factor pricing models extend CAPM to better explain asset 
+returns through multiple systematic risk factors
+• Common factors include market, size, value, momentum, 
+profitability, and investment
+• Factors may represent risk compensation, behavioral biases, 
+or market frictions
+• Applications include portfolio construction, risk 
+management, and performance evaluation
+• Factor investing faces challenges from timing difficulty, 
+crowding, and implementation costs
+39
+
+Conclusions (AI/ML)
+40
+• Role of AI / Machine Learning
+ML helps discover, transform, and combine factors, handle large 
+alternative datasets, and model non-linear relationships beyond 
+classical theory.
+• Core ML Methods Covered
+•Logistic Regression (Binomial / Multinomial / Ordered) for 
+market regime prediction
+•Ensemble Methods: Bagging (variance reduction) & Boosting 
+(bias reduction, non-linearity)
+• Model Selection Philosophy
+Prefer interpretable, robust models over complex black-box 
+methods; profitability and stability matter more than 
+sophistication.

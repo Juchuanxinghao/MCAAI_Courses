@@ -1,0 +1,525 @@
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Integration, Scope Development, PMP, Contracts, AI tools in PM
+Lecture 2: CA6121 AI in Project Management
+Presented by Dr Ravish Maqsood
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder.. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+OBJECTIVES
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+To learn and understand: •Project Integration. •Project Life Cycle Models.•Project Management Plan Development.•Change Management. •AI tools in Project Management. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Integration/ Life CycleProject Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycle –Simplified Approach
+Effort
+Project Duration
+Start
+ Finish
+Plan
+ Design/ Execution
+Close
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycle –Simplified Approach
+Time
+Project Usage, Sales, Impact
+Project 1(initial creation)
+Project 2(More Features)
+Project 3(Additions)
+Project 4(Revisions)
+Project 5(Revisions)
+Project 6(Revisions)
+Project 7(Retirement)
+Portfolio Governance
+Introduction
+Program A
+Program B
+Growth
+Maturity
+Decline / RetirementProduct Life Cycle Phases:
+Source Reference: PMBOK 7th edition Figure 2-4. Sample Product Life Cycle
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Development Projects
+Business UnderstandingData UnderstandingData PreparationModel DevelopmentEvaluation
+AI Development Lifecycle Stages
+Project Manager could be from either of the disciplines: •Computer Science•Data Science•Information Technology•Other discipline with knowledge and interest in data
+Operationalization
+Recap
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Management: Six Principles (PMBOK 8th Addition) Collectively, these principles describe the mindset of project management, which in turn guides the mechanics of project management. 1.Adopt a Holistic View.2.Focus on Value.3.Embed Quality Into Processes and Deliverables.4.Be an Accountable Leader.5.Integrate Sustainability Within All Project Areas.6.Build an Empowered Culture.
+Source: PMBOK 8th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Management: Six Principles (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+1.Project phases.2.Project development approaches (predictive, adaptive, hybrid).3.Considerations for selecting a development approach.4.Delivery cadence.5.Project Management Focus Areas (formerly known as Process Groups).
+Source: PMBOK 8th Edition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+1. Project phases
+•The phases may be sequential, transitional, or overlapping. 
+•In some projects a combination of these phases may be used, and each phase may include one or more stages of the project life cycle  
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+A.Predictive.B.Adaptive.C.Hybrid.
+Source: PMBOK 8th Edition
+2. Project development approaches 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+A.Predictive ApproachAdopted when requirements are clear and available early in the project.
+B.Adaptive ApproachAdopted when requirements are less clear early  in the project, or the project is expected to incur more complexity and uncertainty.  
+Source: PMBOK 8th Edition
+2. Project development approaches 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+2. Project development approaches 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+A.Predictive Approach•Adopted when requirements are clear and available early in the project.•The scope, schedule, cost, resource needs, quality requirements, and risks can be well defined in the early phases of the project life cycle and are expected to remain relatively stable.•Waterfall / Traditional approach.
+Source: PMBOK 8th Edition
+2. Project development approaches 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+2. Project development approaches 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+B.Adaptive Approach•Adopted when requirements are less clear early  in the project, or the project is expected to incur more complexity and uncertainty. •High-level of uncertainty and volatility and are likely to change significantly throughout the project.•Agile Approach.
+Source: PMBOK 8th Edition
+2. Project development approaches 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+2. Project development approaches 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+C.Hybrid Approach•Mix of Predictive and Adaptive approach.•Applied as combination of above for different phases of project.•Mix of Waterfall and Agile Approach.
+Source: PMBOK 8th Edition
+2. Project development approaches 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+3. Considerations for selecting a development approach
+•Several factors influence the selection of a development approach.•Divided into categories of the: •Deliverables.•Project.•Organization. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Life Cycles: Five Factors (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+4. Delivery cadence
+•Based on the selected development approach, projects can have: •a single delivery. •multiple deliveries. •periodic deliveries.•continuous deliveries.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Structure of PMBOK 8th Addition 
+Source: PMBOK 8th Edition
+5. Project Management Focus Areas
+•Project Management Focus Areas: • Initiating• Planning• Executing• Monitoring and Controlling • Closing
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Management Performance Domains (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+Seven (7) Project Management Performance Domains: 1.Governance2.Scope3.Schedule4.Finance5.Stakeholders6.Resources7.Risk
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Management Performance Domains (PMBOK 8th Addition) 
+Source: PMBOK 8th Edition
+
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Integration ManagementProject integration is one of the most important aspect in Project Management•Identify the type of project•Understand the needs on the project•Select the right approach •Understand interdependencies, constraints and assumptions•Gateways
+Predictive and PlannedIncremental and Iterative
+Traditional ApproachAgile Approach
+Hybrid
+Combination
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Integration Management•Project Manager takes the lead.•Client, Consultants and SME* are involved.•Industry updates and team’s experience.•Project Manager must read the project documents available prior starting to set the Project Charter, and Project Management Plan.•Do not assume, always check the contractual agreement. 
+SME* - Subject Matter Expert
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Integration Management -Processes1.Develop Project Charter2.Develop Project Management Plan3.Direct and Manage Project Work4.Manage Project Knowledge 5.Monitor and Control Project Work 6.Perform integrated Change Control7.Close Project or Phase
+MONITORING & CONTROL
+INITIATING
+PLANNING
+EXECUTING
+CLOSING
+MONITORING & CONTROL
+EXECUTING
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Integration ManagementPMBOK@ Guide approach:1.Inputs•Enterprise Environment Factors•Organizational Process Assets2.Tools & Techniques•Meetings•Expert Judgements•Decomposition •Others3.Outputs•Drawings, Specifications, •Documentation•Reports•Others
+Pexels.com
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Chartera.Project Charter consist of business/ customer needs, assumptions, constraints, high-level requirements of new product/ service or result.•Project Purpose •Objectives•Requirements•Assumptions & Constraints•Description and boundaries•High level risks•Key Milestones•Budget Summary•Stakeholder listb. Assumption Log
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project CharterIntroduction– Mention a brief about the project. Project objectives and success criteria–mention project objectives or goals as set by the contract and any specific requirements.Project scope, deliverables and requirements– describe project scope summary, boundaries, and requirements. A detailed deliverable list to be provided as per the contractual agreement. Budget– the cost estimate for the project.Schedule/milestones–project milestones, or stages, for measuring its progress and success. Constraints and assumptions– detail the known and unknown constraints and assumptions. Summary of risks– list all the known possible risk to the project.Team and organization– mention key people and stakeholders with their roles and contact details. Attach an organization chart to show their reporting.Approvals– ensure written endorsed approval from the stakeholder authorized personnel on the project charter document.
+SAMPLE
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+a.Project Management Plan •Subsidiary Management Plans:•Scope Management Plan•Project Communication Plan•Project Engineering Management•Project Quality Plan•Project Control Plan (Resource, Cost & Schedule)•Project Risk Management Plan•Project Procurement Plan•Project Safety Plan•Stakeholder Management Plan•Baselines:•Scope baseline   •Schedule baseline   •Cost baseline•Additional Components:•Change Management plan•Reviews
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+Caution: Not every item is applicable for all projects
+Reference from PMBOK 6thEdition
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+Project Baseline (Scope, Schedule, Cost)•Project Manager works with the team to firm up the scope baseline.•Sometimes the “as sold” scope may differ to what project documents received. •Project control lead works on the baseline schedule, and cost for the project. •This shall be agreed with the client and to be used from here onwards to monitor and control the project.  
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+Project Organization StructureFunctional Manager AFunctional Manager BFunctional Manager CFunctional Manager D
+Project A Manager
+Project B Manager
+Project C Manager
+StaffStaffStaffStaff
+StaffStaffStaffStaff
+StaffStaffStaffStaff
+Matrix Organization
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+Project Communication Plan•This is a key communication protocol document used throughout the life of the project. •Organization chart is prepared with names and their contact details.•Approval matrix for all Technical & Commercial deliverables.•Authorization matrix to ensure the visibility on who can authorize payments, changes, etc. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+Project Communication Plan
+Name(Role)Ravish Maqsood(Project Director)HP:81001100slev131@xyz.com
+Simon Dole(Project Manager Area 1)HP:81001111simon@xyz.com
+Samuel Ng(Project Manager Area 2)HP:81001122samuel@xyz.com
+Raj Kumar(Project Control Manager)HP:81001122samuel@xyz.com
+Mark Jacobs(Project Risk & Quality Manager)HP:81001122samuel@xyz.com
+Joy Ramon(Project Eng Manager)HP:81001122samuel@xyz.com
+Name(Role)HP:xxxxxxxxxxxxxx@xyz.com
+HP:xxxxxxxxxxxxxx@xyz.com
+Name(Role)
+HP:xxxxxxxxxxxxxx@xyz.com
+HP:xxxxxxxxxxxxxx@xyz.com
+Name(Role)HP:xxxxxxxxxxxxxx@xyz.com
+Name(Role)HP:xxxxxxxxxxxxxx@xyz.com
+Name(Role)
+HP:xxxxxxxxxxxxxx@xyz.com
+Name(Role)
+Client/ Customer OrganizationContractor Organization
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+Project Engineering Management•Engineering coordination details mentioned.•Approval system.•Templates to be used for deliverables.•Numbering system. •Competency matrix of the team.•Approval and authority matrix.  
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+Project Quality Plan•Overall Quality management details mentioned.•Approval system for any project procedures/ templates to be used on the project.•Templates to be used for quality deliverables.•Quality testing, approvals, trainings.•Quality Assurance and Quality Control Plan.•Audit Schedule, and other related templates.   
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+Project Control Plan (Resource, Cost, & Schedule)•Overall Project Control Management details.•Project reporting schedule, templates.•Project scope, cost, schedule monitoring for all activities.   
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanPLANNING
+Project Risk Management Plan•Overall Project Risk Management details.•Project risk meetings schedule, reports, templates.•Risk Register, Risk Matrix etc. to be mentioned.
+   
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management PlanProject Procurement Plan•Overall Project Procurement Management details.•Required purchases; cloud, servers, licenses, etc. •Project Vendors Contracts, and Sub-Contracts management.•Project vendor inspection, expediting, acceptance test.•Installation progress and payment management.    
+PLANNING
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Develop Project Management Plan (PMP)PLANNING
+(Sample)
+Template for Project Management PlanProject Name: (Insert Project Name)Project No:Version History: (Version No, Date, Author, Key Differences)Content•Introduction•Management Approach•Roles and Responsibilities• Integration Management Processes•Create Project Charter•Develop the Scope Statement•Develop Project Management Plan•Direct and Manage Project Work•Monitor and Control Project Work•Perform Integrated Change Control•Finalize and Close Project or Phase•Assumptions•Issues and Risks•Plan ApprovalAttachments    
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Direct & Manage Project WorkEXECUTING
+a.Deliverablesb.Work Performance datac.Issue logd.change requestse.Project Management Plan  updatesf.Organizational Process assets updates
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Manage Project KnowledgeEXECUTING
+a.Lessons registerb.Project Management Plan  updates•Work Performance Reports: -Project Fortnightly/Monthly Progress Report (All disciplines)•Updates and Report.-Justification-Supporting docs-Updates•Update all other associated Plans
+c.Organizational Process assets updates
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Monitor and Control Project WorkMONITORING & CONTROL
+a.Work Performance Reports •Fortnightly and Monthly Progress Reports.b.Change Requests•Supporting documents to be maintained.•Change log with details.
+c.Project Management Plan Updatesd.Project Documents updates•Cost forecasts•Issue Log•Lessons register•Risk Register
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Perform Integrated Change ControlMONITORING & CONTROL
+a.Approved Change Requestsb.   Project Management Plan updatesc.   Project Documents updates
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Perform Integrated Change ControlMONITORING & CONTROL
+Identify ChangeDocument ChangeLead agrees Stake-holder agrees to evaluate further
+Raise change RequestStake-holder approvesUpdate the Register
+Inform the team
+Cost ImpactSchedule ImpactOther Impact
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Close Project or Phase
+a.Project Documents updatesb.Final Productc.Final Reportd.Organizational Process assets updates
+CLOSING
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Close Project or PhaseCLOSING
+Project Management Plan and associated plans (Work Performance):•Accepted deliverables•Agreed documents •Technical & Commercial Data•Records•Consolidate all the required information required for the close out as per the contractual agreement. •Close all vendor, sub-contract, third party contracts.•Demobilize the team as per the Resource Plan.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution ContractsHigh level Perspective
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: LSTK ApproachLSTK: lump sum turnkey
+Client
+Sub-ConSuppliersOther contracts
+LSTK Contractor
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: LSTK Approach•Contractor taking project on LSTK basis is responsible to execute: •Engineering (Design, authority clearance etc.)•Procurement (Purchasing of equipment, material and sub-contracts)•Self performs construction •Commissioning / Deployment / Evaluation / Validation•Scope is to turn the project deliverables operational meet the specific output as per the design criteriaClient
+Sub-ConSuppliersOther contracts
+LSTK Contractor
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: LSTK Approach
+Client
+Sub-ConSuppliersOther contracts
+LSTK Contractor
+Other key pointers: •Contractor holds responsibility of budget and schedule •Contractor holds contract with sub-contractors •Liable for any defective equipment or performance•Contractor has high risk •Contractor makes high profit margins in respect to TIC of the project. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Reimbursable (RR) ApproachEngineering, Procurement and Project Management
+Client
+Main Contractor
+Sub-ConSuppliersOther contracts
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Reimbursable (RR) Approach•Contractor taking project on RR basis is responsible to execute: •Engineering (Design, authority clearance etc.)•Procurement (Purchasing of equipment, material and sub-contracts)•Act on behalf of the client for development and deployment
+Client
+Sub-ConSuppliersOther contracts
+Main Contractor
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Reimbursable (RR) Approach
+Client
+Sub-ConSuppliersOther contracts
+Main Contractor
+Other key pointers: •All risks with the client•Budget and schedule slippage•Client holds contract with sub-contractors •Contractor renders their services to execute the project•Contractor has less risk •Contractor has less profit as service fee is very less in respect to TIC of the project. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: LSTK vs Reimbursable (RR)LSTK basis ContractReimbursable (RR) basis ContractAccountabilityContractor fully accountableClient has multiple points of accountability
+Risk Contractor holds riskClient holds riskScheduleFixed date of completionNo fixed completion schedulePrice Fixed price contractSchedule of Rates Cost PlusProcurementContractor responsibilityManage the process and act as an agent for the clientQuality/ Performance GuaranteeContractor guarantees performance of completed facilityContractor does not provide performance guarantees
+Client’s involvementContractor in controlClient in controlDefective works / ServicesContractor to rectify any defectsAssists client to manage the rectification of defectsProfit margins for Contractor Higher profits Only charges the service fee and potential savings goes to client. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Project Management Consultancy (PMC) ApproachPMC: Project Management Consultancy
+ClientPMC Contractor
+Sub-ConSuppliersOther contracts
+Main Contractor (LSTK)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Project Management Consultancy (PMC) Approach•Large sized projects need to have stronger client’s team to oversee the project •Client engages PMC contractor to support to project execution on their behalf•PMC is responsible to:•set the basis of design, •specifications, •technical documentation, •commercial documentation, •bidders list preparation, •tendering, •evaluation, •award and then management of the whole execution of the project. ClientPMC Contractor
+Sub-ConSuppliersOther contracts
+Main Contractor (LSTK)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Project Management Consultancy (PMC) Approach
+ClientPMC Contractor
+Sub-ConSuppliersOther contractsEPC Contractor
+Other key pointers: •Client do not need to hire more staff internally to execute the project.•Takes advantage of the experience of the PMC contractor to execute the project 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: TenderOnce project is decided to take the next steps, client calls for the quotations/ tenders for various items:
+Client / Owner
+PMC contractorMain contractor (RR) basisMain Contractor (LSTK) basisOther contracts
+Calls for the tenders (either or combination)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Tender
+•Once the bidders list is shortlisted, then tender is called to invite the pre-selected tenderers.•Client calls for the tender and invites or open tender to the public to submit their interest / Pre-Qualification / Bid•Depending on the interest, the contractor will prepare their bids. •Contractors sets their execution strategies to help them to prepare their best price.  
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Tender Process
+Client
+Pre-Q/ EOI
+Tender issue(Scope of works, T&C etc)
+Invited Tender
+Open Tender
+EOI: Expression of interestPre-Q: Pre-Qualification
+Shortlisted / Approved Bidders list
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Tender Participation / PreparationKey pointers: •Scope of the project (Basic Design, EPC, Consultancy etc.)•Location of the project (Country, state, etc.)•Availability of in-house capabilities & resources to execute the proposed scope of work •Project timeline •Project specific requirements•Authority requirements •Visa and immigration requirements•Risks and their mitigation•Any past-experience with this client•Financial background checks
+Note*: Highlighted in red indicates where AI can be useful
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Tender Participation / PreparationExecution pointers: •Past lessons / experience from similar client or project•Realistic schedule and budget •Authority clearance and other permits•Resources•Single location execution team or multi location •Best cost saving strategy to win the job•Value preposition (improvement to cost, schedule, operations)•Competitive advantage •SWOT analysis (Strength, Weakness, Opportunity, Threats)
+Note*: Highlighted in red indicates where AI can be useful
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Project Management Role
+Note*: Highlighted in red indicates where AI can be useful
+During Proposal Stage: •Support the organization during bid submission•Review the tender requirements and internal meetings•Coordinate internally with the stake holders to prepare the best execution strategy•Provide input to proposal with the technical write-up, required effort hours, execution strategy, proposed organization chart, key nominations with their CVs etc. 
+Project Execution
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Project Management Role
+Note*: Highlighted in red indicates where AI can be useful
+Project Execution
+During Execution Stage: •Revisit proposed execution strategy (re-align, as necessary).•Kickoff meeting. •Team selection and set up. •Conduct and participate in various reviews.•Seek necessary approvals from the client and various stake holders.•Prepare, provide inputs to detailed project schedule.•Execute the project. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Project Management ProcessesProject management processes:1.Initiating2.Planning3.Executing4.Monitoring and Controlling5.Closing
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Project Execution Strategies: Project Management KnowledgeProject management knowledge draws following areas:1.Integration2.Scope3.Time4.Cost5.Quality
+6.Procurement7.Human resources8.Communications9.Risk management10.Stakeholder management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence (AI)High level Perspective
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Where can be implemented? •AI to be used as to complement the human capabilities.•Not to focus on automating everything on a project using AI. •Focus on routine repetitive tasks which maintaining active human oversight. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Human in the Loop Approach•Identify key decision points where human input or validation is required.•Clear roles and responsibilities for the team members. •Regular reviews and audits.  
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Primary Barrier
+•Management approval•Technical knowledge•Tool availability
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+BenefitsAI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management: Benefits
+Benefits of AI technologies for Project Managers•Increased Productivity•Improved Forecasting & Estimates•Enhanced Decision Making•Resource Management•Innovation
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management: Benefits•Budget and finance.•Task duration estimation.•Risk mitigation.•Resource allocation. •Procurement and sub-contracts management. •Lessons and claims management. •Quality & safety management. •Real-time based visibility and reporting.•Improved communication •Many more. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+ChallengesAI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project ManagementChallenges of AI technologies for Project Managers•Management approvals.•Validation and verification through human intervention.•Data availability.•Quality of data.•Ethics and governance.•Bias.•Integration & adaption.•Skills required.•Job security.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Challenges•AI implementation requires data to be used which may be confidential.•Reuse of the existing data to identify patterns.•Limits creativity.•Requires regular security audits.•Implementation of proper authentication and access controls.•Encryption requirements for any data storage or transmission. •Set compliance requirements. 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Human experience and knowledge is required to set-up a project.•PM knowledge areas can not be fully replaced by AI. •AI can automate or replace simple and repetitive tasks pattern.•Procurement and quality management tasks are easy to automate. •AI in project management still not fully matured.•Traditional tools and excel sheets are commonly used.•Organization management is not receptive of the idea.
+AI in Project Management: Challenges
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Lack of control on reporting & fear of losing control (sometimes PM has a reason to play with the numbers). •Unawareness of the AI tools availability. •Uncertainty about their effectiveness as not tested or proven in all sectors.•Data privacy concerns.•Data quality and availability. •Transparency and trust about AI tools implemented. •Algorithmic biased and ethical concerns. 
+AI in Project Management: Challenges (contd.)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•Too much noise about it in the market. •Unclear how it will integrate to the existing systems. •Lack of resources to implement, monitor, and train.•May see as more costly and time consuming. •No clarity on taking back control if AI fails. •Many more reasons. 
+AI in Project Management: Challenges (contd.)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Artificial Intelligence (AI) in Project Management
+Not clear on where to use AI tools
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+What it takes to use AI in Projects?AI in Project Management
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management•Understanding of Project Management Workflow and where it adds value to use AI? •AI can not be implemented on every workflow. •Some of the areas can be used as: •Data consolidation, analysis, collation•Generating periodic communications•Auto response to regular queries•Planning •Reporting•Monitoring•Prediction•Others…
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: What is takes to implement AI?Six (6) phases of implementation process of a AI project:1.Business Understanding2.Data Understanding3.Data Preparation4.Model Development5.Evaluation 6.Operationalization
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management: General Workflow
+Business Understanding
+Data Preparation Model Evaluation
+Operationalization
+Data UnderstandingModel DevelopmentUp to 80% total effort
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: PitfallsData quality and availabilityFinding relevant, up-to-date, and clean data is a challenge.
+•Data redundancy and gaps•Unsupported formats•Unclear permission and ownership issues of data
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Managing DataData quality and availability
+•Verify data sources•Mindful of data limitations and biases•Set-up alerts for anomalies•Monitor and validate 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: Patterns of AI?Seven (7) patterns of AI:1.Conversational pattern2.Recognition pattern3.Anomality detection pattern4.Prediction analysis and decision support pattern5.Hyper personalization pattern6.Autonomous pattern7.Goal driven pattern
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: AI ModelsChoosing and Integrating AI Models Picking the right AI model and integrating the existing workflows can be challenging. 
+•Different workflows•Deployment challenges
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: AI ModelsChoosing and Integrating AI Models 
+•Assess project needs•Set clear expectations•Pilot test•Collaborate•Road map
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Tools in Project ManagementHigh level Perspective
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management
+1.Tools Available for Project Management2.AI implementation in projects
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management
+1.Machine Learning & Deep Learning2.Natural Language Processing (NLP) 3.Predictive Analytics4.Robotics Process Automation(RPA) 
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project ManagementImpact of AI technologies for Project Managers•Project Planning & Scheduling•Resource Management•Risk Management•Data Driven Decision-making•Team collaboration and communication (reporting, meetings records, etc)•Task Automation•Predictive Analytics & Forecasting
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI tools in Project Management
+Skills needed for Project Managers for AI technologies•Knowledge •AI literacy •Ethical awareness•Tools and Technologies available •Capabilities •Cost & Benefit Analysis•Communication and Collaborating
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: GenAI Generative AI offers tools to support Project Managers that can:  •Enhance productivity•Improve project delivery success•Help realize benefits more•Open up new opportunities
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI in Project Management: GenAI benefits•Save time•Make informed decisions•Adapt easily•Offer versality•Gain competitive edge•Boost efficiency•Provide holistic view
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+AI Tools in Project ManagementAI toolsGenAI Tools (LLMs)AI Agent workflowsClient specific tools (Customization)
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+PM knowledge areas and suitable types of AI tools.ItemPM knowledge areaDominant knowledge typeMost suitable types of AI toolsExamples of AI capabilities1Integration management•Formal•Data Driven•TacitGenAIAI Agents (LLMs & Integration)Decision-making support based on real-time tracking anddeviation alerts.2Scope management•Data Driven•TacitGenAIAI Agents (LLMs & Integration)Drafting work breakdown structures, clarifying deliverables3Schedule management•Formal•Data DrivenML for optimizationAI Agents (LLMs & Integration)Timeline generation, scheduling, forecasting, Critical Path identification.4Cost management•Formal•Data DrivenML for optimizationAI Agents (LLMs & Integration)Budget forecasting, variance analysis, EVM5Quality management•Formal•Data DrivenML for optimizationAI Agents (LLMs & Integration)Quality monitoring, anomaly detection. 6Resource management•Formal•Data DrivenML for optimizationAI Agents (LLMs & Integration)Resource allocation, workload balancing.7Communication management•Formal•TacitGenAIAI Agents (LLMs & Integration)Summarizing meetings, drafting reports, language translation. 8Risk management•Data Driven•TacitGenAIML for optimizationAI Agents (LLMs & Integration)Identifying emerging risks, probabilistic impact analysis. 
+9Procurement management•FormalAutomationAI Agents (LLMs & Integration)Contract analysis, vendor, sub-con selections. 10Stakeholder management•Formal•TacitGenAIAI Agents (LLMs & Integration)Drafting engagement plans, analyzing feedback, conflict resolution assistance. Tacit: categorised by being deeply personal, intuitive, experientialEmpirical Research Paper, Artificial intelligence tools for project management: A knowledge-based perspective by Pedro M. Almeida, Gabriela Fernandes, Jos´e M.R.C.A. Santos
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Student Exercise 1•Perform a research to find and list the available AI tools which may be used in the project management processes. •Collating the business documentation. •Reviewing the lessons from the past projects. •Data quality check and filtering. •Planning and scheduling activities. •Resource Management. •Risk Management. •Cost and EVM (Earned Value Management). •Project Reporting. •Project Communication. •Any other tool which you may feel could be used. 
+Prepare your list and submit via Submission Link Provided Separately.
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+•The materials and its content are confidential information and copyright materials of the rights holder. •Material used is solely for your personal use in advancement of education, training and research purposes. All rights are expressly reserved by the rights holder. •You SHALL not, except with express written permission from the rights holder, distribute or exploit the content, commercially or otherwise. •You may not transmit the materials or store it in any other website or other form of electronic retrieval system.
+Copyright
+
+Prepared by: Ravish MaqsoodAll rights reserved. No slide or part to be reproduced or publishedon any platform without permission of the owner. 
+Photo by: Ravish M
+End of class
+Batam, Indonesia
