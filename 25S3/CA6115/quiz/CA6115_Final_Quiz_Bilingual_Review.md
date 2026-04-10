@@ -1519,3 +1519,225 @@ This file is now designed to be a **near-full revision version**: first a conden
 3. Finally do all `30 MCQs` once without looking at the answers
 
 **建议顺序：先背重点表，再看逐章补充，最后刷 30 道题。**
+
+---
+
+## 13. Teacher Sample Add-On｜根据老师例题补出的遗漏考点
+
+Below are the extra high-yield points implied by the teacher’s sample questions.  
+以下是根据老师给出的例题，进一步反推出的高频考点补充。
+
+### 13.1 Missing high-yield points｜补充出的高频知识点
+
+#### 1) **Layering** is the stage that best hides illicit origins  
+#### 1）**Layering（分层）** 是最能隐藏非法资金来源的阶段
+
+- **Placement** = dirty money enters the financial system.  
+  **Placement（投放）** = 把非法资金放入金融体系。
+- **Layering** = move funds through many transfers/accounts/entities to make tracing difficult.  
+  **Layering（分层）** = 通过多层转账、多账户、多实体操作，切断资金来源痕迹。
+- **Integration** = money returns as apparently legitimate wealth.  
+  **Integration（整合）** = 资金以“看似合法”的形式重新进入经济活动。
+
+> **Exam trap｜考试陷阱：**  
+> If the question asks **which stage hides origin best**, the answer is usually **Layering**, not Placement or Integration.
+
+#### 2) **DBSCAN differs from K-means because it is density-based**  
+#### 2）**DBSCAN 与 K-means 的核心区别：DBSCAN 基于密度**
+
+- **K-means** groups points by **distance to centroid** and usually requires a chosen **k**.  
+  **K-means** 依赖“到质心的距离”分组，并且通常要先指定 **k**。
+- **DBSCAN** groups points by **dense neighborhoods**, using `eps` and `minPts`.  
+  **DBSCAN** 依靠“高密度邻域”聚类，核心参数是 `eps` 和 `minPts`。
+- So if the option says **density criterion**, it points to **DBSCAN**.  
+  因此只要选项里出现 **density criterion（密度准则）**，大概率就是 **DBSCAN**。
+
+#### 3) Why standardize features before clustering? → **Equalize scales**  
+#### 3）为什么聚类前要标准化特征？→ **统一量纲/尺度**
+
+- If one variable is in dollars and another is in percentages, the larger-scale variable may dominate distance calculation.  
+  如果一个变量以金额表示、另一个以百分比表示，数值更大的变量会主导距离计算。
+- Standardization makes each feature contribute more fairly.  
+  标准化让每个特征在距离计算中更公平。
+
+#### 4) **KYC** is the obligation that mandates identity verification  
+#### 4）要求进行身份核验的义务是 **KYC**
+
+- **KYC** = Know Your Customer = verify identity.  
+  **KYC** = 了解你的客户 = 核验客户身份。
+- **CDD** goes further: purpose of account, source of funds, expected transaction behavior, risk level.  
+  **CDD** 进一步关注：开户目的、资金来源、预期交易行为、风险等级。
+- **SAR** = suspicious activity report.  
+  **SAR** = 可疑活动报告。
+
+#### 5) **Just-below-threshold amounts** indicate threshold evasion / structuring  
+#### 5）**略低于申报门槛的金额** 是典型“拆分规避监管”信号
+
+- Criminals may split a large transaction into many smaller ones just below reporting thresholds.  
+  犯罪者可能把一笔大额交易拆分成多笔略低于申报门槛的小额交易。
+- This is called **structuring** or **smurfing** in AML contexts.  
+  这在 AML 中常称为 **structuring / smurfing（拆分交易规避监管）**。
+
+#### 6) Graph **directionality** helps represent flows and feedback loops  
+#### 6）图中的 **directionality（方向性）** 有助于表示资金流和反馈回路
+
+- In finance/compliance, many relationships are not just “connected” but **who sent to whom**.  
+  在金融/合规里，关系不仅是“是否相连”，更重要的是 **谁向谁转账/影响谁**。
+- Directed graphs help show transfer chains, circular flows, and feedback loops.  
+  有向图更适合表示转账链条、循环路径和反馈回路。
+
+#### 7) To reduce false positives, improve **precision**  
+#### 7）要降低误报（false positives），应提升 **precision**
+
+- **Precision** = among flagged positives, how many are truly positive.  
+  **Precision** = 在所有被判为“阳性/可疑”的案例中，真正可疑的占多少。
+- Higher precision means fewer wasted alerts and less operational burden.  
+  更高的 precision 意味着更少误报、人工审查压力更小。
+
+#### 8) `eps` radius is central to suspicious-density clustering in DBSCAN  
+#### 8）`eps` 半径是 DBSCAN 判断可疑密度聚类的关键参数
+
+- `eps` defines the neighborhood radius around each point.  
+  `eps` 定义每个点周围的邻域半径。
+- `minPts` defines how many nearby points are needed to call the area dense.  
+  `minPts` 定义邻域内至少要有多少点，才能视为“高密度区域”。
+
+#### 9) **Centrality** identifies influencers / important nodes  
+#### 9）**Centrality（中心性）** 用来识别关键节点/影响者
+
+- In KYC or transaction networks, central nodes may be controllers, hubs, or potential risk propagators.  
+  在 KYC 或交易网络中，高中心性节点可能是控制者、枢纽或风险传播者。
+
+#### 10) **Graph analytics** can reveal hidden KYC links  
+#### 10）**Graph analytics（图分析）** 可以识别隐藏的 KYC 关联关系
+
+- Useful for beneficial ownership, shell-company links, sanctions exposure, and related-party structures.  
+  可用于识别受益所有权、壳公司链条、制裁关联、关联方结构。
+
+#### 11) **DBSCAN** is the method for arbitrary shapes and noise  
+#### 11）**DBSCAN** 特别适合识别任意形状聚类与噪声
+
+- K-means prefers compact roughly spherical clusters.  
+  K-means 更适合紧凑、近似球形的簇。
+- DBSCAN can find irregular suspicious patterns and naturally label outliers.  
+  DBSCAN 能识别不规则可疑模式，并自然标记异常点。
+
+#### 12) **FATF** issues the famous 40 Recommendations  
+#### 12）提出著名“40 项建议”的机构是 **FATF**
+
+- FATF is the global standard-setter for AML/CFT.  
+  FATF 是全球 AML/CFT 的核心标准制定机构。
+
+---
+
+### 13.2 Similar exam-style questions with answers｜相似题型与答案解析
+
+#### Q31
+Which AML stage is mainly about placing illegal cash into the financial system for the first time?  
+反洗钱三阶段中，哪一阶段是把非法资金第一次放入金融体系？
+
+A. Integration  
+B. Layering  
+C. Placement  
+D. Centrality
+
+**Answer｜答案：C**  
+**Explanation｜解析：** `Placement` is the entry stage. `Layering` hides the trail, and `Integration` makes funds appear legitimate.
+
+---
+
+#### Q32
+In DBSCAN, which pair of parameters determines whether a region is dense enough to form a cluster?  
+在 DBSCAN 中，哪两个参数共同决定一个区域是否足够“密集”从而形成簇？
+
+A. Alpha and beta  
+B. eps and minPts  
+C. k and centroid  
+D. lambda and gamma
+
+**Answer｜答案：B**  
+**Explanation｜解析：** `eps` defines the neighborhood radius and `minPts` defines the minimum number of nearby points needed.
+
+---
+
+#### Q33
+Why can unstandardized features distort clustering results?  
+为什么未标准化的特征会扭曲聚类结果？
+
+A. They reduce model interpretability only  
+B. They make all variables binary  
+C. Large-scale variables dominate distance calculations  
+D. They automatically remove outliers
+
+**Answer｜答案：C**  
+**Explanation｜解析：** Distance-based clustering is scale-sensitive. Variables with larger numerical ranges can dominate the clustering outcome.
+
+---
+
+#### Q34
+Which of the following is the best example of structuring?  
+以下哪项最能体现拆分交易规避监管（structuring）？
+
+A. One legitimate salary payment every month  
+B. Many transfers of `9,900` just below the reporting threshold  
+C. A yearly bonus with employer record  
+D. A long-term fixed deposit
+
+**Answer｜答案：B**  
+**Explanation｜解析：** Repeated just-below-threshold payments are a classic AML red flag.
+
+---
+
+#### Q35
+If a compliance team wants fewer false alerts from its monitoring model, which metric should it prioritize?  
+如果合规团队希望减少误报，应该优先关注哪个指标？
+
+A. Recall  
+B. Precision  
+C. Volatility  
+D. Sharpe ratio
+
+**Answer｜答案：B**  
+**Explanation｜解析：** Higher precision means a larger share of flagged alerts are truly suspicious, which reduces false positives.
+
+---
+
+#### Q36
+Which graph technique is most useful for uncovering hidden beneficial-ownership networks?  
+要识别隐藏的受益所有权网络，最有用的图方法是什么？
+
+A. OCR only  
+B. Random guessing  
+C. Graph analytics  
+D. Batch normalization
+
+**Answer｜答案：C**  
+**Explanation｜解析：** Graph analytics reveals hidden links, indirect ownership, and relationship chains between entities.
+
+---
+
+#### Q37
+Which graph property is most directly related to identifying the most influential node in a network?  
+在网络中识别最有影响力节点时，最相关的图属性是什么？
+
+A. Centrality  
+B. Seasonality  
+C. Aggregation  
+D. Normalization
+
+**Answer｜答案：A**  
+**Explanation｜解析：** Centrality measures how important or influential a node is within the network.
+
+---
+
+#### Q38
+Which method is more suitable when suspicious transactions form irregular clusters with noise?  
+当可疑交易形成不规则簇并伴随噪声时，哪种方法更合适？
+
+A. K-means  
+B. DBSCAN  
+C. Linear regression  
+D. Logistic regression
+
+**Answer｜答案：B**  
+**Explanation｜解析：** DBSCAN is density-based and works well with irregular shapes and noisy data.
